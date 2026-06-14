@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- back bubble -->
+  <g fill="none" stroke="#5fb947" stroke-width="30" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="210" y="80" width="240" height="190" rx="58"/>
+    <polyline points="300,268 290,322 360,268"/>
+  </g>
+  <!-- front bubble (white fill occludes back) -->
+  <rect x="70" y="150" width="300" height="235" rx="62" fill="#ffffff" stroke="#5fb947" stroke-width="30"/>
+  <polyline points="150,383 138,448 218,383" fill="#ffffff" stroke="#5fb947" stroke-width="30" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- accent dots -->
+  <circle cx="178" cy="205" r="20" fill="#5fb947"/>
+  <circle cx="262" cy="205" r="20" fill="#5fb947"/>
+  <!-- wordmark -->
+  <text x="222" y="320" font-family="Geeza Pro, Tahoma, sans-serif" font-size="150" font-weight="bold" fill="#463a4f" text-anchor="middle">فراز</text>
+</svg>

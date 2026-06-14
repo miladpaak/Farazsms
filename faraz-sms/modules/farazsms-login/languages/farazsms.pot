@@ -1,0 +1,789 @@
+# Copyright (C) 2024 FarazSMS
+# This file is distributed under the same license as the FarazSMS Login package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FarazSMS Login 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/farazsms-login\n"
+"POT-Creation-Date: 2026-01-06 14:48+0330\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nx:1,2;_nx_noop:1,2;_x:1,2c;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.8\n"
+
+#: admin/class-admin.php:412
+msgid "Please enter a phone number"
+msgstr ""
+
+#: admin/class-admin.php:413
+msgid "Sending..."
+msgstr ""
+
+#: admin/class-admin.php:414
+msgid "Send Test SMS"
+msgstr ""
+
+#: admin/class-admin.php:415
+msgid "SMS sent successfully!"
+msgstr ""
+
+#: admin/class-admin.php:416
+msgid "Error sending SMS"
+msgstr ""
+
+#: admin/class-admin.php:418
+msgid "Select..."
+msgstr ""
+
+#: admin/class-admin.php:419
+msgid "Select Image"
+msgstr ""
+
+#: admin/class-admin.php:420
+msgid "Select"
+msgstr ""
+
+#: admin/class-main-settings.php:44
+msgid "SMS Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:45
+msgid "SMS Service Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:49
+msgid "API Key"
+msgstr ""
+
+#: admin/class-main-settings.php:50
+msgid "Enter your FarazSMS API key"
+msgstr ""
+
+#: admin/class-main-settings.php:56
+msgid "Username"
+msgstr ""
+
+#: admin/class-main-settings.php:57
+msgid "Enter your FarazSMS username"
+msgstr ""
+
+#: admin/class-main-settings.php:63
+msgid "Password"
+msgstr ""
+
+#: admin/class-main-settings.php:64
+msgid "Enter your FarazSMS password"
+msgstr ""
+
+#: admin/class-main-settings.php:70
+msgid "Pattern Code"
+msgstr ""
+
+#: admin/class-main-settings.php:71
+msgid "create a pattern with %code% parameter in your FarazSMS account"
+msgstr ""
+
+#: admin/class-main-settings.php:77
+msgid "Sender Number"
+msgstr ""
+
+#: admin/class-main-settings.php:78
+msgid "Enter your FarazSMS sender number"
+msgstr ""
+
+#: admin/class-main-settings.php:84
+msgid "Code Length"
+msgstr ""
+
+#: admin/class-main-settings.php:85
+msgid "Enter the length of the verification code"
+msgstr ""
+
+#: admin/class-main-settings.php:91
+msgid "Send Test SMS"
+msgstr ""
+
+#: admin/class-main-settings.php:98
+msgid "Appearance Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:99
+msgid "Appearance Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:103
+msgid "Choose Theme"
+msgstr ""
+
+#: admin/class-main-settings.php:107
+msgid "Style 1"
+msgstr ""
+
+#: admin/class-main-settings.php:108
+msgid "Style 1"
+msgstr ""
+
+#: admin/class-main-settings.php:112
+msgid "Style 2"
+msgstr ""
+
+#: admin/class-main-settings.php:113
+msgid "Style 2"
+msgstr ""
+
+#: admin/class-main-settings.php:117
+msgid "Style 3"
+msgstr ""
+
+#: admin/class-main-settings.php:118
+msgid "Style 3"
+msgstr ""
+
+#: admin/class-main-settings.php:122
+msgid "Style 4"
+msgstr ""
+
+#: admin/class-main-settings.php:123
+msgid "Style 4"
+msgstr ""
+
+#: admin/class-main-settings.php:136
+msgid "Text Alignment"
+msgstr ""
+
+#: admin/class-main-settings.php:140
+msgid "Right"
+msgstr ""
+
+#: admin/class-main-settings.php:141
+msgid "Right"
+msgstr ""
+
+#: admin/class-main-settings.php:145
+msgid "Center"
+msgstr ""
+
+#: admin/class-main-settings.php:146
+msgid "Center"
+msgstr ""
+
+#: admin/class-main-settings.php:150
+msgid "Left"
+msgstr ""
+
+#: admin/class-main-settings.php:151
+msgid "Left"
+msgstr ""
+
+#: admin/class-main-settings.php:160
+msgid "Logo"
+msgstr ""
+
+#: admin/class-main-settings.php:161
+msgid "Upload your website logo to display in the login form"
+msgstr ""
+
+#: admin/class-main-settings.php:168
+msgid "Background Image"
+msgstr ""
+
+#: admin/class-main-settings.php:174
+msgid "Primary Color"
+msgstr ""
+
+#: admin/class-main-settings.php:180
+msgid "Background Color"
+msgstr ""
+
+#: admin/class-main-settings.php:186
+msgid "Background Color Box"
+msgstr ""
+
+#: admin/class-main-settings.php:192
+msgid "Text Color"
+msgstr ""
+
+#: admin/class-main-settings.php:198
+msgid "Border Color"
+msgstr ""
+
+#: admin/class-main-settings.php:204
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/class-main-settings.php:211
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:212
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:216
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:220
+msgid "Terms Link"
+msgstr ""
+
+#: admin/class-main-settings.php:221
+msgid "Enter the terms and conditions link"
+msgstr ""
+
+#: admin/class-main-settings.php:227
+msgid "Redirect After Login"
+msgstr ""
+
+#: admin/class-main-settings.php:228
+msgid "Enter the redirect after login"
+msgstr ""
+
+#: admin/class-main-settings.php:234
+msgid "Checkout Redirect to Login"
+msgstr ""
+
+#: admin/class-main-settings.php:235
+msgid "Redirect checkout to login"
+msgstr ""
+
+#: admin/class-main-settings.php:241
+msgid "Redirect WooCommerce Login to Custom Login"
+msgstr ""
+
+#: admin/class-main-settings.php:242
+msgid "Redirect WooCommerce login to custom login"
+msgstr ""
+
+#: admin/class-main-settings.php:251
+msgid "Wallet Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:252
+msgid "Wallet Settings"
+msgstr ""
+
+#: admin/class-main-settings.php:256
+msgid "Enable Registration Bonus"
+msgstr ""
+
+#: admin/class-main-settings.php:262
+msgid "Registration Bonus Amount"
+msgstr ""
+
+#: admin/class-main-settings.php:263
+msgid "Enter the registration bonus amount"
+msgstr ""
+
+#: admin/class-main-settings.php:269
+msgid "Registration Bonus Description"
+msgstr ""
+
+#: admin/class-main-settings.php:270
+msgid "Enter the registration bonus description"
+msgstr ""
+
+#: admin/class-main-settings.php:39
+msgid "Welcome bonus for new registration"
+msgstr ""
+
+#: includes/class-main.php:50
+msgid "Resend Code"
+msgstr ""
+
+#: includes/class-main.php:105
+msgid "Invalid mobile number."
+msgstr ""
+
+#: includes/class-main.php:111
+msgid "Too many requests. Please wait 5 minutes."
+msgstr ""
+
+#: includes/class-main.php:129
+msgid "SMS sending failed. Please try again."
+msgstr ""
+
+#: includes/class-main.php:133
+msgid "Invalid input! Please enter a valid mobile number."
+msgstr ""
+
+#: includes/class-main.php:148
+msgid "Security error occurred."
+msgstr ""
+
+#: includes/class-main.php:163
+msgid "Incorrect verification code."
+msgstr ""
+
+#: includes/class-main.php:165
+msgid "Incorrect password."
+msgstr ""
+
+#: includes/class-main.php:193
+msgid "Invalid input! Please enter a valid mobile number."
+msgstr ""
+
+#: includes/class-main.php:199
+msgid "Security error occurred."
+msgstr ""
+
+#: includes/class-main.php:215
+msgid "Registration completed successfully."
+msgstr ""
+
+#: includes/class-main.php:224
+msgid "Registration failed. Please try again."
+msgstr ""
+
+#: includes/class-main.php:236
+msgid "Incorrect verification code."
+msgstr ""
+
+#: includes/class-main.php:262
+msgid "Verification code is not correct."
+msgstr ""
+
+#: includes/class-main.php:281
+msgid "Password changed successfully."
+msgstr ""
+
+#: includes/class-main.php:283
+msgid "User not found."
+msgstr ""
+
+#: includes/class-main.php:287
+msgid "Password and confirmation do not match."
+msgstr ""
+
+#: includes/class-main.php:294
+msgid "Security error occurred."
+msgstr ""
+
+#: includes/class-main.php:304
+msgid "Invalid identifier."
+msgstr ""
+
+#: includes/class-main.php:314
+msgid "Security error occurred."
+msgstr ""
+
+#: includes/class-main.php:327
+msgid "Invalid input data."
+msgstr ""
+
+#: includes/class-main.php:351
+msgid "Security error occurred."
+msgstr ""
+
+#: includes/class-main.php:365
+msgid "Incomplete input data."
+msgstr ""
+
+#: includes/class-main.php:372
+msgid "Registration failed: "
+msgstr ""
+
+#: includes/class-main.php:405
+msgid "Password changed successfully."
+msgstr ""
+
+#: includes/class-main.php:409
+msgid "Password and confirmation do not match."
+msgstr ""
+
+#: includes/class-main.php:429
+msgid "Verification code is incorrect."
+msgstr ""
+
+#: includes/class-helper.php:126
+msgid "Farazsms plugin settings"
+msgstr ""
+
+#: includes/class-helper.php:130
+msgid "Mobile number"
+msgstr ""
+
+#: includes/class-helper.php:149
+msgid "Mobile Number"
+msgstr ""
+
+#: includes/class-helper.php:210
+msgid "Welcome bonus for new registration"
+msgstr ""
+
+#: includes/class-helper.php:245
+msgid "Your Wallet"
+msgstr ""
+
+#: includes/class-helper.php:246
+msgid "Current Balance:"
+msgstr ""
+
+#: includes/class-helper.php:273
+msgid "Your Wallet"
+msgstr ""
+
+#: includes/class-helper.php:274
+msgid "Wallet Balance: %s"
+msgstr ""
+
+#: includes/class-helper.php:281
+msgid "You can pay the full amount using your wallet balance."
+msgstr ""
+
+#: includes/class-helper.php:287
+msgid "Use wallet balance to pay full amount"
+msgstr ""
+
+#: includes/class-helper.php:291
+msgid "You can use %s from your wallet to reduce the payment amount."
+msgstr ""
+
+#: includes/class-helper.php:297
+msgid "Use %s from wallet balance"
+msgstr ""
+
+#: includes/class-helper.php:344
+msgid "Wallet Payment"
+msgstr ""
+
+#: includes/class-helper.php:352
+msgid "Wallet Payment"
+msgstr ""
+
+#: includes/class-helper.php:357
+msgid "Wallet Payment"
+msgstr ""
+
+#: includes/class-helper.php:378
+msgid "Wallet payment: %s deducted from wallet balance."
+msgstr ""
+
+#: includes/class-helper.php:395
+msgid "Wallet Payment"
+msgstr ""
+
+#: includes/class-helper.php:416
+msgid "Payment for order #%s"
+msgstr ""
+
+#: includes/class-helper.php:452
+msgid "Security check failed."
+msgstr ""
+
+#: includes/class-helper.php:456
+msgid "User not logged in."
+msgstr ""
+
+#: includes/class-helper.php:460
+msgid "WooCommerce not available."
+msgstr ""
+
+#: includes/class-helper.php:469
+msgid "Cart not available."
+msgstr ""
+
+#: includes/class-helper.php:485
+msgid "Insufficient wallet balance for full payment."
+msgstr ""
+
+#: includes/class-helper.php:494
+msgid "No wallet balance available."
+msgstr ""
+
+#: includes/class-helper.php:522
+msgid "Wallet Payment"
+msgstr ""
+
+#: includes/class-helper.php:527
+msgid "Wallet Payment"
+msgstr ""
+
+#: templates/mobile-login.php:10
+msgid "Enter your mobile number"
+msgstr ""
+
+#: templates/mobile-login.php:12
+msgid "Send Code"
+msgstr ""
+
+#: templates/mobile-login-password.php:10
+msgid "Enter Password"
+msgstr ""
+
+#: templates/mobile-login-password.php:12
+msgid "Login"
+msgstr ""
+
+#: templates/mobile-register.php:10
+msgid "Register new user"
+msgstr ""
+
+#: templates/mobile-register.php:11
+msgid "User with number %s is not registered. For registration, please enter your name and the sent code."
+msgstr ""
+
+#: templates/mobile-register.php:17
+msgid "Your name"
+msgstr ""
+
+#: templates/mobile-register.php:28
+msgid "Register"
+msgstr ""
+
+#: templates/mobile-forget-password.php:10
+msgid "Forgot Password"
+msgstr ""
+
+#: templates/mobile-forget-password.php:11
+msgid "Enter your mobile number to receive password reset code."
+msgstr ""
+
+#: templates/mobile-forget-password.php:17
+msgid "Send Reset Code"
+msgstr ""
+
+#: templates/mobile-reset-password.php:10
+msgid "Reset Password"
+msgstr ""
+
+#: templates/mobile-reset-password.php:12
+msgid "New Password"
+msgstr ""
+
+#: templates/mobile-reset-password.php:13
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/mobile-reset-password.php:16
+msgid "Reset"
+msgstr ""
+
+#: page-templates/farazsms-login-page.php:5
+msgid "Login to your account"
+msgstr ""
+
+#: page-templates/farazsms-login-page.php:7
+msgid "Enter your mobile number to login or register"
+msgstr ""
+
+#: page-templates/farazsms-login-page.php:11
+msgid "Mobile Number"
+msgstr ""
+
+#: page-templates/farazsms-login-page.php:13
+msgid "Continue"
+msgstr ""
+
+#: assets/js/login.js:192
+msgid "Time remaining until resend"
+msgstr ""
+
+#: assets/js/wallet.js:25
+msgid "Please enter wallet amount"
+msgstr ""
+
+#: assets/js/wallet.js:29
+msgid "Invalid amount"
+msgstr ""
+
+#: assets/js/wallet.js:33
+msgid "Insufficient balance"
+msgstr ""
+
+#: assets/js/wallet.js:37
+msgid "Processing..."
+msgstr ""
+
+#: assets/js/wallet.js:41
+msgid "Success"
+msgstr ""
+
+#: assets/js/wallet.js:45
+msgid "Error"
+msgstr ""
+
+#: admin/class-main-settings.php:378
+msgid "Shortcodes SMS"
+msgstr ""
+
+#: admin/class-main-settings.php:380
+msgid "Order Details:"
+msgstr ""
+
+#: admin/class-main-settings.php:382
+msgid "Customer mobile number"
+msgstr ""
+
+#: admin/class-main-settings.php:383
+msgid "Customer email"
+msgstr ""
+
+#: admin/class-main-settings.php:384
+msgid "Order status"
+msgstr ""
+
+#: admin/class-main-settings.php:385
+msgid "Order items"
+msgstr ""
+
+#: admin/class-main-settings.php:386
+msgid "Order items with full variable name"
+msgstr ""
+
+#: admin/class-main-settings.php:387
+msgid "Order items with quantity"
+msgstr ""
+
+#: admin/class-main-settings.php:388
+msgid "Number of order items"
+msgstr ""
+
+#: admin/class-main-settings.php:389
+msgid "Order amount"
+msgstr ""
+
+#: admin/class-main-settings.php:390
+msgid "Order number"
+msgstr ""
+
+#: admin/class-main-settings.php:391
+msgid "Transaction number"
+msgstr ""
+
+#: admin/class-main-settings.php:392
+msgid "Order date"
+msgstr ""
+
+#: admin/class-main-settings.php:393
+msgid "Customer notes"
+msgstr ""
+
+#: admin/class-main-settings.php:394
+msgid "Payment method"
+msgstr ""
+
+#: admin/class-main-settings.php:395
+msgid "Shipping method"
+msgstr ""
+
+#: admin/class-main-settings.php:398
+msgid "Billing Details:"
+msgstr ""
+
+#: admin/class-main-settings.php:400
+msgid "Customer first name"
+msgstr ""
+
+#: admin/class-main-settings.php:401
+msgid "Customer last name"
+msgstr ""
+
+#: admin/class-main-settings.php:402
+msgid "Company name"
+msgstr ""
+
+#: admin/class-main-settings.php:403
+msgid "Country"
+msgstr ""
+
+#: admin/class-main-settings.php:404
+msgid "State/Province"
+msgstr ""
+
+#: admin/class-main-settings.php:405
+msgid "City"
+msgstr ""
+
+#: admin/class-main-settings.php:406
+msgid "Address 1"
+msgstr ""
+
+#: admin/class-main-settings.php:407
+msgid "Address 2"
+msgstr ""
+
+#: admin/class-main-settings.php:408
+msgid "Postcode"
+msgstr ""
+
+#: admin/class-main-settings.php:411
+msgid "Shipping Details:"
+msgstr ""
+
+#: admin/class-main-settings.php:413
+msgid "Customer first name"
+msgstr ""
+
+#: admin/class-main-settings.php:414
+msgid "Customer last name"
+msgstr ""
+
+#: admin/class-main-settings.php:415
+msgid "Company name"
+msgstr ""
+
+#: admin/class-main-settings.php:416
+msgid "Country"
+msgstr ""
+
+#: admin/class-main-settings.php:417
+msgid "State/Province"
+msgstr ""
+
+#: admin/class-main-settings.php:418
+msgid "City"
+msgstr ""
+
+#: admin/class-main-settings.php:419
+msgid "Address 1"
+msgstr ""
+
+#: admin/class-main-settings.php:420
+msgid "Address 2"
+msgstr ""
+
+#: admin/class-main-settings.php:421
+msgid "Postcode"
+msgstr ""
+
+#: admin/class-main-settings.php:422
+msgid "Post tracking code"
+msgstr ""
+
+#: admin/class-main-settings.php:423
+msgid "Post tracking URL"
+msgstr ""
+
+#: admin/class-main-settings.php:429
+msgid "Customer Order SMS"
+msgstr ""
+
+#: admin/class-main-settings.php:460
+msgid "Admin Order SMS"
+msgstr ""
+
+#: admin/class-main-settings.php:464
+msgid "Admin mobile number"
+msgstr ""
+
+#: admin/class-main-settings.php:465
+msgid "Enter admin mobile number for receiving order SMS"
+msgstr ""
+
+#: admin/class-main-settings.php:496
+msgid "WooCommerce Order SMS"
+msgstr ""
+
+#: admin/class-main-settings.php:497
+msgid "WooCommerce Order SMS Settings"
+msgstr ""
+

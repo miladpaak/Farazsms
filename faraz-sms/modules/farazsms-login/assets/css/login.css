@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@-ms-viewport {width: device-width;}
+@font-face {font-family: "Peyda";font-style: normal;font-weight: normal;src: url("../../assets/fonts/PeydaWebFaNum-Regular.woff2") format("woff2");}
+@font-face {font-family: "Peyda";font-style: normal;font-weight: bold;src: url("../../assets/fonts/PeydaWebFaNum-Bold.woff2") format("woff2");}
+/* مهم: همه‌ی قوانینِ زیر به .login-register-page محدود شدند. قبلاً سراسری بودند
+   (reset روی * و font-family !important روی body) و چون این CSS روی همه‌ی صفحات
+   frontend بار می‌شد، padding/margin و فونتِ قالبِ سایت (مثلاً منوی پنل کاربری
+   ووکامرس) را خراب می‌کرد. دیگر بیرون از فرمِ ورود اثری ندارد. */
+.login-register-page, .login-register-page *, .login-register-page *::before, .login-register-page *::after{padding: 0;margin: 0;border: 0;outline: 0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+.login-register-page {overflow-wrap: break-word;font-size: 14px;line-height: 1.5;-moz-font-feature-settings: "ss02";-webkit-font-feature-settings: "ss02";font-feature-settings: "ss02";}
+.login-register-page, .login-register-page button, .login-register-page input, .login-register-page select, .login-register-page textarea, .login-register-page h1, .login-register-page h2, .login-register-page h3, .login-register-page h4, .login-register-page h5, .login-register-page h6 {font-family: "Peyda" !important;}
+.login-register-page img {max-width: 100%;display: block;box-sizing: border-box}
+.login-register-page a {text-decoration: none;transition: all .2s ease-in-out}
+/** === Login === **/
+.login-register-page {min-height: 100vh;background-color: #FFF;color: #222222;display: flex;align-items: center;justify-content: center;}
+.login-register-page.farazsms-style-2 {background-color: #D60053;}
+.login-register-page.farazsms-style-3 {background: url("../images/login.webp") no-repeat center center;background-size: cover;}
+.login-register-page.farazsms-style-4 {background-color: #f4f4f4;}
+.login-register-page .login-register-form {position: relative;min-width: 400px;max-width: 400px;padding: 30px;margin-bottom: 80px;border-radius: 20px;border: 1px solid #ddd;}
+.login-register-page.farazsms-style-2 .login-register-form {background-color: #D60053;border: none;}
+.login-register-page.farazsms-style-3 .login-register-form {background-color: #FFF;border: none;}
+.login-register-page.farazsms-style-4 .login-register-form {background-color: #FFF;border: none;box-shadow: 0px 5px 25px 0px #7e899b1c;}
+.login-register-page .logo {text-align: center;margin-bottom: 20px;}
+.login-register-page .logo img {width: 260px;height: 110px;margin: 0 auto;object-fit: contain;}
+.login-register-page.farazsms-style-2 .farazsms-main-login-form {color: white;}
+.login-register-page.text-align-right {text-align: right;}
+.login-register-page.text-align-center {text-align: center;}
+.login-register-page.text-align-left {text-align: left;}
+.login-register-page .farazsms-form-title {font-size: 22px;font-weight: bold;margin-bottom: 10px;}
+.login-register-page input {width: 100%;background-color: #ffffff69;border: 1px solid #ddd;height: 50px;border-radius: 12px;margin-top: 15px;padding: 0 15px;text-align: left;font-size: 16px;}
+.login-register-page.farazsms-style-2 input {border-color: transparent;}
+.login-register-page input.farazsms-submit {font-size: 16px;border: none;cursor: pointer;text-align: center;color: #FFF;background-color: #D60053;}
+.login-register-page.farazsms-style-2 input.farazsms-submit {background-color: #FFF;color: #D60053;}
+.login-register-page.farazsms-style-3 input.farazsms-submit {background-color: #ef4056;}
+.login-register-page.farazsms-style-4 input.farazsms-submit {background-color: #ffae11;}
+.login-register-page input[name="full_name"],.login-register-page input[name="password"] {text-align: center;}
+.login-register-page .farazsms-error-text {color: #D60053;text-align: center;margin-top: 20px;}
+.login-register-page .farazsms-success-text {color: green;text-align: center;margin-top: 20px;}
+.login-register-page .farazsms-footer-text {font-size: 12px;text-align: center;margin-top: 15px;}
+.login-register-page .farazsms-footer-text a {text-decoration: underline;}
+.login-register-page .farazsms-change-link {width: auto;display: block;cursor: pointer;border: none;height: auto;background-color: transparent;padding: 0 4px 0 10px;color: #213047;margin-top: 15px;font-size: 14px;position: relative;}
+.farazsms-change-link::after {border-color: #213047;left: 0;}
+.farazsms-error-text.error-fixed {position: fixed;top: 20px;right: 20px;z-index: 99999;background-color: #D60053;padding: 15px;border-radius: 12px;color: #FFF;}
+.btn-loading {width: 100%;height: 50px;border-radius: 12px;margin-top: 15px;padding: 0 15px;background-color: #D60053;display: flex;align-items: center;justify-content: center;}
+.login-register-page.farazsms-style-4 .btn-loading {background-color: #ffae11;}
+.login-register-page.farazsms-style-3 .btn-loading {background-color: #ef4056;}
+.btn-loading > div {position: relative;width: 70px;height: 50px;}
+.btn-loading div div {position:absolute;top: 20px;width:11px;height:11px;border-radius:50%;background-color: #FFF;animation-timing-function:cubic-bezier(0,1,1,0)}
+.btn-loading div div:nth-child(1) {left:8px;animation:btn-ellipsis1 0.6s infinite}
+.btn-loading div div:nth-child(2) {left:8px;animation:btn-ellipsis2 0.6s infinite}
+.btn-loading div div:nth-child(3) {left:32px;animation:btn-ellipsis2 0.6s infinite}
+.btn-loading div div:nth-child(4) {left:56px;animation:btn-ellipsis3 0.6s infinite}
+@keyframes btn-ellipsis1{0%{transform:scale(0)}100%{transform:scale(1)}}
+@keyframes btn-ellipsis3{0%{transform:scale(1)}100%{transform:scale(0)}}
+@keyframes btn-ellipsis2{0%{transform:translate(0,0)}100%{transform:translate(24px,0)}}
+.success-login {background-color: transparent;}
+.success-login div div {background-color: #419941;}
+.login-register-page .farazsms-back {position: absolute;top: 42px;right: 32px;fill: #D60053;color: #D60053;}
+.login-register-page.farazsms-style-4 .farazsms-back {fill: #ffae11;}
+.login-register-page.farazsms-style-3 .farazsms-back {fill: #ef4056;}
+.login-register-page.farazsms-style-2 .farazsms-back {fill: #FFF;}
+.login-register-page #farazsms-timer {color: #D60053;}
+.login-register-page.farazsms-style-4 #farazsms-timer {color: #ffae11;}
+.login-register-page.farazsms-style-2 #farazsms-timer {color: #FFF;}
+.login-register-page .farazsms-loading {margin: 0;}
+.login-register-page .farazsms-loading div {background-color: #D60053;}
+.login-register-page.farazsms-style-4 .farazsms-loading div {background-color: #ffae11;}
+.login-register-page.farazsms-style-3 .farazsms-loading div {background-color: #ef4056;}
+.login-register-page.farazsms-style-2 .farazsms-loading div {background-color: #FFF;}
+.login-register-page .farazsms-back svg {width: 25px;height: 25px;}
+.login-register-page .farazsms-countdown-timer {margin-top: 50px;}
+.login-register-page .farazsms-timer-text {margin-right: 8px;font-size: 13px;}
+.login-register-page .text-error {display: none;}
+.login-register-page .has-error .text-error {display: block;color: red;margin-top: 4px;}
+.login-register-page .has-error input[type="text"] {border-color: red;}
+.farazsms-otp-inputs {display: flex;gap: 10px;justify-content: center;margin-bottom: 20px;direction: ltr;}
+.farazsms-otp-inputs .otp-digit {text-align: center !important;font-size: 24px !important;}
+.login-register-page.farazsms-style-1 .farazsms-otp-inputs {gap: 0;}
+.login-register-page.farazsms-style-1 .farazsms-otp-inputs .otp-digit {border-left: 0;border-radius: 0;}
+.login-register-page.farazsms-style-1 .farazsms-otp-inputs .otp-digit:first-child {border-left: 1px solid #ddd;border-radius: 12px 0 0 12px;}
+.login-register-page.farazsms-style-1 .farazsms-otp-inputs .otp-digit:nth-last-child(2) {border-right: 1px solid #ddd;border-radius: 0 12px 12px 0;}
+.farazsms-inline-login-wrapper {width: 100%;}
+.login-register-page.farazsms-embedded-login {min-height: auto;display: block;justify-content: unset;padding: 0;background: transparent;}
+.login-register-page.farazsms-embedded-login .login-register-form {min-width: 100%;max-width: 420px;width: 100%;margin: 0 auto;}
+.login-register-page.farazsms-embedded-login .logo img {max-width: 220px;height: auto;}

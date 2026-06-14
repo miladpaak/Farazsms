@@ -1,0 +1,2247 @@
+# Faraz SMS — WordPress Plugin Translation Template
+# Copyright (C) 2026 شرکت زرین ارتباطات آسیا
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Faraz SMS 3.18.0\n"
+"Report-Msgid-Bugs-To: https://farazsms.com/\n"
+"POT-Creation-Date: 2026-06-02 03:30+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: wto\n"
+
+msgid "%d شماره نامعتبر"
+msgstr "%d شماره نامعتبر"
+
+msgid "%d کاربر بدون ID معتبر"
+msgstr "%d کاربر بدون ID معتبر"
+
+msgid "%d کاربر بدون شماره تلفن"
+msgstr "%d کاربر بدون شماره تلفن"
+
+msgid "(%d شماره نامعتبر نادیده گرفته شد)"
+msgstr "(%d شماره نامعتبر نادیده گرفته شد)"
+
+msgid "All SMS sending failed"
+msgstr "All SMS sending failed"
+
+msgid "Elementor → اطلاع رسانی پیامک فراز"
+msgstr "Elementor → اطلاع رسانی پیامک فراز"
+
+msgid "Feed %s => SMS sending to Client failed. Error: %s"
+msgstr "Feed %s => SMS sending to Client failed. Error: %s"
+
+msgid "Feed %s => SMS sent to Client successfully. Number: %s"
+msgstr "Feed %s => SMS sent to Client successfully. Number: %s"
+
+msgid "Feed %s => ارسال پیامک به مدیر با خطا مواجه شد. خطا: %s"
+msgstr "Feed %s => ارسال پیامک به مدیر با خطا مواجه شد. خطا: %s"
+
+msgid "Feed %s => پیامک با موفقیت به مدیر ارسال شد. شماره: %s"
+msgstr "Feed %s => پیامک با موفقیت به مدیر ارسال شد. شماره: %s"
+
+msgid "Feed به‌روزرسانی شد. %sبازگشت به لیست%s"
+msgstr "Feed به‌روزرسانی شد. %sبازگشت به لیست%s"
+
+msgid "Feed حذف شد."
+msgstr "Feed حذف شد."
+
+msgid "Feed یافت نشد"
+msgstr "Feed یافت نشد"
+
+msgid "Feeds حذف شدند."
+msgstr "Feeds حذف شدند."
+
+msgid "Feeds پیامک - تمام فرم‌ها"
+msgstr "Feeds پیامک - تمام فرم‌ها"
+
+msgid "Forms → اطلاع‌رسانی پیامکی"
+msgstr "Forms → اطلاع‌رسانی پیامکی"
+
+msgid "Invalid tab."
+msgstr "Invalid tab."
+
+msgid "Partial success: %d sent, %d failed"
+msgstr "Partial success: %d sent, %d failed"
+
+msgid "RGFormsModel در دسترس نیست"
+msgstr "RGFormsModel در دسترس نیست"
+
+msgid "SMS"
+msgstr "SMS"
+
+msgid "Tab file not found."
+msgstr "Tab file not found."
+
+msgid "User SMS Configuration"
+msgstr "User SMS Configuration"
+
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+msgid "__( '%s ردیف حذف شد.', 'wto'"
+msgstr "__( '%s ردیف حذف شد.', 'wto'"
+
+msgid "__( '09xxxxxxxxx', 'farazsms-next'"
+msgstr "__( '09xxxxxxxxx', 'farazsms-next'"
+
+msgid "__( 'You do not have sufficient permissions to access this page.', 'wto'"
+msgstr "__( 'You do not have sufficient permissions to access this page.', 'wto'"
+
+msgid "__( 'آخرین نظرات', 'wto'"
+msgstr "__( 'آخرین نظرات', 'wto'"
+
+msgid "__( 'آغازی', 'wto'"
+msgstr "__( 'آغازی', 'wto'"
+
+msgid "__( 'ابتدا کد الگو را تنظیم کنید.', 'wto'"
+msgstr "__( 'ابتدا کد الگو را تنظیم کنید.', 'wto'"
+
+msgid "__( 'ابزارها و فرم‌ها', 'wto'"
+msgstr "__( 'ابزارها و فرم‌ها', 'wto'"
+
+msgid "__( 'اتومیشن مارکتینگ', 'wto'"
+msgstr "__( 'اتومیشن مارکتینگ', 'wto'"
+
+msgid "__( 'ارسال انجام شد — موفق: %1$s، ناموفق: %2$s', 'wto'"
+msgstr "__( 'ارسال انجام شد — موفق: %1$s، ناموفق: %2$s', 'wto'"
+
+msgid "__( 'ارسال انجام شد — موفق: %1$s، ناموفق: %2$s، کل گیرندگان: %3$s', 'wto'"
+msgstr "__( 'ارسال انجام شد — موفق: %1$s، ناموفق: %2$s، کل گیرندگان: %3$s', 'wto'"
+
+msgid "__( 'ارسال تیکت و گزارش مشکل', 'wto'"
+msgstr "__( 'ارسال تیکت و گزارش مشکل', 'wto'"
+
+msgid "__( 'ارسال جدید', 'wto'"
+msgstr "__( 'ارسال جدید', 'wto'"
+
+msgid "__( 'ارسال خودکار کد رهگیری', 'wto'"
+msgstr "__( 'ارسال خودکار کد رهگیری', 'wto'"
+
+msgid "__( 'ارسال شده', 'wto'"
+msgstr "__( 'ارسال شده', 'wto'"
+
+msgid "__( 'ارسال ناموفق.', 'wto'"
+msgstr "__( 'ارسال ناموفق.', 'wto'"
+
+msgid "__( 'ارسال پیامک تکی یا انبوه از داخل سایت', 'wto'"
+msgstr "__( 'ارسال پیامک تکی یا انبوه از داخل سایت', 'wto'"
+
+msgid "__( 'ارسال پیامک', 'wto'"
+msgstr "__( 'ارسال پیامک', 'wto'"
+
+msgid "__( 'ارسال کد', 'farazsms-next'"
+msgstr "__( 'ارسال کد', 'farazsms-next'"
+
+msgid "__( 'ارسال گروهی', 'wto'"
+msgstr "__( 'ارسال گروهی', 'wto'"
+
+msgid "__( 'اعتبار ناکافی', 'wto'"
+msgstr "__( 'اعتبار ناکافی', 'wto'"
+
+msgid "__( 'اعتبارسنجی موبایل (OTP)', 'farazsms-next'"
+msgstr "__( 'اعتبارسنجی موبایل (OTP)', 'farazsms-next'"
+
+msgid "__( 'افزونه cURL در سرور فعال نیست.', 'wto'"
+msgstr "__( 'افزونه cURL در سرور فعال نیست.', 'wto'"
+
+msgid "__( 'الگو با موفقیت ساخته و در تنظیمات ذخیره شد.', 'wto'"
+msgstr "__( 'الگو با موفقیت ساخته و در تنظیمات ذخیره شد.', 'wto'"
+
+msgid "__( 'الگو ساخته شد ولی کد آن از پاسخ API یافت نشد.', 'wto'"
+msgstr "__( 'الگو ساخته شد ولی کد آن از پاسخ API یافت نشد.', 'wto'"
+
+msgid "__( 'انتقال به پنل فراز اس‌ام‌اس', 'wto'"
+msgstr "__( 'انتقال به پنل فراز اس‌ام‌اس', 'wto'"
+
+msgid "__( 'اگر Api-Key ندارید: وارد پنل فراز شوید → مدیریت کلیدهای دسترسی → ساخت کلید جدید → کپی → چسباندن در فیلد زیر.', 'wto'"
+msgstr "__( 'اگر Api-Key ندارید: وارد پنل فراز شوید → مدیریت کلیدهای دسترسی → ساخت کلید جدید → کپی → چسباندن در فیلد زیر.', 'wto'"
+
+msgid "__( 'این قابلیت در حال حاضر غیرفعال است.', 'wto'"
+msgstr "__( 'این قابلیت در حال حاضر غیرفعال است.', 'wto'"
+
+msgid "__( 'این ماه چقدر فروش از پیامک آمد؟', 'wto'"
+msgstr "__( 'این ماه چقدر فروش از پیامک آمد؟', 'wto'"
+
+msgid "__( 'این محصول هم‌اکنون موجود است.', 'wto'"
+msgstr "__( 'این محصول هم‌اکنون موجود است.', 'wto'"
+
+msgid "__( 'با Gravity Forms و Elementor Forms یکپارچه می‌شود. می‌توانید روی submit فرم، پیامک به ادمین یا کاربر بفرستید + فیلد OTP تأیید موبایل اضافه کنید.', 'wto'"
+msgstr "__( 'با Gravity Forms و Elementor Forms یکپارچه می‌شود. می‌توانید روی submit فرم، پیامک به ادمین یا کاربر بفرستید + فیلد OTP تأیید موبایل اضافه کنید.', 'wto'"
+
+msgid "__( 'با تنظیم الگوهای پیامک برای ثبت دیدگاه/تأیید/پاسخ، در رویدادهای مربوط به دیدگاه‌های سایت پیامک خودکار ارسال می‌شود.', 'wto'"
+msgstr "__( 'با تنظیم الگوهای پیامک برای ثبت دیدگاه/تأیید/پاسخ، در رویدادهای مربوط به دیدگاه‌های سایت پیامک خودکار ارسال می‌شود.', 'wto'"
+
+msgid "__( 'با ساخت الگوی پیامک «کد رهگیری»، پس از ثبت کد رهگیری روی سفارش ووکامرس، یک پیامک خودکار با کد رهگیری به مشتری ارسال می‌شود.', 'wto'"
+msgstr "__( 'با ساخت الگوی پیامک «کد رهگیری»، پس از ثبت کد رهگیری روی سفارش ووکامرس، یک پیامک خودکار با کد رهگیری به مشتری ارسال می‌شود.', 'wto'"
+
+msgid "__( 'بازخورد مشتری بعد از خرید', 'wto'"
+msgstr "__( 'بازخورد مشتری بعد از خرید', 'wto'"
+
+msgid "__( 'بازخورد', 'wto'"
+msgstr "__( 'بازخورد', 'wto'"
+
+msgid "__( 'بازگردانی سبد + گزارش بازگشت', 'wto'"
+msgstr "__( 'بازگردانی سبد + گزارش بازگشت', 'wto'"
+
+msgid "__( 'بازگشت درصدی + کیف پول + پیامک یادآوری', 'wto'"
+msgstr "__( 'بازگشت درصدی + کیف پول + پیامک یادآوری', 'wto'"
+
+msgid "__( 'بازیافت‌شده', 'wto'"
+msgstr "__( 'بازیافت‌شده', 'wto'"
+
+msgid "__( 'باشگاه مشتریان انتخاب نشده.', 'wto'"
+msgstr "__( 'باشگاه مشتریان انتخاب نشده.', 'wto'"
+
+msgid "__( 'باشگاه مشتریان و افزایش فروش', 'wto'"
+msgstr "__( 'باشگاه مشتریان و افزایش فروش', 'wto'"
+
+msgid "__( 'باشگاه مشتریان', 'wto'"
+msgstr "__( 'باشگاه مشتریان', 'wto'"
+
+msgid "__( 'برای دیدگاه‌های سفارش‌محور (پیامک نظرسنجی)، به منوی «نظرسنجی پس از خرید» مراجعه کنید.', 'wto'"
+msgstr "__( 'برای دیدگاه‌های سفارش‌محور (پیامک نظرسنجی)، به منوی «نظرسنجی پس از خرید» مراجعه کنید.', 'wto'"
+
+msgid "__( 'به‌روزرسانی افزونه', 'wto'"
+msgstr "__( 'به‌روزرسانی افزونه', 'wto'"
+
+msgid "__( 'به‌روزرسانی خودکار از GitLab فراز', 'wto'"
+msgstr "__( 'به‌روزرسانی خودکار از GitLab فراز', 'wto'"
+
+msgid "__( 'تأیید شده', 'wto'"
+msgstr "__( 'تأیید شده', 'wto'"
+
+msgid "__( 'تأیید کد', 'farazsms-next'"
+msgstr "__( 'تأیید کد', 'farazsms-next'"
+
+msgid "__( 'تابع ارسال الگو در دسترس نیست.', 'wto'"
+msgstr "__( 'تابع ارسال الگو در دسترس نیست.', 'wto'"
+
+msgid "__( 'تابع ارسال پترن در دسترس نیست.', 'wto'"
+msgstr "__( 'تابع ارسال پترن در دسترس نیست.', 'wto'"
+
+msgid "__( 'تابع ساخت الگو در دسترس نیست.', 'wto'"
+msgstr "__( 'تابع ساخت الگو در دسترس نیست.', 'wto'"
+
+msgid "__( 'تاریخ', 'wto'"
+msgstr "__( 'تاریخ', 'wto'"
+
+msgid "__( 'تاریخچه ارسال‌ها', 'wto'"
+msgstr "__( 'تاریخچه ارسال‌ها', 'wto'"
+
+msgid "__( 'تحویل داده شده', 'wto'"
+msgstr "__( 'تحویل داده شده', 'wto'"
+
+msgid "__( 'تخفیف در ازای شماره موبایل', 'wto'"
+msgstr "__( 'تخفیف در ازای شماره موبایل', 'wto'"
+
+msgid "__( 'تعداد تلاش‌های ناموفق زیاد است. لطفاً ۱۵ دقیقه دیگر مجدداً تلاش کنید.', 'wto'"
+msgstr "__( 'تعداد تلاش‌های ناموفق زیاد است. لطفاً ۱۵ دقیقه دیگر مجدداً تلاش کنید.', 'wto'"
+
+msgid "__( 'تعداد درخواست از این آی‌پی زیاد است. فردا دوباره تلاش کنید.', 'wto'"
+msgstr "__( 'تعداد درخواست از این آی‌پی زیاد است. فردا دوباره تلاش کنید.', 'wto'"
+
+msgid "__( 'تعداد درخواست‌ها زیاد است. لطفاً ۱۵ دقیقه دیگر مجدداً تلاش کنید.', 'wto'"
+msgstr "__( 'تعداد درخواست‌ها زیاد است. لطفاً ۱۵ دقیقه دیگر مجدداً تلاش کنید.', 'wto'"
+
+msgid "__( 'تعداد گیرنده', 'wto'"
+msgstr "__( 'تعداد گیرنده', 'wto'"
+
+msgid "__( 'تنظیمات اصلی', 'wto'"
+msgstr "__( 'تنظیمات اصلی', 'wto'"
+
+msgid "__( 'تنظیمات افزونه فراز اس‌ام‌اس', 'wto'"
+msgstr "__( 'تنظیمات افزونه فراز اس‌ام‌اس', 'wto'"
+
+msgid "__( 'تنظیمات افزونه', 'wto'"
+msgstr "__( 'تنظیمات افزونه', 'wto'"
+
+msgid "__( 'تنظیمات', 'wto'"
+msgstr "__( 'تنظیمات', 'wto'"
+
+msgid "__( 'خبرنامه فراز اس‌ام‌اس', 'wto'"
+msgstr "__( 'خبرنامه فراز اس‌ام‌اس', 'wto'"
+
+msgid "__( 'خبرنامه پیامکی', 'wto'"
+msgstr "__( 'خبرنامه پیامکی', 'wto'"
+
+msgid "__( 'خبرنامه', 'wto'"
+msgstr "__( 'خبرنامه', 'wto'"
+
+msgid "__( 'خط PRO (پیش‌فرض)', 'wto'"
+msgstr "__( 'خط PRO (پیش‌فرض)', 'wto'"
+
+msgid "__( 'خطا در ارتباط با سرور فراز اس‌ام‌اس.', 'wto'"
+msgstr "__( 'خطا در ارتباط با سرور فراز اس‌ام‌اس.', 'wto'"
+
+msgid "__( 'خطا در ارتباط با سرور فراز.', 'wto'"
+msgstr "__( 'خطا در ارتباط با سرور فراز.', 'wto'"
+
+msgid "__( 'خطا در ارسال پیامک.', 'wto'"
+msgstr "__( 'خطا در ارسال پیامک.', 'wto'"
+
+msgid "__( 'خطای API (کد %d).', 'wto'"
+msgstr "__( 'خطای API (کد %d).', 'wto'"
+
+msgid "__( 'خطای API در ساخت الگو.', 'wto'"
+msgstr "__( 'خطای API در ساخت الگو.', 'wto'"
+
+msgid "__( 'خطای API.', 'wto'"
+msgstr "__( 'خطای API.', 'wto'"
+
+msgid "__( 'خطای امنیتی. لطفاً صفحه را رفرش کنید.', 'wto'"
+msgstr "__( 'خطای امنیتی. لطفاً صفحه را رفرش کنید.', 'wto'"
+
+msgid "__( 'خطای سیستم', 'wto'"
+msgstr "__( 'خطای سیستم', 'wto'"
+
+msgid "__( 'خطای نامشخص.', 'wto'"
+msgstr "__( 'خطای نامشخص.', 'wto'"
+
+msgid "__( 'خطایی رخ داد. دوباره تلاش کنید.', 'farazsms-next'"
+msgstr "__( 'خطایی رخ داد. دوباره تلاش کنید.', 'farazsms-next'"
+
+msgid "__( 'داشبورد آماری', 'wto'"
+msgstr "__( 'داشبورد آماری', 'wto'"
+
+msgid "__( 'داشبورد فراز اس‌ام‌اس', 'wto'"
+msgstr "__( 'داشبورد فراز اس‌ام‌اس', 'wto'"
+
+msgid "__( 'داشبورد', 'wto'"
+msgstr "__( 'داشبورد', 'wto'"
+
+msgid "__( 'در انتظار تأیید', 'wto'"
+msgstr "__( 'در انتظار تأیید', 'wto'"
+
+msgid "__( 'در انتظار', 'wto'"
+msgstr "__( 'در انتظار', 'wto'"
+
+msgid "__( 'در این صفحه کلید دسترسی (Api-Key) و خط ارسال پیش‌فرض را وارد می‌کنید. این دو در همه قابلیت‌های پلاگین استفاده می‌شود.', 'wto'"
+msgstr "__( 'در این صفحه کلید دسترسی (Api-Key) و خط ارسال پیش‌فرض را وارد می‌کنید. این دو در همه قابلیت‌های پلاگین استفاده می‌شود.', 'wto'"
+
+msgid "__( 'در حال ارسال کد...', 'farazsms-next'"
+msgstr "__( 'در حال ارسال کد...', 'farazsms-next'"
+
+msgid "__( 'در حال تأیید...', 'farazsms-next'"
+msgstr "__( 'در حال تأیید...', 'farazsms-next'"
+
+msgid "__( 'در صف ارسال', 'wto'"
+msgstr "__( 'در صف ارسال', 'wto'"
+
+msgid "__( 'دسترسی غیرمجاز.', 'wto'"
+msgstr "__( 'دسترسی غیرمجاز.', 'wto'"
+
+msgid "__( 'دفترچه تلفن + سینک فرم‌ها', 'wto'"
+msgstr "__( 'دفترچه تلفن + سینک فرم‌ها', 'wto'"
+
+msgid "__( 'دیدگاه سایت', 'wto'"
+msgstr "__( 'دیدگاه سایت', 'wto'"
+
+msgid "__( 'رد شده', 'wto'"
+msgstr "__( 'رد شده', 'wto'"
+
+msgid "__( 'سامانه موقتاً اشباع است. لطفاً دقایقی دیگر تلاش کنید.', 'wto'"
+msgstr "__( 'سامانه موقتاً اشباع است. لطفاً دقایقی دیگر تلاش کنید.', 'wto'"
+
+msgid "__( 'سبد خرید رهاشده', 'wto'"
+msgstr "__( 'سبد خرید رهاشده', 'wto'"
+
+msgid "__( 'سبد خرید رها‌شده', 'wto'"
+msgstr "__( 'سبد خرید رها‌شده', 'wto'"
+
+msgid "__( 'شروع نشده', 'wto'"
+msgstr "__( 'شروع نشده', 'wto'"
+
+msgid "__( 'شماره ارسال‌کننده', 'wto'"
+msgstr "__( 'شماره ارسال‌کننده', 'wto'"
+
+msgid "__( 'شماره سفارش', 'wto'"
+msgstr "__( 'شماره سفارش', 'wto'"
+
+msgid "__( 'شماره موبایل تأیید شد.', 'farazsms-next'"
+msgstr "__( 'شماره موبایل تأیید شد.', 'farazsms-next'"
+
+msgid "__( 'شماره موبایل تأیید شد.', 'wto'"
+msgstr "__( 'شماره موبایل تأیید شد.', 'wto'"
+
+msgid "__( 'شماره موبایل را وارد کنید.', 'farazsms-next'"
+msgstr "__( 'شماره موبایل را وارد کنید.', 'farazsms-next'"
+
+msgid "__( 'شماره موبایل معتبر نیست.', 'wto'"
+msgstr "__( 'شماره موبایل معتبر نیست.', 'wto'"
+
+msgid "__( 'شماره موبایل معتبر وارد کنید.', 'wto'"
+msgstr "__( 'شماره موبایل معتبر وارد کنید.', 'wto'"
+
+msgid "__( 'شماره گیرنده', 'wto'"
+msgstr "__( 'شماره گیرنده', 'wto'"
+
+msgid "__( 'شورت‌کد، ویجت، ارسال انبوه', 'wto'"
+msgstr "__( 'شورت‌کد، ویجت، ارسال انبوه', 'wto'"
+
+msgid "__( 'عدم تحویل', 'wto'"
+msgstr "__( 'عدم تحویل', 'wto'"
+
+msgid "__( 'عضویت در خبرنامه در حال حاضر غیرفعال است.', 'wto'"
+msgstr "__( 'عضویت در خبرنامه در حال حاضر غیرفعال است.', 'wto'"
+
+msgid "__( 'فراز بین', 'wto'"
+msgstr "__( 'فراز بین', 'wto'"
+
+msgid "__( 'فرم عضویت در خبرنامه پیامکی.', 'wto'"
+msgstr "__( 'فرم عضویت در خبرنامه پیامکی.', 'wto'"
+
+msgid "__( 'فعال', 'wto'"
+msgstr "__( 'فعال', 'wto'"
+
+msgid "__( 'فیلد OTP کاربر را مجبور به تأیید موبایل قبل از ارسال فرم می‌کند — راهی ساده برای جلوگیری از فرم‌های اسپم.', 'wto'"
+msgstr "__( 'فیلد OTP کاربر را مجبور به تأیید موبایل قبل از ارسال فرم می‌کند — راهی ساده برای جلوگیری از فرم‌های اسپم.', 'wto'"
+
+msgid "__( 'لطفاً ابتدا با دکمه «ارسال کد» و «تأیید کد» شماره موبایل را تأیید کنید.', 'farazsms-next'"
+msgstr "__( 'لطفاً ابتدا با دکمه «ارسال کد» و «تأیید کد» شماره موبایل را تأیید کنید.', 'farazsms-next'"
+
+msgid "__( 'لطفاً کمی صبر کنید و دوباره درخواست ارسال کد دهید.', 'wto'"
+msgstr "__( 'لطفاً کمی صبر کنید و دوباره درخواست ارسال کد دهید.', 'wto'"
+
+msgid "__( 'لغو شده', 'wto'"
+msgstr "__( 'لغو شده', 'wto'"
+
+msgid "__( 'لید مگنت', 'wto'"
+msgstr "__( 'لید مگنت', 'wto'"
+
+msgid "__( 'لیست سبدها', 'wto'"
+msgstr "__( 'لیست سبدها', 'wto'"
+
+msgid "__( 'لیست سیاه', 'wto'"
+msgstr "__( 'لیست سیاه', 'wto'"
+
+msgid "__( 'لیست مشترکین', 'wto'"
+msgstr "__( 'لیست مشترکین', 'wto'"
+
+msgid "__( 'لینک ثبت نظرسنجی (با شناسه سفارش)', 'wto'"
+msgstr "__( 'لینک ثبت نظرسنجی (با شناسه سفارش)', 'wto'"
+
+msgid "__( 'ماژول خبرنامه فعال نیست.', 'wto'"
+msgstr "__( 'ماژول خبرنامه فعال نیست.', 'wto'"
+
+msgid "__( 'ماژول موجود شد خبرم کن فعال نیست.', 'wto'"
+msgstr "__( 'ماژول موجود شد خبرم کن فعال نیست.', 'wto'"
+
+msgid "__( 'متغیرهای قابل استفاده در متن الگو: %order_id% و %tracking_code% — نام برند فروشگاه را به‌صورت ثابت بنویسید.', 'wto'"
+msgstr "__( 'متغیرهای قابل استفاده در متن الگو: %order_id% و %tracking_code% — نام برند فروشگاه را به‌صورت ثابت بنویسید.', 'wto'"
+
+msgid "__( 'متن الگو خالی است.', 'wto'"
+msgstr "__( 'متن الگو خالی است.', 'wto'"
+
+msgid "__( 'متن پیامک خالی است.', 'wto'"
+msgstr "__( 'متن پیامک خالی است.', 'wto'"
+
+msgid "__( 'متن پیامک', 'wto'"
+msgstr "__( 'متن پیامک', 'wto'"
+
+msgid "__( 'محاسبه سود افزونه', 'wto'"
+msgstr "__( 'محاسبه سود افزونه', 'wto'"
+
+msgid "__( 'محصول نامعتبر است.', 'wto'"
+msgstr "__( 'محصول نامعتبر است.', 'wto'"
+
+msgid "__( 'محصول یافت نشد.', 'wto'"
+msgstr "__( 'محصول یافت نشد.', 'wto'"
+
+msgid "__( 'مشترکین', 'wto'"
+msgstr "__( 'مشترکین', 'wto'"
+
+msgid "__( 'مشتری', 'farazsms-next'"
+msgstr "__( 'مشتری', 'farazsms-next'"
+
+msgid "__( 'مشتریان ووکامرس', 'farazsms-next'"
+msgstr "__( 'مشتریان ووکامرس', 'farazsms-next'"
+
+msgid "__( 'منبع گیرنده نامعتبر است.', 'wto'"
+msgstr "__( 'منبع گیرنده نامعتبر است.', 'wto'"
+
+msgid "__( 'منقضی', 'wto'"
+msgstr "__( 'منقضی', 'wto'"
+
+msgid "__( 'موتور جستجوی قیمت + ایندکس محصولات', 'wto'"
+msgstr "__( 'موتور جستجوی قیمت + ایندکس محصولات', 'wto'"
+
+msgid "__( 'موجود شد خبرم کن', 'wto'"
+msgstr "__( 'موجود شد خبرم کن', 'wto'"
+
+msgid "__( 'نام خانوادگی', 'wto'"
+msgstr "__( 'نام خانوادگی', 'wto'"
+
+msgid "__( 'نام و نام خانوادگی کامل', 'wto'"
+msgstr "__( 'نام و نام خانوادگی کامل', 'wto'"
+
+msgid "__( 'نام', 'wto'"
+msgstr "__( 'نام', 'wto'"
+
+msgid "__( 'ناموفق در ارسال', 'wto'"
+msgstr "__( 'ناموفق در ارسال', 'wto'"
+
+msgid "__( 'نظرسنجی پس از خرید', 'wto'"
+msgstr "__( 'نظرسنجی پس از خرید', 'wto'"
+
+msgid "__( 'نمای کلی، اعتبار، آمار سریع', 'wto'"
+msgstr "__( 'نمای کلی، اعتبار، آمار سریع', 'wto'"
+
+msgid "__( 'نوع ارسال نامعتبر است.', 'wto'"
+msgstr "__( 'نوع ارسال نامعتبر است.', 'wto'"
+
+msgid "__( 'هر ۳۰ دقیقه (فراز اس‌ام‌اس)', 'wto'"
+msgstr "__( 'هر ۳۰ دقیقه (فراز اس‌ام‌اس)', 'wto'"
+
+msgid "__( 'هرزنامه', 'wto'"
+msgstr "__( 'هرزنامه', 'wto'"
+
+msgid "__( 'همه وضعیت‌ها', 'wto'"
+msgstr "__( 'همه وضعیت‌ها', 'wto'"
+
+msgid "__( 'هیچ ردیفی انتخاب نشده.', 'wto'"
+msgstr "__( 'هیچ ردیفی انتخاب نشده.', 'wto'"
+
+msgid "__( 'هیچ مشترک فعالی در خبرنامه وجود ندارد.', 'wto'"
+msgstr "__( 'هیچ مشترک فعالی در خبرنامه وجود ندارد.', 'wto'"
+
+msgid "__( 'هیچ گیرنده‌ای یافت نشد.', 'wto'"
+msgstr "__( 'هیچ گیرنده‌ای یافت نشد.', 'wto'"
+
+msgid "__( 'وارد شده دستی', 'wto'"
+msgstr "__( 'وارد شده دستی', 'wto'"
+
+msgid "__( 'ورود و ثبت نام', 'wto'"
+msgstr "__( 'ورود و ثبت نام', 'wto'"
+
+msgid "__( 'وضعیت نامشخص', 'wto'"
+msgstr "__( 'وضعیت نامشخص', 'wto'"
+
+msgid "__( 'ووکامرس نصب نیست.', 'wto'"
+msgstr "__( 'ووکامرس نصب نیست.', 'wto'"
+
+msgid "__( 'ووکامرس و سفارشات', 'wto'"
+msgstr "__( 'ووکامرس و سفارشات', 'wto'"
+
+msgid "__( 'پارامترهای ارسالی ناقص است.', 'wto'"
+msgstr "__( 'پارامترهای ارسالی ناقص است.', 'wto'"
+
+msgid "__( 'پاسخ API قابل پردازش نیست.', 'wto'"
+msgstr "__( 'پاسخ API قابل پردازش نیست.', 'wto'"
+
+msgid "__( 'پاسخ خام API (debug)', 'wto'"
+msgstr "__( 'پاسخ خام API (debug)', 'wto'"
+
+msgid "__( 'پاسخ خام API — آیتم‌ها (debug)', 'wto'"
+msgstr "__( 'پاسخ خام API — آیتم‌ها (debug)', 'wto'"
+
+msgid "__( 'پاسخ خام API — جزئیات (debug)', 'wto'"
+msgstr "__( 'پاسخ خام API — جزئیات (debug)', 'wto'"
+
+msgid "__( 'پاسخ خام API — لیست (debug)', 'wto'"
+msgstr "__( 'پاسخ خام API — لیست (debug)', 'wto'"
+
+msgid "__( 'پاسخ خام API — متادیتای درخواست (debug)', 'wto'"
+msgstr "__( 'پاسخ خام API — متادیتای درخواست (debug)', 'wto'"
+
+msgid "__( 'پاسخ سرور قابل پردازش نیست (کد %d).', 'wto'"
+msgstr "__( 'پاسخ سرور قابل پردازش نیست (کد %d).', 'wto'"
+
+msgid "__( 'پاسخ سرور قابل پردازش نیست.', 'wto'"
+msgstr "__( 'پاسخ سرور قابل پردازش نیست.', 'wto'"
+
+msgid "__( 'پترن پیامک OTP در تنظیمات ثبت نشده است.', 'wto'"
+msgstr "__( 'پترن پیامک OTP در تنظیمات ثبت نشده است.', 'wto'"
+
+msgid "__( 'پرداخت از کیف پول کش‌بک', 'wto'"
+msgstr "__( 'پرداخت از کیف پول کش‌بک', 'wto'"
+
+msgid "__( 'پیامک ارسال شده', 'wto'"
+msgstr "__( 'پیامک ارسال شده', 'wto'"
+
+msgid "__( 'پیامک بازگشت موجودی محصول', 'wto'"
+msgstr "__( 'پیامک بازگشت موجودی محصول', 'wto'"
+
+msgid "__( 'پیامک تبریک با کد تخفیف انحصاری', 'wto'"
+msgstr "__( 'پیامک تبریک با کد تخفیف انحصاری', 'wto'"
+
+msgid "__( 'پیامک تست ارسال شد.', 'wto'"
+msgstr "__( 'پیامک تست ارسال شد.', 'wto'"
+
+msgid "__( 'پیامک رویدادهای دیدگاه', 'wto'"
+msgstr "__( 'پیامک رویدادهای دیدگاه', 'wto'"
+
+msgid "__( 'پیامک زمان‌دار و کمپین‌های خودکار', 'wto'"
+msgstr "__( 'پیامک زمان‌دار و کمپین‌های خودکار', 'wto'"
+
+msgid "__( 'کد الگو را وارد کنید.', 'wto'"
+msgstr "__( 'کد الگو را وارد کنید.', 'wto'"
+
+msgid "__( 'کد تأیید ارسال شد.', 'farazsms-next'"
+msgstr "__( 'کد تأیید ارسال شد.', 'farazsms-next'"
+
+msgid "__( 'کد تأیید ارسال شد.', 'wto'"
+msgstr "__( 'کد تأیید ارسال شد.', 'wto'"
+
+msgid "__( 'کد تأیید را وارد کنید.', 'farazsms-next'"
+msgstr "__( 'کد تأیید را وارد کنید.', 'farazsms-next'"
+
+msgid "__( 'کد تأیید', 'farazsms-next'"
+msgstr "__( 'کد تأیید', 'farazsms-next'"
+
+msgid "__( 'کد رهگیری سفارش', 'wto'"
+msgstr "__( 'کد رهگیری سفارش', 'wto'"
+
+msgid "__( 'کد وارد شده اشتباه یا منقضی است.', 'farazsms-next'"
+msgstr "__( 'کد وارد شده اشتباه یا منقضی است.', 'farazsms-next'"
+
+msgid "__( 'کد وارد شده اشتباه یا منقضی است.', 'wto'"
+msgstr "__( 'کد وارد شده اشتباه یا منقضی است.', 'wto'"
+
+msgid "__( 'کش‌بک هوشمند', 'wto'"
+msgstr "__( 'کش‌بک هوشمند', 'wto'"
+
+msgid "__( 'کش‌بک', 'wto'"
+msgstr "__( 'کش‌بک', 'wto'"
+
+msgid "__( 'کلید دسترسی (Api-Key) در تنظیمات افزونه وارد نشده است.', 'wto'"
+msgstr "__( 'کلید دسترسی (Api-Key) در تنظیمات افزونه وارد نشده است.', 'wto'"
+
+msgid "__( 'کلید دسترسی (Api-Key) در تنظیمات وارد نشده است.', 'wto'"
+msgstr "__( 'کلید دسترسی (Api-Key) در تنظیمات وارد نشده است.', 'wto'"
+
+msgid "__( 'کلید دسترسی (Api-Key) و خط ارسال', 'wto'"
+msgstr "__( 'کلید دسترسی (Api-Key) و خط ارسال', 'wto'"
+
+msgid "__( 'گرویتی - المنتور', 'wto'"
+msgstr "__( 'گرویتی - المنتور', 'wto'"
+
+msgid "__( 'گزارش روزانه فراز اس‌ام‌اس — کسب و کار شما در یک نگاه', 'wto'"
+msgstr "__( 'گزارش روزانه فراز اس‌ام‌اس — کسب و کار شما در یک نگاه', 'wto'"
+
+msgid "__( 'گزارشات ارسال پیامک', 'wto'"
+msgstr "__( 'گزارشات ارسال پیامک', 'wto'"
+
+msgid "__( 'گزارشات ارسال', 'wto'"
+msgstr "__( 'گزارشات ارسال', 'wto'"
+
+msgid "__( 'گزارش‌گیری از API فراز اس‌ام‌اس', 'wto'"
+msgstr "__( 'گزارش‌گیری از API فراز اس‌ام‌اس', 'wto'"
+
+msgid "__( 'یکپارچگی با فرم‌سازها + OTP', 'wto'"
+msgstr "__( 'یکپارچگی با فرم‌سازها + OTP', 'wto'"
+
+msgid "__( 'یکپارچگی با فرم‌ها', 'wto'"
+msgstr "__( 'یکپارچگی با فرم‌ها', 'wto'"
+
+msgid "__( '🎂 تبریک تولد + کوپن', 'wto'"
+msgstr "__( '🎂 تبریک تولد + کوپن', 'wto'"
+
+msgid "_e( 'اعتبار پنل فراز', 'wto'"
+msgstr "_e( 'اعتبار پنل فراز', 'wto'"
+
+msgid "_e( 'این داده‌ها از منابع متنوع افزونه تجمیع می‌شوند. cache: ۳۰ دقیقه.', 'wto'"
+msgstr "_e( 'این داده‌ها از منابع متنوع افزونه تجمیع می‌شوند. cache: ۳۰ دقیقه.', 'wto'"
+
+msgid "_e( 'این ماه افزونه فراز اس‌ام‌اس برای فروشگاه شما', 'wto'"
+msgstr "_e( 'این ماه افزونه فراز اس‌ام‌اس برای فروشگاه شما', 'wto'"
+
+msgid "_e( 'برای شارژ کلیک کنید', 'wto'"
+msgstr "_e( 'برای شارژ کلیک کنید', 'wto'"
+
+msgid "_e( 'برای محاسبه کلیک کنید', 'wto'"
+msgstr "_e( 'برای محاسبه کلیک کنید', 'wto'"
+
+msgid "_e( 'ت', 'wto'"
+msgstr "_e( 'ت', 'wto'"
+
+msgid "_e( 'تولدهای این هفته', 'wto'"
+msgstr "_e( 'تولدهای این هفته', 'wto'"
+
+msgid "_e( 'تومان اضافه فروش', 'wto'"
+msgstr "_e( 'تومان اضافه فروش', 'wto'"
+
+msgid "_e( 'تومان', 'wto'"
+msgstr "_e( 'تومان', 'wto'"
+
+msgid "_e( 'در ۷ روز اخیر', 'wto'"
+msgstr "_e( 'در ۷ روز اخیر', 'wto'"
+
+msgid "_e( 'فرصت کمپین تولد!', 'wto'"
+msgstr "_e( 'فرصت کمپین تولد!', 'wto'"
+
+msgid "_e( 'ماه قبل', 'wto'"
+msgstr "_e( 'ماه قبل', 'wto'"
+
+msgid "_e( 'مشاهده گزارش کامل ←', 'wto'"
+msgstr "_e( 'مشاهده گزارش کامل ←', 'wto'"
+
+msgid "_e( 'مشترکین خبرنامه', 'wto'"
+msgstr "_e( 'مشترکین خبرنامه', 'wto'"
+
+msgid "_e( 'مقایسه عملکرد', 'wto'"
+msgstr "_e( 'مقایسه عملکرد', 'wto'"
+
+msgid "_e( 'نرخ تحویل پیامک', 'wto'"
+msgstr "_e( 'نرخ تحویل پیامک', 'wto'"
+
+msgid "_e( 'نسبت به ماه قبل — عالی 🎉', 'wto'"
+msgstr "_e( 'نسبت به ماه قبل — عالی 🎉', 'wto'"
+
+msgid "_e( 'نسبت به ماه قبل — کاهش', 'wto'"
+msgstr "_e( 'نسبت به ماه قبل — کاهش', 'wto'"
+
+msgid "_e( 'هنوز تنظیم نشده', 'wto'"
+msgstr "_e( 'هنوز تنظیم نشده', 'wto'"
+
+msgid "_e( 'هنوز در ابتدای ماه', 'wto'"
+msgstr "_e( 'هنوز در ابتدای ماه', 'wto'"
+
+msgid "_e( 'وارد تنظیمات شوید', 'wto'"
+msgstr "_e( 'وارد تنظیمات شوید', 'wto'"
+
+msgid "_e( 'پیامک امروز', 'wto'"
+msgstr "_e( 'پیامک امروز', 'wto'"
+
+msgid "_e( '۷ روز اخیر: ۰', 'wto'"
+msgstr "_e( '۷ روز اخیر: ۰', 'wto'"
+
+msgid "esc_attr_e( '09121234567&#10;09127654321&#10;...', 'wto'"
+msgstr "esc_attr_e( '09121234567&#10;09127654321&#10;...', 'wto'"
+
+msgid "esc_attr_e( '09xxxxxxxxx', 'wto'"
+msgstr "esc_attr_e( '09xxxxxxxxx', 'wto'"
+
+msgid "esc_attr_e( 'باز/بستن ناوبری', 'wto'"
+msgstr "esc_attr_e( 'باز/بستن ناوبری', 'wto'"
+
+msgid "esc_attr_e( 'بازخورد یا گزارش مشکل خود را اینجا بنویسید...', 'wto'"
+msgstr "esc_attr_e( 'بازخورد یا گزارش مشکل خود را اینجا بنویسید...', 'wto'"
+
+msgid "esc_attr_e( 'بستن', 'farazsms-next'"
+msgstr "esc_attr_e( 'بستن', 'farazsms-next'"
+
+msgid "esc_attr_e( 'جستجو در شناسه یا متن', 'wto'"
+msgstr "esc_attr_e( 'جستجو در شناسه یا متن', 'wto'"
+
+msgid "esc_attr_e( 'سایت رسمی', 'wto'"
+msgstr "esc_attr_e( 'سایت رسمی', 'wto'"
+
+msgid "esc_attr_e( 'فراز اس‌ام‌اس', 'wto'"
+msgstr "esc_attr_e( 'فراز اس‌ام‌اس', 'wto'"
+
+msgid "esc_attr_e( 'متن پیامک را اینجا بنویسید...', 'wto'"
+msgstr "esc_attr_e( 'متن پیامک را اینجا بنویسید...', 'wto'"
+
+msgid "esc_attr_e( 'مشاهده تنظیمات اعتبار', 'wto'"
+msgstr "esc_attr_e( 'مشاهده تنظیمات اعتبار', 'wto'"
+
+msgid "esc_attr_e( 'موبایل، ایمیل، نام', 'wto'"
+msgstr "esc_attr_e( 'موبایل، ایمیل، نام', 'wto'"
+
+msgid "esc_attr_e( 'نام یا شماره موبایل', 'wto'"
+msgstr "esc_attr_e( 'نام یا شماره موبایل', 'wto'"
+
+msgid "esc_attr_e( 'ناوبری فراز اس‌ام‌اس', 'wto'"
+msgstr "esc_attr_e( 'ناوبری فراز اس‌ام‌اس', 'wto'"
+
+msgid "esc_attr_e( 'پیامک پترن (الگو)', 'wto'"
+msgstr "esc_attr_e( 'پیامک پترن (الگو)', 'wto'"
+
+msgid "esc_attr_e( 'کد ۶ رقمی', 'farazsms-next'"
+msgstr "esc_attr_e( 'کد ۶ رقمی', 'farazsms-next'"
+
+msgid "esc_html__( 'ابتدا در تب «تنظیمات» کلید دسترسی (Api-Key) را ذخیره کنید.', 'wto'"
+msgstr "esc_html__( 'ابتدا در تب «تنظیمات» کلید دسترسی (Api-Key) را ذخیره کنید.', 'wto'"
+
+msgid "esc_html__( 'اجرای بعدی: %s', 'wto'"
+msgstr "esc_html__( 'اجرای بعدی: %s', 'wto'"
+
+msgid "esc_html__( 'الگو: %s', 'wto'"
+msgstr "esc_html__( 'الگو: %s', 'wto'"
+
+msgid "esc_html__( 'این ماه: %s', 'wto'"
+msgstr "esc_html__( 'این ماه: %s', 'wto'"
+
+msgid "esc_html__( 'بازخورد شما با موفقیت ثبت شد.', 'wto'"
+msgstr "esc_html__( 'بازخورد شما با موفقیت ثبت شد.', 'wto'"
+
+msgid "esc_html__( 'بازگشت به لیست', 'wto'"
+msgstr "esc_html__( 'بازگشت به لیست', 'wto'"
+
+msgid "esc_html__( 'برای ارسال پیامک باید ابتدا کلید دسترسی (Api-Key) را در %s وارد کنید.', 'wto'"
+msgstr "esc_html__( 'برای ارسال پیامک باید ابتدا کلید دسترسی (Api-Key) را در %s وارد کنید.', 'wto'"
+
+msgid "esc_html__( 'برای بهبود کلیک کنید', 'wto'"
+msgstr "esc_html__( 'برای بهبود کلیک کنید', 'wto'"
+
+msgid "esc_html__( 'برای مدیریت کامل (تأیید/حذف) به %s بروید.', 'wto'"
+msgstr "esc_html__( 'برای مدیریت کامل (تأیید/حذف) به %s بروید.', 'wto'"
+
+msgid "esc_html__( 'تعداد درخواست‌ها زیاد است؛ یک ساعت بعد دوباره تلاش کنید.', 'wto'"
+msgstr "esc_html__( 'تعداد درخواست‌ها زیاد است؛ یک ساعت بعد دوباره تلاش کنید.', 'wto'"
+
+msgid "esc_html__( 'تعداد مشترکین فعال: %s', 'wto'"
+msgstr "esc_html__( 'تعداد مشترکین فعال: %s', 'wto'"
+
+msgid "esc_html__( 'تنظیمات افزونه', 'wto'"
+msgstr "esc_html__( 'تنظیمات افزونه', 'wto'"
+
+msgid "esc_html__( 'جزئیات درخواست ارسال #%s', 'wto'"
+msgstr "esc_html__( 'جزئیات درخواست ارسال #%s', 'wto'"
+
+msgid "esc_html__( 'دسترسی غیرمجاز.', 'wto'"
+msgstr "esc_html__( 'دسترسی غیرمجاز.', 'wto'"
+
+msgid "esc_html__( 'سلام %s، خوش آمدید', 'wto'"
+msgstr "esc_html__( 'سلام %s، خوش آمدید', 'wto'"
+
+msgid "esc_html__( 'شما به این صفحه دسترسی ندارید.', 'wto'"
+msgstr "esc_html__( 'شما به این صفحه دسترسی ندارید.', 'wto'"
+
+msgid "esc_html__( 'شناسه درخواست ارسال نامعتبر است.', 'wto'"
+msgstr "esc_html__( 'شناسه درخواست ارسال نامعتبر است.', 'wto'"
+
+msgid "esc_html__( 'صفحه %1$s از %2$s', 'wto'"
+msgstr "esc_html__( 'صفحه %1$s از %2$s', 'wto'"
+
+msgid "esc_html__( 'عالی!', 'wto'"
+msgstr "esc_html__( 'عالی!', 'wto'"
+
+msgid "esc_html__( 'فراز اس ام اس', 'farazsms-next'"
+msgstr "esc_html__( 'فراز اس ام اس', 'farazsms-next'"
+
+msgid "esc_html__( 'قدرت گرفته از %s', 'farazsms-next'"
+msgstr "esc_html__( 'قدرت گرفته از %s', 'farazsms-next'"
+
+msgid "esc_html__( 'لطفاً نظر خود را بنویسید.', 'wto'"
+msgstr "esc_html__( 'لطفاً نظر خود را بنویسید.', 'wto'"
+
+msgid "esc_html__( 'مجموع: %1$s درخواست — صفحه %2$s از %3$s', 'wto'"
+msgstr "esc_html__( 'مجموع: %1$s درخواست — صفحه %2$s از %3$s', 'wto'"
+
+msgid "esc_html__( 'مجموع: %1$s گیرنده — صفحه %2$s از %3$s', 'wto'"
+msgstr "esc_html__( 'مجموع: %1$s گیرنده — صفحه %2$s از %3$s', 'wto'"
+
+msgid "esc_html__( 'مدیریت دیدگاه‌های وردپرس', 'wto'"
+msgstr "esc_html__( 'مدیریت دیدگاه‌های وردپرس', 'wto'"
+
+msgid "esc_html_e( '(متن الگو در دسترس نیست)', 'wto'"
+msgstr "esc_html_e( '(متن الگو در دسترس نیست)', 'wto'"
+
+msgid "esc_html_e( 'Api-Key وارد نشده', 'wto'"
+msgstr "esc_html_e( 'Api-Key وارد نشده', 'wto'"
+
+msgid "esc_html_e( 'URL درخواست:', 'wto'"
+msgstr "esc_html_e( 'URL درخواست:', 'wto'"
+
+msgid "esc_html_e( 'cron زمان‌بندی نشده!', 'wto'"
+msgstr "esc_html_e( 'cron زمان‌بندی نشده!', 'wto'"
+
+msgid "esc_html_e( 'cron هر ۳۰ دقیقه اجرا می‌شود.', 'wto'"
+msgstr "esc_html_e( 'cron هر ۳۰ دقیقه اجرا می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'آخرین نظرات ثبت‌شده از طریق نظرسنجی', 'wto'"
+msgstr "esc_html_e( 'آخرین نظرات ثبت‌شده از طریق نظرسنجی', 'wto'"
+
+msgid "esc_html_e( 'ابتدا در صفحه «تنظیمات» کلید دسترسی (Api-Key) را ذخیره کنید.', 'wto'"
+msgstr "esc_html_e( 'ابتدا در صفحه «تنظیمات» کلید دسترسی (Api-Key) را ذخیره کنید.', 'wto'"
+
+msgid "esc_html_e( 'ابزارک‌ها', 'wto'"
+msgstr "esc_html_e( 'ابزارک‌ها', 'wto'"
+
+msgid "esc_html_e( 'اجرای دستی dispatch انجام شد.', 'wto'"
+msgstr "esc_html_e( 'اجرای دستی dispatch انجام شد.', 'wto'"
+
+msgid "esc_html_e( 'اجرای فوری dispatch (برای تست)', 'wto'"
+msgstr "esc_html_e( 'اجرای فوری dispatch (برای تست)', 'wto'"
+
+msgid "esc_html_e( 'ارزش بازیافت‌شده', 'wto'"
+msgstr "esc_html_e( 'ارزش بازیافت‌شده', 'wto'"
+
+msgid "esc_html_e( 'ارسال انبوه فقط با متن آزاد امکان‌پذیر است (متن نیاز به تأیید ناظر در پنل فراز دارد).', 'wto'"
+msgstr "esc_html_e( 'ارسال انبوه فقط با متن آزاد امکان‌پذیر است (متن نیاز به تأیید ناظر در پنل فراز دارد).', 'wto'"
+
+msgid "esc_html_e( 'ارسال به همه مشترکین فعال', 'wto'"
+msgstr "esc_html_e( 'ارسال به همه مشترکین فعال', 'wto'"
+
+msgid "esc_html_e( 'ارسال متن آزاد نیازمند تأیید ناظر در پنل فراز اس‌ام‌اس است.', 'wto'"
+msgstr "esc_html_e( 'ارسال متن آزاد نیازمند تأیید ناظر در پنل فراز اس‌ام‌اس است.', 'wto'"
+
+msgid "esc_html_e( 'ارسال پیامک تست به موبایل من', 'wto'"
+msgstr "esc_html_e( 'ارسال پیامک تست به موبایل من', 'wto'"
+
+msgid "esc_html_e( 'ارسال پیامک گروهی به مشترکین خبرنامه', 'wto'"
+msgstr "esc_html_e( 'ارسال پیامک گروهی به مشترکین خبرنامه', 'wto'"
+
+msgid "esc_html_e( 'ارسال پیامک', 'wto'"
+msgstr "esc_html_e( 'ارسال پیامک', 'wto'"
+
+msgid "esc_html_e( 'ارسال کد تأیید', 'farazsms-next'"
+msgstr "esc_html_e( 'ارسال کد تأیید', 'farazsms-next'"
+
+msgid "esc_html_e( 'ارسال', 'wto'"
+msgstr "esc_html_e( 'ارسال', 'wto'"
+
+msgid "esc_html_e( 'است و در پیامک، با لینک', 'wto'"
+msgstr "esc_html_e( 'است و در پیامک، با لینک', 'wto'"
+
+msgid "esc_html_e( 'استفاده کنید.', 'wto'"
+msgstr "esc_html_e( 'استفاده کنید.', 'wto'"
+
+msgid "esc_html_e( 'اطلاع‌رسانی شده', 'wto'"
+msgstr "esc_html_e( 'اطلاع‌رسانی شده', 'wto'"
+
+msgid "esc_html_e( 'اطلاع‌رسانی', 'wto'"
+msgstr "esc_html_e( 'اطلاع‌رسانی', 'wto'"
+
+msgid "esc_html_e( 'اعتبار رایگانی که می‌دهید، فقط در همان فروشگاه شما قابل استفاده است. هزینه‌ای ندارد، اما بازدیدکننده را به یک «مشتری ثبت‌نام‌شده» تبدیل می‌کند که می‌توانید بعداً با پیامک، تخفیف و کمپین به او پیشنهاد بدهید.', 'farazsms-next'"
+msgstr "esc_html_e( 'اعتبار رایگانی که می‌دهید، فقط در همان فروشگاه شما قابل استفاده است. هزینه‌ای ندارد، اما بازدیدکننده را به یک «مشتری ثبت‌نام‌شده» تبدیل می‌کند که می‌توانید بعداً با پیامک، تخفیف و کمپین به او پیشنهاد بدهید.', 'farazsms-next'"
+
+msgid "esc_html_e( 'اعتبار پنل', 'wto'"
+msgstr "esc_html_e( 'اعتبار پنل', 'wto'"
+
+msgid "esc_html_e( 'اعتبار:', 'wto'"
+msgstr "esc_html_e( 'اعتبار:', 'wto'"
+
+msgid "esc_html_e( 'اعمال فیلتر', 'wto'"
+msgstr "esc_html_e( 'اعمال فیلتر', 'wto'"
+
+msgid "esc_html_e( 'اعمال', 'wto'"
+msgstr "esc_html_e( 'اعمال', 'wto'"
+
+msgid "esc_html_e( 'افزونه فراز اس‌ام‌اس', 'wto'"
+msgstr "esc_html_e( 'افزونه فراز اس‌ام‌اس', 'wto'"
+
+msgid "esc_html_e( 'اقلام', 'wto'"
+msgstr "esc_html_e( 'اقلام', 'wto'"
+
+msgid "esc_html_e( 'الزامی — متغیرهای قابل استفاده در متن الگو:', 'wto'"
+msgstr "esc_html_e( 'الزامی — متغیرهای قابل استفاده در متن الگو:', 'wto'"
+
+msgid "esc_html_e( 'الزامی — متغیرهای قابل استفاده:', 'wto'"
+msgstr "esc_html_e( 'الزامی — متغیرهای قابل استفاده:', 'wto'"
+
+msgid "esc_html_e( 'الگو (پترن)', 'wto'"
+msgstr "esc_html_e( 'الگو (پترن)', 'wto'"
+
+msgid "esc_html_e( 'الگو می‌تواند متغیر %name% داشته باشد. نام برند را به‌صورت ثابت در متن الگو بنویسید.', 'wto'"
+msgstr "esc_html_e( 'الگو می‌تواند متغیر %name% داشته باشد. نام برند را به‌صورت ثابت در متن الگو بنویسید.', 'wto'"
+
+msgid "esc_html_e( 'امتیاز', 'wto'"
+msgstr "esc_html_e( 'امتیاز', 'wto'"
+
+msgid "esc_html_e( 'انتخاب از دفترچه‌های ذخیره‌شده در پنل فراز', 'wto'"
+msgstr "esc_html_e( 'انتخاب از دفترچه‌های ذخیره‌شده در پنل فراز', 'wto'"
+
+msgid "esc_html_e( 'انتخاب دفترچه تلفن:', 'wto'"
+msgstr "esc_html_e( 'انتخاب دفترچه تلفن:', 'wto'"
+
+msgid "esc_html_e( 'انتخاب گیرندگان', 'wto'"
+msgstr "esc_html_e( 'انتخاب گیرندگان', 'wto'"
+
+msgid "esc_html_e( 'انقضاء (روز)', 'wto'"
+msgstr "esc_html_e( 'انقضاء (روز)', 'wto'"
+
+msgid "esc_html_e( 'اگر داده‌ها به‌درستی نمایش داده نمی‌شود، با', 'wto'"
+msgstr "esc_html_e( 'اگر داده‌ها به‌درستی نمایش داده نمی‌شود، با', 'wto'"
+
+msgid "esc_html_e( 'اگر هنوز الگو نساخته‌اید، در بخش روبرو متن را وارد کرده و دکمه «ساخت الگو» را بزنید.', 'wto'"
+msgstr "esc_html_e( 'اگر هنوز الگو نساخته‌اید، در بخش روبرو متن را وارد کرده و دکمه «ساخت الگو» را بزنید.', 'wto'"
+
+msgid "esc_html_e( 'اگر کاربر شماره موبایل را در checkout وارد کند ولی پرداخت را تکمیل نکند، آن شماره برای ارسال یادآوری استفاده می‌شود.', 'wto'"
+msgstr "esc_html_e( 'اگر کاربر شماره موبایل را در checkout وارد کند ولی پرداخت را تکمیل نکند، آن شماره برای ارسال یادآوری استفاده می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'این داشبورد به شما نمای کلی از وضعیت پلاگین، آمار ارسال و دسترسی سریع به تمام قابلیت‌ها را می‌دهد.', 'wto'"
+msgstr "esc_html_e( 'این داشبورد به شما نمای کلی از وضعیت پلاگین، آمار ارسال و دسترسی سریع به تمام قابلیت‌ها را می‌دهد.', 'wto'"
+
+msgid "esc_html_e( 'این صفحه به‌صورت خودکار هنگام فعال‌سازی افزونه ساخته شد. شورت‌کد آن', 'wto'"
+msgstr "esc_html_e( 'این صفحه به‌صورت خودکار هنگام فعال‌سازی افزونه ساخته شد. شورت‌کد آن', 'wto'"
+
+msgid "esc_html_e( 'این فیلدها در نسخه فعلی پیدا نشدند:', 'wto'"
+msgstr "esc_html_e( 'این فیلدها در نسخه فعلی پیدا نشدند:', 'wto'"
+
+msgid "esc_html_e( 'این قابلیت نیازمند ووکامرس است. لطفاً ابتدا ووکامرس را نصب و فعال کنید.', 'wto'"
+msgstr "esc_html_e( 'این قابلیت نیازمند ووکامرس است. لطفاً ابتدا ووکامرس را نصب و فعال کنید.', 'wto'"
+
+msgid "esc_html_e( 'این قابلیت نیازمند ووکامرس است.', 'wto'"
+msgstr "esc_html_e( 'این قابلیت نیازمند ووکامرس است.', 'wto'"
+
+msgid "esc_html_e( 'با ارسال «پیامک تست» مطمئن شوید همه‌چیز درست کار می‌کند.', 'wto'"
+msgstr "esc_html_e( 'با ارسال «پیامک تست» مطمئن شوید همه‌چیز درست کار می‌کند.', 'wto'"
+
+msgid "esc_html_e( 'با تغییر وضعیت سفارش، پیامک نظرسنجی برنامه‌ریزی می‌شود.', 'wto'"
+msgstr "esc_html_e( 'با تغییر وضعیت سفارش، پیامک نظرسنجی برنامه‌ریزی می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'با وارد کردن شماره موبایل و دریافت کد، صحت شماره شما تأیید می‌شود.', 'farazsms-next'"
+msgstr "esc_html_e( 'با وارد کردن شماره موبایل و دریافت کد، صحت شماره شما تأیید می‌شود.', 'farazsms-next'"
+
+msgid "esc_html_e( 'بازخورد و گزارش مشکل', 'wto'"
+msgstr "esc_html_e( 'بازخورد و گزارش مشکل', 'wto'"
+
+msgid "esc_html_e( 'بازگشت به لیست', 'wto'"
+msgstr "esc_html_e( 'بازگشت به لیست', 'wto'"
+
+msgid "esc_html_e( 'بازگشت مشتری', 'farazsms-next'"
+msgstr "esc_html_e( 'بازگشت مشتری', 'farazsms-next'"
+
+msgid "esc_html_e( 'بازیافت', 'wto'"
+msgstr "esc_html_e( 'بازیافت', 'wto'"
+
+msgid "esc_html_e( 'برای ثبت بازخورد، Api-Key لازم است.', 'wto'"
+msgstr "esc_html_e( 'برای ثبت بازخورد، Api-Key لازم است.', 'wto'"
+
+msgid "esc_html_e( 'برای دریافت Api-Key:', 'wto'"
+msgstr "esc_html_e( 'برای دریافت Api-Key:', 'wto'"
+
+msgid "esc_html_e( 'برای شروع، کلید دسترسی (Api-Key) را در صفحه تنظیمات وارد کنید.', 'wto'"
+msgstr "esc_html_e( 'برای شروع، کلید دسترسی (Api-Key) را در صفحه تنظیمات وارد کنید.', 'wto'"
+
+msgid "esc_html_e( 'برای شروع، کلید دسترسی (Api-Key) را وارد کنید — این کلید ارتباط افزونه با سامانه پیامکی شما را برقرار می‌کند.', 'wto'"
+msgstr "esc_html_e( 'برای شروع، کلید دسترسی (Api-Key) را وارد کنید — این کلید ارتباط افزونه با سامانه پیامکی شما را برقرار می‌کند.', 'wto'"
+
+msgid "esc_html_e( 'برای نمایش در سایدبار یا فوتر می‌توانید از ویجت «خبرنامه فراز اس‌ام‌اس» در', 'wto'"
+msgstr "esc_html_e( 'برای نمایش در سایدبار یا فوتر می‌توانید از ویجت «خبرنامه فراز اس‌ام‌اس» در', 'wto'"
+
+msgid "esc_html_e( 'برچسب فیلد موبایل', 'wto'"
+msgstr "esc_html_e( 'برچسب فیلد موبایل', 'wto'"
+
+msgid "esc_html_e( 'برچسب فیلد نام', 'wto'"
+msgstr "esc_html_e( 'برچسب فیلد نام', 'wto'"
+
+msgid "esc_html_e( 'بعد', 'wto'"
+msgstr "esc_html_e( 'بعد', 'wto'"
+
+msgid "esc_html_e( 'به افزونه فراز اس‌ام‌اس خوش آمدید!', 'wto'"
+msgstr "esc_html_e( 'به افزونه فراز اس‌ام‌اس خوش آمدید!', 'wto'"
+
+msgid "esc_html_e( 'به افزونه فراز اس‌ام‌اس خوش آمدید', 'wto'"
+msgstr "esc_html_e( 'به افزونه فراز اس‌ام‌اس خوش آمدید', 'wto'"
+
+msgid "esc_html_e( 'به مشتری ارسال می‌شود.', 'wto'"
+msgstr "esc_html_e( 'به مشتری ارسال می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'تأخیر ارسال (روز)', 'wto'"
+msgstr "esc_html_e( 'تأخیر ارسال (روز)', 'wto'"
+
+msgid "esc_html_e( 'تأخیر ارسال (ساعت)', 'wto'"
+msgstr "esc_html_e( 'تأخیر ارسال (ساعت)', 'wto'"
+
+msgid "esc_html_e( 'تأخیر ارسال پس از موجود شدن (ثانیه)', 'wto'"
+msgstr "esc_html_e( 'تأخیر ارسال پس از موجود شدن (ثانیه)', 'wto'"
+
+msgid "esc_html_e( 'تا ۳ برابر بازدیدکننده‌های سایت‌تان را به مشتری تبدیل کنید', 'farazsms-next'"
+msgstr "esc_html_e( 'تا ۳ برابر بازدیدکننده‌های سایت‌تان را به مشتری تبدیل کنید', 'farazsms-next'"
+
+msgid "esc_html_e( 'تاریخ ایجاد', 'wto'"
+msgstr "esc_html_e( 'تاریخ ایجاد', 'wto'"
+
+msgid "esc_html_e( 'تاریخ ثبت', 'wto'"
+msgstr "esc_html_e( 'تاریخ ثبت', 'wto'"
+
+msgid "esc_html_e( 'تاریخ عضویت', 'wto'"
+msgstr "esc_html_e( 'تاریخ عضویت', 'wto'"
+
+msgid "esc_html_e( 'تاریخ', 'wto'"
+msgstr "esc_html_e( 'تاریخ', 'wto'"
+
+msgid "esc_html_e( 'تاریخچه ارسال‌ها', 'wto'"
+msgstr "esc_html_e( 'تاریخچه ارسال‌ها', 'wto'"
+
+msgid "esc_html_e( 'تعداد بازیافت پس از پیامک', 'wto'"
+msgstr "esc_html_e( 'تعداد بازیافت پس از پیامک', 'wto'"
+
+msgid "esc_html_e( 'تعداد در صفحه:', 'wto'"
+msgstr "esc_html_e( 'تعداد در صفحه:', 'wto'"
+
+msgid "esc_html_e( 'تعداد گیرنده', 'wto'"
+msgstr "esc_html_e( 'تعداد گیرنده', 'wto'"
+
+msgid "esc_html_e( 'تنظیمات «موجود شد خبرم کن»', 'wto'"
+msgstr "esc_html_e( 'تنظیمات «موجود شد خبرم کن»', 'wto'"
+
+msgid "esc_html_e( 'تنظیمات اصلی', 'wto'"
+msgstr "esc_html_e( 'تنظیمات اصلی', 'wto'"
+
+msgid "esc_html_e( 'تنظیمات خبرنامه', 'wto'"
+msgstr "esc_html_e( 'تنظیمات خبرنامه', 'wto'"
+
+msgid "esc_html_e( 'تنظیمات ذخیره شد.', 'wto'"
+msgstr "esc_html_e( 'تنظیمات ذخیره شد.', 'wto'"
+
+msgid "esc_html_e( 'تنظیمات سبد رها‌شده', 'wto'"
+msgstr "esc_html_e( 'تنظیمات سبد رها‌شده', 'wto'"
+
+msgid "esc_html_e( 'تنظیمات و وارد کردن Api-Key', 'wto'"
+msgstr "esc_html_e( 'تنظیمات و وارد کردن Api-Key', 'wto'"
+
+msgid "esc_html_e( 'توضیح زیر عنوان', 'wto'"
+msgstr "esc_html_e( 'توضیح زیر عنوان', 'wto'"
+
+msgid "esc_html_e( 'توضیح فرم', 'wto'"
+msgstr "esc_html_e( 'توضیح فرم', 'wto'"
+
+msgid "esc_html_e( 'توضیح', 'wto'"
+msgstr "esc_html_e( 'توضیح', 'wto'"
+
+msgid "esc_html_e( 'تومان', 'wto'"
+msgstr "esc_html_e( 'تومان', 'wto'"
+
+msgid "esc_html_e( 'ثبت بازخورد', 'wto'"
+msgstr "esc_html_e( 'ثبت بازخورد', 'wto'"
+
+msgid "esc_html_e( 'ثبت‌نام با موبایل', 'wto'"
+msgstr "esc_html_e( 'ثبت‌نام با موبایل', 'wto'"
+
+msgid "esc_html_e( 'جزئیات', 'wto'"
+msgstr "esc_html_e( 'جزئیات', 'wto'"
+
+msgid "esc_html_e( 'جستجو موبایل:', 'wto'"
+msgstr "esc_html_e( 'جستجو موبایل:', 'wto'"
+
+msgid "esc_html_e( 'جستجو:', 'wto'"
+msgstr "esc_html_e( 'جستجو:', 'wto'"
+
+msgid "esc_html_e( 'جستجوی شماره/متن:', 'wto'"
+msgstr "esc_html_e( 'جستجوی شماره/متن:', 'wto'"
+
+msgid "esc_html_e( 'حداقل ۱۰ ثانیه. مقدار پیش‌فرض ۶۰ ثانیه برای فرصت undo توسط مدیر.', 'wto'"
+msgstr "esc_html_e( 'حداقل ۱۰ ثانیه. مقدار پیش‌فرض ۶۰ ثانیه برای فرصت undo توسط مدیر.', 'wto'"
+
+msgid "esc_html_e( 'حذف انتخاب‌شده‌ها', 'wto'"
+msgstr "esc_html_e( 'حذف انتخاب‌شده‌ها', 'wto'"
+
+msgid "esc_html_e( 'خبرنامه پیامکی', 'wto'"
+msgstr "esc_html_e( 'خبرنامه پیامکی', 'wto'"
+
+msgid "esc_html_e( 'خط PRO (پیش‌فرض)', 'wto'"
+msgstr "esc_html_e( 'خط PRO (پیش‌فرض)', 'wto'"
+
+msgid "esc_html_e( 'خط ارسال', 'wto'"
+msgstr "esc_html_e( 'خط ارسال', 'wto'"
+
+msgid "esc_html_e( 'خط ارسال‌کننده', 'wto'"
+msgstr "esc_html_e( 'خط ارسال‌کننده', 'wto'"
+
+msgid "esc_html_e( 'خط:', 'wto'"
+msgstr "esc_html_e( 'خط:', 'wto'"
+
+msgid "esc_html_e( 'دانلود CSV', 'wto'"
+msgstr "esc_html_e( 'دانلود CSV', 'wto'"
+
+msgid "esc_html_e( 'در انتظار', 'wto'"
+msgstr "esc_html_e( 'در انتظار', 'wto'"
+
+msgid "esc_html_e( 'در حال بارگذاری...', 'wto'"
+msgstr "esc_html_e( 'در حال بارگذاری...', 'wto'"
+
+msgid "esc_html_e( 'در حال محاسبه...', 'wto'"
+msgstr "esc_html_e( 'در حال محاسبه...', 'wto'"
+
+msgid "esc_html_e( 'در پنل کنار، متن الگو را بنویسید (نمونه از قبل پر شده). از متغیرها استفاده کنید.', 'wto'"
+msgstr "esc_html_e( 'در پنل کنار، متن الگو را بنویسید (نمونه از قبل پر شده). از متغیرها استفاده کنید.', 'wto'"
+
+msgid "esc_html_e( 'دفترچه تلفن پنل پیامکی', 'wto'"
+msgstr "esc_html_e( 'دفترچه تلفن پنل پیامکی', 'wto'"
+
+msgid "esc_html_e( 'دیتابیس مشتری', 'farazsms-next'"
+msgstr "esc_html_e( 'دیتابیس مشتری', 'farazsms-next'"
+
+msgid "esc_html_e( 'ذخیره تنظیمات', 'wto'"
+msgstr "esc_html_e( 'ذخیره تنظیمات', 'wto'"
+
+msgid "esc_html_e( 'راهنمای گام‌به‌گام', 'wto'"
+msgstr "esc_html_e( 'راهنمای گام‌به‌گام', 'wto'"
+
+msgid "esc_html_e( 'ردیابی سبد رها‌شده و ارسال پیامک یادآوری فعال است.', 'wto'"
+msgstr "esc_html_e( 'ردیابی سبد رها‌شده و ارسال پیامک یادآوری فعال است.', 'wto'"
+
+msgid "esc_html_e( 'رشد ثبت‌نام', 'farazsms-next'"
+msgstr "esc_html_e( 'رشد ثبت‌نام', 'farazsms-next'"
+
+msgid "esc_html_e( 'رفتن به تنظیمات', 'wto'"
+msgstr "esc_html_e( 'رفتن به تنظیمات', 'wto'"
+
+msgid "esc_html_e( 'روی «ساخت الگو» کلیک کنید — درخواست تأیید الگو در پنل فراز اس‌ام‌اس ثبت می‌شود.', 'wto'"
+msgstr "esc_html_e( 'روی «ساخت الگو» کلیک کنید — درخواست تأیید الگو در پنل فراز اس‌ام‌اس ثبت می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'زمان‌بندی wp-cron:', 'wto'"
+msgstr "esc_html_e( 'زمان‌بندی wp-cron:', 'wto'"
+
+msgid "esc_html_e( 'ساخت الگو از روی متن', 'wto'"
+msgstr "esc_html_e( 'ساخت الگو از روی متن', 'wto'"
+
+msgid "esc_html_e( 'ساخت الگو', 'wto'"
+msgstr "esc_html_e( 'ساخت الگو', 'wto'"
+
+msgid "esc_html_e( 'سایت رسمی', 'wto'"
+msgstr "esc_html_e( 'سایت رسمی', 'wto'"
+
+msgid "esc_html_e( 'سبد بازیافت‌شده', 'wto'"
+msgstr "esc_html_e( 'سبد بازیافت‌شده', 'wto'"
+
+msgid "esc_html_e( 'سبد خرید رها‌شده', 'wto'"
+msgstr "esc_html_e( 'سبد خرید رها‌شده', 'wto'"
+
+msgid "esc_html_e( 'سبد رهاشده (۷ روز)', 'wto'"
+msgstr "esc_html_e( 'سبد رهاشده (۷ روز)', 'wto'"
+
+msgid "esc_html_e( 'سبدهای قدیمی‌تر از این مدت دیگر پیامک نخواهند گرفت.', 'wto'"
+msgstr "esc_html_e( 'سبدهای قدیمی‌تر از این مدت دیگر پیامک نخواهند گرفت.', 'wto'"
+
+msgid "esc_html_e( 'سفارش', 'wto'"
+msgstr "esc_html_e( 'سفارش', 'wto'"
+
+msgid "esc_html_e( 'سفارش‌هایی که نظر ثبت کردند', 'wto'"
+msgstr "esc_html_e( 'سفارش‌هایی که نظر ثبت کردند', 'wto'"
+
+msgid "esc_html_e( 'سقف ارسال در هر اجرای cron', 'wto'"
+msgstr "esc_html_e( 'سقف ارسال در هر اجرای cron', 'wto'"
+
+msgid "esc_html_e( 'شماره ارسال‌کننده', 'wto'"
+msgstr "esc_html_e( 'شماره ارسال‌کننده', 'wto'"
+
+msgid "esc_html_e( 'شماره موبایل‌ها:', 'wto'"
+msgstr "esc_html_e( 'شماره موبایل‌ها:', 'wto'"
+
+msgid "esc_html_e( 'شناسه', 'wto'"
+msgstr "esc_html_e( 'شناسه', 'wto'"
+
+msgid "esc_html_e( 'شورت‌کد نمایش فرم در پست/صفحه/سایدبار:', 'wto'"
+msgstr "esc_html_e( 'شورت‌کد نمایش فرم در پست/صفحه/سایدبار:', 'wto'"
+
+msgid "esc_html_e( 'صفحه بعد', 'wto'"
+msgstr "esc_html_e( 'صفحه بعد', 'wto'"
+
+msgid "esc_html_e( 'صفحه قبل', 'wto'"
+msgstr "esc_html_e( 'صفحه قبل', 'wto'"
+
+msgid "esc_html_e( 'صفحه نظرسنجی:', 'wto'"
+msgstr "esc_html_e( 'صفحه نظرسنجی:', 'wto'"
+
+msgid "esc_html_e( 'ضبط موبایل از فرم checkout', 'wto'"
+msgstr "esc_html_e( 'ضبط موبایل از فرم checkout', 'wto'"
+
+msgid "esc_html_e( 'عملیات', 'wto'"
+msgstr "esc_html_e( 'عملیات', 'wto'"
+
+msgid "esc_html_e( 'عنوان فرم', 'wto'"
+msgstr "esc_html_e( 'عنوان فرم', 'wto'"
+
+msgid "esc_html_e( 'عنوان', 'wto'"
+msgstr "esc_html_e( 'عنوان', 'wto'"
+
+msgid "esc_html_e( 'فعال کردن حالت دیباگ', 'wto'"
+msgstr "esc_html_e( 'فعال کردن حالت دیباگ', 'wto'"
+
+msgid "esc_html_e( 'فعال — دکمه روی صفحه محصولات ناموجود ووکامرس نمایش داده می‌شود.', 'wto'"
+msgstr "esc_html_e( 'فعال — دکمه روی صفحه محصولات ناموجود ووکامرس نمایش داده می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'فعال', 'wto'"
+msgstr "esc_html_e( 'فعال', 'wto'"
+
+msgid "esc_html_e( 'فعال‌سازی فرم عضویت', 'wto'"
+msgstr "esc_html_e( 'فعال‌سازی فرم عضویت', 'wto'"
+
+msgid "esc_html_e( 'فعال‌سازی', 'wto'"
+msgstr "esc_html_e( 'فعال‌سازی', 'wto'"
+
+msgid "esc_html_e( 'قبل', 'wto'"
+msgstr "esc_html_e( 'قبل', 'wto'"
+
+msgid "esc_html_e( 'لغو شده', 'wto'"
+msgstr "esc_html_e( 'لغو شده', 'wto'"
+
+msgid "esc_html_e( 'لید مگنت یک پنجره‌ی ظریف در گوشه‌ی سایت است که به بازدیدکنندگان «اعتبار رایگان» در ازای شماره موبایل پیشنهاد می‌دهد. فروشگاه‌هایی که این قابلیت را فعال نگه می‌دارند، به‌طور میانگین:', 'farazsms-next'"
+msgstr "esc_html_e( 'لید مگنت یک پنجره‌ی ظریف در گوشه‌ی سایت است که به بازدیدکنندگان «اعتبار رایگان» در ازای شماره موبایل پیشنهاد می‌دهد. فروشگاه‌هایی که این قابلیت را فعال نگه می‌دارند، به‌طور میانگین:', 'farazsms-next'"
+
+msgid "esc_html_e( 'لیست خطوط در دسترس شما از پنل فراز اس‌ام‌اس خوانده می‌شود. اگر خط اختصاصی ندارید، خط PRO پیش‌فرض است.', 'wto'"
+msgstr "esc_html_e( 'لیست خطوط در دسترس شما از پنل فراز اس‌ام‌اس خوانده می‌شود. اگر خط اختصاصی ندارید، خط PRO پیش‌فرض است.', 'wto'"
+
+msgid "esc_html_e( 'لیست دفترچه‌ها به همراه تعداد اعضای هر کدام از پنل فراز خوانده می‌شود. پیامک به همه اعضای دفترچه‌ی انتخاب‌شده ارسال خواهد شد.', 'wto'"
+msgstr "esc_html_e( 'لیست دفترچه‌ها به همراه تعداد اعضای هر کدام از پنل فراز خوانده می‌شود. پیامک به همه اعضای دفترچه‌ی انتخاب‌شده ارسال خواهد شد.', 'wto'"
+
+msgid "esc_html_e( 'لینک ریدایرکت بعد از عضویت (اختیاری)', 'wto'"
+msgstr "esc_html_e( 'لینک ریدایرکت بعد از عضویت (اختیاری)', 'wto'"
+
+msgid "esc_html_e( 'مبلغ', 'wto'"
+msgstr "esc_html_e( 'مبلغ', 'wto'"
+
+msgid "esc_html_e( 'متغیر قابل استفاده در متن الگو:', 'wto'"
+msgstr "esc_html_e( 'متغیر قابل استفاده در متن الگو:', 'wto'"
+
+msgid "esc_html_e( 'متغیرهای قابل استفاده در متن الگو', 'wto'"
+msgstr "esc_html_e( 'متغیرهای قابل استفاده در متن الگو', 'wto'"
+
+msgid "esc_html_e( 'متن آزاد', 'wto'"
+msgstr "esc_html_e( 'متن آزاد', 'wto'"
+
+msgid "esc_html_e( 'متن ارسالی', 'wto'"
+msgstr "esc_html_e( 'متن ارسالی', 'wto'"
+
+msgid "esc_html_e( 'متن الگو را در پایین بنویسید (می‌توانید از متغیرهای فهرست‌شده استفاده کنید) و دکمه «ساخت الگو» را بزنید. کد الگو خودکار در فیلد سمت چپ نوشته می‌شود.', 'wto'"
+msgstr "esc_html_e( 'متن الگو را در پایین بنویسید (می‌توانید از متغیرهای فهرست‌شده استفاده کنید) و دکمه «ساخت الگو» را بزنید. کد الگو خودکار در فیلد سمت چپ نوشته می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'متن بازخورد', 'wto'"
+msgstr "esc_html_e( 'متن بازخورد', 'wto'"
+
+msgid "esc_html_e( 'متن دکمه بعد از ثبت', 'wto'"
+msgstr "esc_html_e( 'متن دکمه بعد از ثبت', 'wto'"
+
+msgid "esc_html_e( 'متن دکمه ثبت', 'wto'"
+msgstr "esc_html_e( 'متن دکمه ثبت', 'wto'"
+
+msgid "esc_html_e( 'متن دکمه', 'wto'"
+msgstr "esc_html_e( 'متن دکمه', 'wto'"
+
+msgid "esc_html_e( 'متن پیام', 'wto'"
+msgstr "esc_html_e( 'متن پیام', 'wto'"
+
+msgid "esc_html_e( 'متن پیامک', 'wto'"
+msgstr "esc_html_e( 'متن پیامک', 'wto'"
+
+msgid "esc_html_e( 'متن پیامک:', 'wto'"
+msgstr "esc_html_e( 'متن پیامک:', 'wto'"
+
+msgid "esc_html_e( 'متن', 'wto'"
+msgstr "esc_html_e( 'متن', 'wto'"
+
+msgid "esc_html_e( 'مجموع ارزش سفارش‌های بازیافت‌شده', 'wto'"
+msgstr "esc_html_e( 'مجموع ارزش سفارش‌های بازیافت‌شده', 'wto'"
+
+msgid "esc_html_e( 'مجموع ارزش همه سبدهای رها‌شده', 'wto'"
+msgstr "esc_html_e( 'مجموع ارزش همه سبدهای رها‌شده', 'wto'"
+
+msgid "esc_html_e( 'مجموع درخواست‌ها', 'wto'"
+msgstr "esc_html_e( 'مجموع درخواست‌ها', 'wto'"
+
+msgid "esc_html_e( 'مجموع', 'wto'"
+msgstr "esc_html_e( 'مجموع', 'wto'"
+
+msgid "esc_html_e( 'محصول در انتظار', 'wto'"
+msgstr "esc_html_e( 'محصول در انتظار', 'wto'"
+
+msgid "esc_html_e( 'محصول', 'wto'"
+msgstr "esc_html_e( 'محصول', 'wto'"
+
+msgid "esc_html_e( 'مدیریت کلیدهای دسترسی', 'wto'"
+msgstr "esc_html_e( 'مدیریت کلیدهای دسترسی', 'wto'"
+
+msgid "esc_html_e( 'مرور نظرات در انتظار تأیید →', 'wto'"
+msgstr "esc_html_e( 'مرور نظرات در انتظار تأیید →', 'wto'"
+
+msgid "esc_html_e( 'مرور', 'wto'"
+msgstr "esc_html_e( 'مرور', 'wto'"
+
+msgid "esc_html_e( 'مشاهده صفحه نظرسنجی →', 'wto'"
+msgstr "esc_html_e( 'مشاهده صفحه نظرسنجی →', 'wto'"
+
+msgid "esc_html_e( 'مشترکین خبرنامه', 'wto'"
+msgstr "esc_html_e( 'مشترکین خبرنامه', 'wto'"
+
+msgid "esc_html_e( 'مشتری', 'wto'"
+msgstr "esc_html_e( 'مشتری', 'wto'"
+
+msgid "esc_html_e( 'مطمئن شوید کلید دسترسی (Api-Key) در «تنظیمات» افزونه وارد شده.', 'wto'"
+msgstr "esc_html_e( 'مطمئن شوید کلید دسترسی (Api-Key) در «تنظیمات» افزونه وارد شده.', 'wto'"
+
+msgid "esc_html_e( 'منبع', 'wto'"
+msgstr "esc_html_e( 'منبع', 'wto'"
+
+msgid "esc_html_e( 'منقضی‌شده', 'wto'"
+msgstr "esc_html_e( 'منقضی‌شده', 'wto'"
+
+msgid "esc_html_e( 'موبایل', 'wto'"
+msgstr "esc_html_e( 'موبایل', 'wto'"
+
+msgid "esc_html_e( 'موجود شد خبرم کن', 'wto'"
+msgstr "esc_html_e( 'موجود شد خبرم کن', 'wto'"
+
+msgid "esc_html_e( 'موفق', 'wto'"
+msgstr "esc_html_e( 'موفق', 'wto'"
+
+msgid "esc_html_e( 'میزان اعتبار: ', 'wto'"
+msgstr "esc_html_e( 'میزان اعتبار: ', 'wto'"
+
+msgid "esc_html_e( 'می‌توانید پاسخ خام API را ببینید و برای پشتیبانی ارسال کنید.', 'wto'"
+msgstr "esc_html_e( 'می‌توانید پاسخ خام API را ببینید و برای پشتیبانی ارسال کنید.', 'wto'"
+
+msgid "esc_html_e( 'نام', 'wto'"
+msgstr "esc_html_e( 'نام', 'wto'"
+
+msgid "esc_html_e( 'ناموفق', 'wto'"
+msgstr "esc_html_e( 'ناموفق', 'wto'"
+
+msgid "esc_html_e( 'نرخ بازیافت پس از پیامک', 'wto'"
+msgstr "esc_html_e( 'نرخ بازیافت پس از پیامک', 'wto'"
+
+msgid "esc_html_e( 'نرخ بازیافت کلی', 'wto'"
+msgstr "esc_html_e( 'نرخ بازیافت کلی', 'wto'"
+
+msgid "esc_html_e( 'نرخ تبدیل', 'wto'"
+msgstr "esc_html_e( 'نرخ تبدیل', 'wto'"
+
+msgid "esc_html_e( 'نظر، پیشنهاد یا گزارش مشکل خود را بنویسید؛ پس از ثبت، مستقیماً به پشتیبانی فراز اس‌ام‌اس ارسال می‌شود.', 'wto'"
+msgstr "esc_html_e( 'نظر، پیشنهاد یا گزارش مشکل خود را بنویسید؛ پس از ثبت، مستقیماً به پشتیبانی فراز اس‌ام‌اس ارسال می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'نظرات در انتظار تأیید', 'wto'"
+msgstr "esc_html_e( 'نظرات در انتظار تأیید', 'wto'"
+
+msgid "esc_html_e( 'نظرسنجی پس از خرید', 'wto'"
+msgstr "esc_html_e( 'نظرسنجی پس از خرید', 'wto'"
+
+msgid "esc_html_e( 'نوع ارسال', 'wto'"
+msgstr "esc_html_e( 'نوع ارسال', 'wto'"
+
+msgid "esc_html_e( 'نوع پیامک', 'wto'"
+msgstr "esc_html_e( 'نوع پیامک', 'wto'"
+
+msgid "esc_html_e( 'نکته:', 'wto'"
+msgstr "esc_html_e( 'نکته:', 'wto'"
+
+msgid "esc_html_e( 'هزینه راه‌اندازی', 'farazsms-next'"
+msgstr "esc_html_e( 'هزینه راه‌اندازی', 'farazsms-next'"
+
+msgid "esc_html_e( 'همه', 'wto'"
+msgstr "esc_html_e( 'همه', 'wto'"
+
+msgid "esc_html_e( 'هنوز فعال (در انتظار)', 'wto'"
+msgstr "esc_html_e( 'هنوز فعال (در انتظار)', 'wto'"
+
+msgid "esc_html_e( 'هنوز نظری از طریق نظرسنجی ثبت نشده.', 'wto'"
+msgstr "esc_html_e( 'هنوز نظری از طریق نظرسنجی ثبت نشده.', 'wto'"
+
+msgid "esc_html_e( 'هنوز هیچ ارسالی انجام نشده.', 'wto'"
+msgstr "esc_html_e( 'هنوز هیچ ارسالی انجام نشده.', 'wto'"
+
+msgid "esc_html_e( 'هیچ درخواست ارسالی یافت نشد.', 'wto'"
+msgstr "esc_html_e( 'هیچ درخواست ارسالی یافت نشد.', 'wto'"
+
+msgid "esc_html_e( 'هیچ درخواستی یافت نشد.', 'wto'"
+msgstr "esc_html_e( 'هیچ درخواستی یافت نشد.', 'wto'"
+
+msgid "esc_html_e( 'هیچ سبد رهاشده‌ای ثبت نشده.', 'wto'"
+msgstr "esc_html_e( 'هیچ سبد رهاشده‌ای ثبت نشده.', 'wto'"
+
+msgid "esc_html_e( 'هیچ مشترکی یافت نشد.', 'wto'"
+msgstr "esc_html_e( 'هیچ مشترکی یافت نشد.', 'wto'"
+
+msgid "esc_html_e( 'هیچ گیرنده‌ای یافت نشد.', 'wto'"
+msgstr "esc_html_e( 'هیچ گیرنده‌ای یافت نشد.', 'wto'"
+
+msgid "esc_html_e( 'وارد کردن دستی', 'wto'"
+msgstr "esc_html_e( 'وارد کردن دستی', 'wto'"
+
+msgid "esc_html_e( 'ورود به صفحه تنظیمات', 'wto'"
+msgstr "esc_html_e( 'ورود به صفحه تنظیمات', 'wto'"
+
+msgid "esc_html_e( 'ورود به پنل فراز اس‌ام‌اس', 'wto'"
+msgstr "esc_html_e( 'ورود به پنل فراز اس‌ام‌اس', 'wto'"
+
+msgid "esc_html_e( 'ورود به پنل', 'wto'"
+msgstr "esc_html_e( 'ورود به پنل', 'wto'"
+
+msgid "esc_html_e( 'وضعیت ارسال به گیرندگان', 'wto'"
+msgstr "esc_html_e( 'وضعیت ارسال به گیرندگان', 'wto'"
+
+msgid "esc_html_e( 'وضعیت تحویل:', 'wto'"
+msgstr "esc_html_e( 'وضعیت تحویل:', 'wto'"
+
+msgid "esc_html_e( 'وضعیت سفارش برای ارسال', 'wto'"
+msgstr "esc_html_e( 'وضعیت سفارش برای ارسال', 'wto'"
+
+msgid "esc_html_e( 'وضعیت سفارش و تأخیر روز را انتخاب و ذخیره کنید.', 'wto'"
+msgstr "esc_html_e( 'وضعیت سفارش و تأخیر روز را انتخاب و ذخیره کنید.', 'wto'"
+
+msgid "esc_html_e( 'وضعیت', 'wto'"
+msgstr "esc_html_e( 'وضعیت', 'wto'"
+
+msgid "esc_html_e( 'وضعیت:', 'wto'"
+msgstr "esc_html_e( 'وضعیت:', 'wto'"
+
+msgid "esc_html_e( 'پاک‌سازی', 'wto'"
+msgstr "esc_html_e( 'پاک‌سازی', 'wto'"
+
+msgid "esc_html_e( 'پس از این مدت از آخرین تغییر سبد، پیامک یادآوری ارسال می‌شود.', 'wto'"
+msgstr "esc_html_e( 'پس از این مدت از آخرین تغییر سبد، پیامک یادآوری ارسال می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'پس از تأیید الگو توسط ناظر فراز، فعال‌سازی بالا را روشن کنید.', 'wto'"
+msgstr "esc_html_e( 'پس از تأیید الگو توسط ناظر فراز، فعال‌سازی بالا را روشن کنید.', 'wto'"
+
+msgid "esc_html_e( 'پس از رسیدن سفارش به این وضعیت، پیامک scheduled می‌شود.', 'wto'"
+msgstr "esc_html_e( 'پس از رسیدن سفارش به این وضعیت، پیامک scheduled می‌شود.', 'wto'"
+
+msgid "esc_html_e( 'پنل فراز اس‌ام‌اس', 'wto'"
+msgstr "esc_html_e( 'پنل فراز اس‌ام‌اس', 'wto'"
+
+msgid "esc_html_e( 'پیام تکراری', 'wto'"
+msgstr "esc_html_e( 'پیام تکراری', 'wto'"
+
+msgid "esc_html_e( 'پیام خطا', 'wto'"
+msgstr "esc_html_e( 'پیام خطا', 'wto'"
+
+msgid "esc_html_e( 'پیام موفقیت', 'wto'"
+msgstr "esc_html_e( 'پیام موفقیت', 'wto'"
+
+msgid "esc_html_e( 'پیامک ناموفق', 'wto'"
+msgstr "esc_html_e( 'پیامک ناموفق', 'wto'"
+
+msgid "esc_html_e( 'پیامک نظرسنجی ارسال شده', 'wto'"
+msgstr "esc_html_e( 'پیامک نظرسنجی ارسال شده', 'wto'"
+
+msgid "esc_html_e( 'پیامک یادآوری ارسال شده', 'wto'"
+msgstr "esc_html_e( 'پیامک یادآوری ارسال شده', 'wto'"
+
+msgid "esc_html_e( 'پیشنهاد می‌کنیم این قابلیت را فعال نگه دارید', 'farazsms-next'"
+msgstr "esc_html_e( 'پیشنهاد می‌کنیم این قابلیت را فعال نگه دارید', 'farazsms-next'"
+
+msgid "esc_html_e( 'چند روز پس از تغییر وضعیت، پیامک ارسال شود. (پیشنهاد: ۳ تا ۷ روز)', 'wto'"
+msgstr "esc_html_e( 'چند روز پس از تغییر وضعیت، پیامک ارسال شود. (پیشنهاد: ۳ تا ۷ روز)', 'wto'"
+
+msgid "esc_html_e( 'کاراکتر', 'wto'"
+msgstr "esc_html_e( 'کاراکتر', 'wto'"
+
+msgid "esc_html_e( 'کد HTTP:', 'wto'"
+msgstr "esc_html_e( 'کد HTTP:', 'wto'"
+
+msgid "esc_html_e( 'کد الگو:', 'wto'"
+msgstr "esc_html_e( 'کد الگو:', 'wto'"
+
+msgid "esc_html_e( 'کد الگوی اطلاع‌رسانی *', 'wto'"
+msgstr "esc_html_e( 'کد الگوی اطلاع‌رسانی *', 'wto'"
+
+msgid "esc_html_e( 'کد الگوی خوش‌آمدگویی (اختیاری)', 'wto'"
+msgstr "esc_html_e( 'کد الگوی خوش‌آمدگویی (اختیاری)', 'wto'"
+
+msgid "esc_html_e( 'کد الگوی پیامک نظرسنجی', 'wto'"
+msgstr "esc_html_e( 'کد الگوی پیامک نظرسنجی', 'wto'"
+
+msgid "esc_html_e( 'کد الگوی پیامک یادآوری *', 'wto'"
+msgstr "esc_html_e( 'کد الگوی پیامک یادآوری *', 'wto'"
+
+msgid "esc_html_e( 'کل اعضای سایت', 'wto'"
+msgstr "esc_html_e( 'کل اعضای سایت', 'wto'"
+
+msgid "esc_html_e( 'کل سبدهای رها‌شده', 'wto'"
+msgstr "esc_html_e( 'کل سبدهای رها‌شده', 'wto'"
+
+msgid "esc_html_e( 'کل نظرات ثبت‌شده (همه محصولات)', 'wto'"
+msgstr "esc_html_e( 'کل نظرات ثبت‌شده (همه محصولات)', 'wto'"
+
+msgid "esc_html_e( 'کلیدهای ردیف اول پاسخ API (لطفاً برای پشتیبانی کپی کنید):', 'wto'"
+msgstr "esc_html_e( 'کلیدهای ردیف اول پاسخ API (لطفاً برای پشتیبانی کپی کنید):', 'wto'"
+
+msgid "esc_html_e( 'کلیه حقوق مادی و معنوی این افزونه متعلق به سامانه پیامک فراز اس‌ام‌اس (شرکت زرین ارتباطات آسیا) است و هرگونه کپی‌برداری از آن غیرمجاز و پیگرد قانونی دارد.', 'wto'"
+msgstr "esc_html_e( 'کلیه حقوق مادی و معنوی این افزونه متعلق به سامانه پیامک فراز اس‌ام‌اس (شرکت زرین ارتباطات آسیا) است و هرگونه کپی‌برداری از آن غیرمجاز و پیگرد قانونی دارد.', 'wto'"
+
+msgid "esc_html_e( 'کپی شماره‌ها — جدا با ویرگول، فاصله یا خط جدید', 'wto'"
+msgstr "esc_html_e( 'کپی شماره‌ها — جدا با ویرگول، فاصله یا خط جدید', 'wto'"
+
+msgid "esc_html_e( 'کپی کلید', 'wto'"
+msgstr "esc_html_e( 'کپی کلید', 'wto'"
+
+msgid "esc_html_e( 'گزارشات ارسال پیامک', 'wto'"
+msgstr "esc_html_e( 'گزارشات ارسال پیامک', 'wto'"
+
+msgid "esc_html_e( 'گیرنده', 'wto'"
+msgstr "esc_html_e( 'گیرنده', 'wto'"
+
+msgid "esc_html_e( 'گیرندگان', 'wto'"
+msgstr "esc_html_e( 'گیرندگان', 'wto'"
+
+msgid "esc_html_e( '۳۰ روز اخیر', 'wto'"
+msgstr "esc_html_e( '۳۰ روز اخیر', 'wto'"
+
+msgid "esc_html_e( '⚠ بعضی فیلدها در داده‌های API پیدا نشد — کلیک کنید تا کلیدهای ردیف اول را ببینید', 'wto'"
+msgstr "esc_html_e( '⚠ بعضی فیلدها در داده‌های API پیدا نشد — کلیک کنید تا کلیدهای ردیف اول را ببینید', 'wto'"
+
+msgid "esc_html_e( '⚠ نام برند فروشگاه را به‌صورت ثابت در متن الگو بنویسید (نه به‌صورت متغیر) تا پنل فراز الگو را تأیید کند.', 'wto'"
+msgstr "esc_html_e( '⚠ نام برند فروشگاه را به‌صورت ثابت در متن الگو بنویسید (نه به‌صورت متغیر) تا پنل فراز الگو را تأیید کند.', 'wto'"
+
+msgid "esc_html_e( '⚠ نام برند فروشگاه را به‌صورت ثابت در متن الگو بنویسید (نه به‌صورت متغیر) — این برای تأیید الگو در پنل فراز ضروری است.', 'wto'"
+msgstr "esc_html_e( '⚠ نام برند فروشگاه را به‌صورت ثابت در متن الگو بنویسید (نه به‌صورت متغیر) — این برای تأیید الگو در پنل فراز ضروری است.', 'wto'"
+
+msgid "esc_html_e( '⚠ نام برند فروشگاه را به‌صورت ثابت در متن الگو بنویسید (نه به‌صورت متغیر) — برای تأیید الگو در پنل فراز ضروری است.', 'wto'"
+msgstr "esc_html_e( '⚠ نام برند فروشگاه را به‌صورت ثابت در متن الگو بنویسید (نه به‌صورت متغیر) — برای تأیید الگو در پنل فراز ضروری است.', 'wto'"
+
+msgid "esc_html_e( '✓ تأیید کد', 'farazsms-next'"
+msgstr "esc_html_e( '✓ تأیید کد', 'farazsms-next'"
+
+msgid "esc_html_e( '📈 افزایش فروش از سیستم کش‌بک', 'wto'"
+msgstr "esc_html_e( '📈 افزایش فروش از سیستم کش‌بک', 'wto'"
+
+msgid "آیا از حذف Feedهای انتخاب شده اطمینان دارید؟"
+msgstr "آیا از حذف Feedهای انتخاب شده اطمینان دارید؟"
+
+msgid "آیا از حذف این Feed اطمینان دارید؟"
+msgstr "آیا از حذف این Feed اطمینان دارید؟"
+
+msgid "ارسال با موفقیت ثبت شد."
+msgstr "ارسال با موفقیت ثبت شد."
+
+msgid "ارسال پیامک به مدیر اگر "
+msgstr "ارسال پیامک به مدیر اگر "
+
+msgid "از"
+msgstr "از"
+
+msgid "از شرط های زیر برقرار بود:"
+msgstr "از شرط های زیر برقرار بود:"
+
+msgid "اطلاع رسانی پیامک فراز"
+msgstr "اطلاع رسانی پیامک فراز"
+
+msgid "اطلاع رسانی گرویتی - المنتور"
+msgstr "اطلاع رسانی گرویتی - المنتور"
+
+msgid "اطلاعات پترن:"
+msgstr "اطلاعات پترن:"
+
+msgid "اعمال"
+msgstr "اعمال"
+
+msgid "افزودن"
+msgstr "افزودن"
+
+msgid "افزودن خودکار مشتری جدید ووکامرس به دفترچه تلفن پس از ثبت سفارش"
+msgstr "افزودن خودکار مشتری جدید ووکامرس به دفترچه تلفن پس از ثبت سفارش"
+
+msgid "افزونه Elementor نصب نیست. برای استفاده از این قابلیت ابتدا Elementor را نصب کنید."
+msgstr "افزونه Elementor نصب نیست. برای استفاده از این قابلیت ابتدا Elementor را نصب کنید."
+
+msgid "افزونه Gravity Forms نصب نیست. برای استفاده از این قابلیت ابتدا Gravity Forms را نصب کنید."
+msgstr "افزونه Gravity Forms نصب نیست. برای استفاده از این قابلیت ابتدا Gravity Forms را نصب کنید."
+
+msgid "افزونه ووکامرس نصب نیست."
+msgstr "افزونه ووکامرس نصب نیست."
+
+msgid "افزونه ووکامرس نصب نیست. برای استفاده از این قابلیت ابتدا ووکامرس را نصب کنید."
+msgstr "افزونه ووکامرس نصب نیست. برای استفاده از این قابلیت ابتدا ووکامرس را نصب کنید."
+
+msgid "انتخاب فرم"
+msgstr "انتخاب فرم"
+
+msgid "انصراف"
+msgstr "انصراف"
+
+msgid "ایجاد دفترچه تلفن از ووکامرس"
+msgstr "ایجاد دفترچه تلفن از ووکامرس"
+
+msgid "ایمیل کاربر"
+msgstr "ایمیل کاربر"
+
+msgid "با کاما (,) جدا کنید. فرمت صحیح: 09123456789"
+msgstr "با کاما (,) جدا کنید. فرمت صحیح: 09123456789"
+
+msgid "با کلیک روی دکمه زیر، یک دفترچه تلفن در وب‌سرویس فراز اس‌ام‌اس ایجاد شده و مشتریان ووکامرس به آن اضافه می‌شوند."
+msgstr "با کلیک روی دکمه زیر، یک دفترچه تلفن در وب‌سرویس فراز اس‌ام‌اس ایجاد شده و مشتریان ووکامرس به آن اضافه می‌شوند."
+
+msgid "باشگاه مشتریان"
+msgstr "باشگاه مشتریان"
+
+msgid "برای استفاده از منطق شرطی فرم شما باید شامل فیلدهای شرطی باشد."
+msgstr "برای استفاده از منطق شرطی فرم شما باید شامل فیلدهای شرطی باشد."
+
+msgid "برای متای سفارش، ووکامرس لازم است."
+msgstr "برای متای سفارش، ووکامرس لازم است."
+
+msgid "برای مدیریت اطلاع‌رسانی پیامکی Elementor، به منوی"
+msgstr "برای مدیریت اطلاع‌رسانی پیامکی Elementor، به منوی"
+
+msgid "برای مدیریت اطلاع‌رسانی پیامکی Gravity Forms، به منوی"
+msgstr "برای مدیریت اطلاع‌رسانی پیامکی Gravity Forms، به منوی"
+
+msgid "برای کاربران لاگین‌شده: فقط در اولین سفارش؛ برای مهمان: یک‌بار برای هر سفارش (تا دفترچه از قبل ایجاد شده باشد)."
+msgstr "برای کاربران لاگین‌شده: فقط در اولین سفارش؛ برای مهمان: یک‌بار برای هر سفارش (تا دفترچه از قبل ایجاد شده باشد)."
+
+msgid "بروزرسانی دفترچه تلفن"
+msgstr "بروزرسانی دفترچه تلفن"
+
+msgid "بروید."
+msgstr "بروید."
+
+msgid "برچسبی برای این فرم یافت نشد یا فرم انتخاب نشده است"
+msgstr "برچسبی برای این فرم یافت نشد یا فرم انتخاب نشده است"
+
+msgid "برچسب‌های ادغام"
+msgstr "برچسب‌های ادغام"
+
+msgid "بزرگتر از"
+msgstr "بزرگتر از"
+
+msgid "بعد از ارسال فرم"
+msgstr "بعد از ارسال فرم"
+
+msgid "بعد از وارد کردن کد پترن، در پایین دکمه ذخیره را بزنید"
+msgstr "بعد از وارد کردن کد پترن، در پایین دکمه ذخیره را بزنید"
+
+msgid "بعد از پرداخت (همه وضعیت‌ها)"
+msgstr "بعد از پرداخت (همه وضعیت‌ها)"
+
+msgid "بعد از پرداخت موفق"
+msgstr "بعد از پرداخت موفق"
+
+msgid "به"
+msgstr "به"
+
+msgid "به‌روزرسانی Feed"
+msgstr "به‌روزرسانی Feed"
+
+msgid "تابع cURL در سرور در دسترس نیست."
+msgstr "تابع cURL در سرور در دسترس نیست."
+
+msgid "تاریخ"
+msgstr "تاریخ"
+
+msgid "تاریخ (dd/mm/yyyy)"
+msgstr "تاریخ (dd/mm/yyyy)"
+
+msgid "تاریخ (mm/dd/yyyy)"
+msgstr "تاریخ (mm/dd/yyyy)"
+
+msgid "تاریخ ایجاد:"
+msgstr "تاریخ ایجاد:"
+
+msgid "تعداد مخاطبین:"
+msgstr "تعداد مخاطبین:"
+
+msgid "تعداد موفق: %d، تعداد ناموفق: %d. %s"
+msgstr "تعداد موفق: %d، تعداد ناموفق: %d. %s"
+
+msgid "تمام میشود"
+msgstr "تمام میشود"
+
+msgid "تنظیمات المنتور"
+msgstr "تنظیمات المنتور"
+
+msgid "تنظیمات با موفقیت ذخیره شد."
+msgstr "تنظیمات با موفقیت ذخیره شد."
+
+msgid "تنظیمات عمومی"
+msgstr "تنظیمات عمومی"
+
+msgid "تنظیمات پنل پیامکی"
+msgstr "تنظیمات پنل پیامکی"
+
+msgid "تنظیمات پیامک برای فرم‌ها"
+msgstr "تنظیمات پیامک برای فرم‌ها"
+
+msgid "تنظیمات پیامک مدیر"
+msgstr "تنظیمات پیامک مدیر"
+
+msgid "تنظیمات گرویتی فرم"
+msgstr "تنظیمات گرویتی فرم"
+
+msgid "حداقل یکی"
+msgstr "حداقل یکی"
+
+msgid "حذف"
+msgstr "حذف"
+
+msgid "خط یا کلید API نامعتبر است."
+msgstr "خط یا کلید API نامعتبر است."
+
+msgid "خطا از API: "
+msgstr "خطا از API: "
+
+msgid "خطا در import گروهی مخاطبین."
+msgstr "خطا در import گروهی مخاطبین."
+
+msgid "خطا در ارسال پیامک با پترن"
+msgstr "خطا در ارسال پیامک با پترن"
+
+msgid "خطا در ارسال."
+msgstr "خطا در ارسال."
+
+msgid "خطا در ایجاد دفترچه"
+msgstr "خطا در ایجاد دفترچه"
+
+msgid "خطا در ایجاد دفترچه تلفن. لطفا کلید دسترسی را بررسی کنید."
+msgstr "خطا در ایجاد دفترچه تلفن. لطفا کلید دسترسی را بررسی کنید."
+
+msgid "خطا در دریافت اطلاعات پترن"
+msgstr "خطا در دریافت اطلاعات پترن"
+
+msgid "خطا در دریافت موجودی. لطفا کلید دسترسی را بررسی کنید."
+msgstr "خطا در دریافت موجودی. لطفا کلید دسترسی را بررسی کنید."
+
+msgid "خطا در ساخت پترن"
+msgstr "خطا در ساخت پترن"
+
+msgid "خطا: پترن پیامک مدیر ثبت نشده است. لطفا ابتدا پترن را در تنظیمات فرم ایجاد کنید."
+msgstr "خطا: پترن پیامک مدیر ثبت نشده است. لطفا ابتدا پترن را در تنظیمات فرم ایجاد کنید."
+
+msgid "خطا: پترن پیامک مشتری ثبت نشده است. لطفا ابتدا پترن را در تنظیمات فرم ایجاد کنید."
+msgstr "خطا: پترن پیامک مشتری ثبت نشده است. لطفا ابتدا پترن را در تنظیمات فرم ایجاد کنید."
+
+msgid "خطای API در import گروهی"
+msgstr "خطای API در import گروهی"
+
+msgid "خطای cURL: "
+msgstr "خطای cURL: "
+
+msgid "خطای امنیتی"
+msgstr "خطای امنیتی"
+
+msgid "خطای امنیتی."
+msgstr "خطای امنیتی."
+
+msgid "خطای امنیتی. لطفا صفحه را رفرش کنید."
+msgstr "خطای امنیتی. لطفا صفحه را رفرش کنید."
+
+msgid "خطای نامشخص"
+msgstr "خطای نامشخص"
+
+msgid "خطای نامشخص از API"
+msgstr "خطای نامشخص از API"
+
+msgid "خطای نامشخص از وب سرویس."
+msgstr "خطای نامشخص از وب سرویس."
+
+msgid "خطایی رخ داد. دوباره تلاش کنید."
+msgstr "خطایی رخ داد. دوباره تلاش کنید."
+
+msgid "در حال ارسال کد..."
+msgstr "در حال ارسال کد..."
+
+msgid "در حال تأیید..."
+msgstr "در حال تأیید..."
+
+msgid "در صورت انتخاب، با کلیک روی دکمه لید مگنت کاربر به این صفحه هدایت می‌شود. پیش‌فرض: صفحه «حساب کاربری» ووکامرس."
+msgstr "در صورت انتخاب، با کلیک روی دکمه لید مگنت کاربر به این صفحه هدایت می‌شود. پیش‌فرض: صفحه «حساب کاربری» ووکامرس."
+
+msgid "درگاه پرداخت"
+msgstr "درگاه پرداخت"
+
+msgid "دسترسی مجاز نیست"
+msgstr "دسترسی مجاز نیست"
+
+msgid "دسترسی ندارید."
+msgstr "دسترسی ندارید."
+
+msgid "دفترچه با import گروهی به‌روز شد. %d مخاطب ثبت شد.%s"
+msgstr "دفترچه با import گروهی به‌روز شد. %d مخاطب ثبت شد.%s"
+
+msgid "دفترچه تلفن"
+msgstr "دفترچه تلفن"
+
+msgid "دفترچه تلفن ایجاد شد اما شناسه آن یافت نشد. لطفا دوباره تلاش کنید."
+msgstr "دفترچه تلفن ایجاد شد اما شناسه آن یافت نشد. لطفا دوباره تلاش کنید."
+
+msgid "دفترچه تلفن ایجاد و %d مخاطب با import گروهی اضافه شد.%s"
+msgstr "دفترچه تلفن ایجاد و %d مخاطب با import گروهی اضافه شد.%s"
+
+msgid "دفترچه تلفن با import گروهی بروزرسانی شد. %d مخاطب ثبت شد.%s"
+msgstr "دفترچه تلفن با import گروهی بروزرسانی شد. %d مخاطب ثبت شد.%s"
+
+msgid "دفترچه تلفن ووکامرس"
+msgstr "دفترچه تلفن ووکامرس"
+
+msgid "دفترچه خالی است یا خطا در خواندن مخاطبین."
+msgstr "دفترچه خالی است یا خطا در خواندن مخاطبین."
+
+msgid "دفترچه، خط و متن پیام را کامل کنید."
+msgstr "دفترچه، خط و متن پیام را کامل کنید."
+
+msgid "ذخیره"
+msgstr "ذخیره"
+
+msgid "ذخیره تنظیمات دفترچه"
+msgstr "ذخیره تنظیمات دفترچه"
+
+msgid "رفتن به اطلاع‌رسانی پیامکی"
+msgstr "رفتن به اطلاع‌رسانی پیامکی"
+
+msgid "زمان ارسال"
+msgstr "زمان ارسال"
+
+msgid "ساخت پترن"
+msgstr "ساخت پترن"
+
+msgid "سایر"
+msgstr "سایر"
+
+msgid "سایر افزونه‌ها (فیلد متا اختصاصی)"
+msgstr "سایر افزونه‌ها (فیلد متا اختصاصی)"
+
+msgid "سفارش"
+msgstr "سفارش"
+
+msgid "شامل میشود"
+msgstr "شامل میشود"
+
+msgid "شخصی‌سازی متن لید مگنت"
+msgstr "شخصی‌سازی متن لید مگنت"
+
+msgid "شروع میشود"
+msgstr "شروع میشود"
+
+msgid "شما دسترسی لازم را ندارید"
+msgstr "شما دسترسی لازم را ندارید"
+
+msgid "شما دسترسی لازم را ندارید."
+msgstr "شما دسترسی لازم را ندارید."
+
+msgid "شما هیچ Feed پیامکی تنظیم نکرده‌اید. %sیک Feed ایجاد کنید%s!"
+msgstr "شما هیچ Feed پیامکی تنظیم نکرده‌اید. %sیک Feed ایجاد کنید%s!"
+
+msgid "شماره %s: %s"
+msgstr "شماره %s: %s"
+
+msgid "شماره تراکنش"
+msgstr "شماره تراکنش"
+
+msgid "شماره تلفن نامعتبر است."
+msgstr "شماره تلفن نامعتبر است."
+
+msgid "شماره فرستنده"
+msgstr "شماره فرستنده"
+
+msgid "شماره فرستنده از تنظیمات پنل پیامکی خوانده می‌شود"
+msgstr "شماره فرستنده از تنظیمات پنل پیامکی خوانده می‌شود"
+
+msgid "شماره فرم"
+msgstr "شماره فرم"
+
+msgid "شماره موبایل تأیید شد."
+msgstr "شماره موبایل تأیید شد."
+
+msgid "شماره موبایل را وارد کنید."
+msgstr "شماره موبایل را وارد کنید."
+
+msgid "شماره نوشته"
+msgstr "شماره نوشته"
+
+msgid "شماره پیام ورودی"
+msgstr "شماره پیام ورودی"
+
+msgid "شماره‌های اضافی"
+msgstr "شماره‌های اضافی"
+
+msgid "شماره‌های مدیر"
+msgstr "شماره‌های مدیر"
+
+msgid "شناسه Feed"
+msgstr "شناسه Feed"
+
+msgid "شناسه Feed نامعتبر است"
+msgstr "شناسه Feed نامعتبر است"
+
+msgid "شناسه Feed: %s"
+msgstr "شناسه Feed: %s"
+
+msgid "شناسه دفترچه پس از ایجاد یافت نشد."
+msgstr "شناسه دفترچه پس از ایجاد یافت نشد."
+
+msgid "شناسه دفترچه:"
+msgstr "شناسه دفترچه:"
+
+msgid "شناسه فرم"
+msgstr "شناسه فرم"
+
+msgid "شناسه ورودی"
+msgstr "شناسه ورودی"
+
+msgid "صفحه مقصد دکمه لید مگنت"
+msgstr "صفحه مقصد دکمه لید مگنت"
+
+msgid "عامل کاربری HTTP"
+msgstr "عامل کاربری HTTP"
+
+msgid "عملیات گروهی"
+msgstr "عملیات گروهی"
+
+msgid "عنوان اصلی"
+msgstr "عنوان اصلی"
+
+msgid "عنوان فرم"
+msgstr "عنوان فرم"
+
+msgid "غیرفعال"
+msgstr "غیرفعال"
+
+msgid "فرم انتخاب نشده است"
+msgstr "فرم انتخاب نشده است"
+
+msgid "فرم یافت نشد"
+msgstr "فرم یافت نشد"
+
+msgid "فرم یافت نشد یا فیلدی ندارد"
+msgstr "فرم یافت نشد یا فیلدی ندارد"
+
+msgid "فرمت پاسخ وب سرویس معتبر نیست."
+msgstr "فرمت پاسخ وب سرویس معتبر نیست."
+
+msgid "فرم‌های Gravity"
+msgstr "فرم‌های Gravity"
+
+msgid "فعال"
+msgstr "فعال"
+
+msgid "فعال بودن نمایش لید مگنت روی صفحه اول سایت"
+msgstr "فعال بودن نمایش لید مگنت روی صفحه اول سایت"
+
+msgid "فعالسازی منطق شرطی برای مدیر"
+msgstr "فعالسازی منطق شرطی برای مدیر"
+
+msgid "فعالسازی منطق شرطی برای کاربر"
+msgstr "فعالسازی منطق شرطی برای کاربر"
+
+msgid "فیلد شماره تلفن"
+msgstr "فیلد شماره تلفن"
+
+msgid "فیلدهای اجباری"
+msgstr "فیلدهای اجباری"
+
+msgid "فیلدهای اختیاری"
+msgstr "فیلدهای اختیاری"
+
+msgid "فیلدهای قیمت"
+msgstr "فیلدهای قیمت"
+
+msgid "قرار دادن شماره عنوان نوشته / برگه"
+msgstr "قرار دادن شماره عنوان نوشته / برگه"
+
+msgid "قرار دادن شماره نوشته / برگه"
+msgstr "قرار دادن شماره نوشته / برگه"
+
+msgid "قرار دادن لینک"
+msgstr "قرار دادن لینک"
+
+msgid "لطفا ابتدا کلید دسترسی را در تب تنظیمات پنل پیامکی وارد کنید."
+msgstr "لطفا ابتدا کلید دسترسی را در تب تنظیمات پنل پیامکی وارد کنید."
+
+msgid "لطفا یک فرم انتخاب کنید"
+msgstr "لطفا یک فرم انتخاب کنید"
+
+msgid "لطفاً ابتدا با دکمه «ارسال کد» و «تأیید کد» شماره موبایل را تأیید کنید."
+msgstr "لطفاً ابتدا با دکمه «ارسال کد» و «تأیید کد» شماره موبایل را تأیید کنید."
+
+msgid "لید مگنت"
+msgstr "لید مگنت"
+
+msgid "لینک ویرایش نوشته"
+msgstr "لینک ویرایش نوشته"
+
+msgid "لینک پیام ورودی"
+msgstr "لینک پیام ورودی"
+
+msgid "متن توضیح"
+msgstr "متن توضیح"
+
+msgid "متن دکمه"
+msgstr "متن دکمه"
+
+msgid "متن مهلت"
+msgstr "متن مهلت"
+
+msgid "متن نشان (badge)"
+msgstr "متن نشان (badge)"
+
+msgid "متن پیام خالی است."
+msgstr "متن پیام خالی است."
+
+msgid "متن پیام مدیر"
+msgstr "متن پیام مدیر"
+
+msgid "متن پیام نمی‌تواند خالی باشد"
+msgstr "متن پیام نمی‌تواند خالی باشد"
+
+msgid "متن پیام کاربر"
+msgstr "متن پیام کاربر"
+
+msgid "مثلاً 3"
+msgstr "مثلاً 3"
+
+msgid "مثلاً 5000"
+msgstr "مثلاً 5000"
+
+msgid "محل نمایش لید مگنت"
+msgstr "محل نمایش لید مگنت"
+
+msgid "مخاطبین فیلد سفارشی"
+msgstr "مخاطبین فیلد سفارشی"
+
+msgid "مشتریان ووکامرس"
+msgstr "مشتریان ووکامرس"
+
+msgid "مقدار اعتبار عضویت (تومان)"
+msgstr "مقدار اعتبار عضویت (تومان)"
+
+msgid "منطق شرطی"
+msgstr "منطق شرطی"
+
+msgid "مهلت استفاده (روز)"
+msgstr "مهلت استفاده (روز)"
+
+msgid "میزان اعتبار شما: "
+msgstr "میزان اعتبار شما: "
+
+msgid "نام دفترچه:"
+msgstr "نام دفترچه:"
+
+msgid "نام فروشگاه"
+msgstr "نام فروشگاه"
+
+msgid "نام فروشگاه که در لید مگنت نمایش داده می‌شود."
+msgstr "نام فروشگاه که در لید مگنت نمایش داده می‌شود."
+
+msgid "نام فیلد (meta key) را وارد کنید."
+msgstr "نام فیلد (meta key) را وارد کنید."
+
+msgid "نام نمایشی کاربر"
+msgstr "نام نمایشی کاربر"
+
+msgid "نام کاربری"
+msgstr "نام کاربری"
+
+msgid "نامشخص"
+msgstr "نامشخص"
+
+msgid "نمایش همه"
+msgstr "نمایش همه"
+
+msgid "نیست"
+msgstr "نیست"
+
+msgid "هر متن که می‌خواهید بنویسید. متغیرهای قابل استفاده:"
+msgstr "هر متن که می‌خواهید بنویسید. متغیرهای قابل استفاده:"
+
+msgid "هست"
+msgstr "هست"
+
+msgid "همه"
+msgstr "همه"
+
+msgid "همه پیامک‌ها با خطا مواجه شدند"
+msgstr "همه پیامک‌ها با خطا مواجه شدند"
+
+msgid "هیچ شماره معتبری برای import یافت نشد."
+msgstr "هیچ شماره معتبری برای import یافت نشد."
+
+msgid "هیچ شماره معتبری یافت نشد."
+msgstr "هیچ شماره معتبری یافت نشد."
+
+msgid "هیچ شماره‌ای برای این فیلد یافت نشد."
+msgstr "هیچ شماره‌ای برای این فیلد یافت نشد."
+
+msgid "هیچ پیامک ارسال شده‌ای یافت نشد."
+msgstr "هیچ پیامک ارسال شده‌ای یافت نشد."
+
+msgid "ورودی‌ها"
+msgstr "ورودی‌ها"
+
+msgid "وضعیت پرداخت"
+msgstr "وضعیت پرداخت"
+
+msgid "ویرایش"
+msgstr "ویرایش"
+
+msgid "پارامترهای ورودی ناقص است."
+msgstr "پارامترهای ورودی ناقص است."
+
+msgid "پاسخ از API دریافت نشد."
+msgstr "پاسخ از API دریافت نشد."
+
+msgid "پاسخ نامعتبر از API: "
+msgstr "پاسخ نامعتبر از API: "
+
+msgid "پایین راست"
+msgstr "پایین راست"
+
+msgid "پایین چپ"
+msgstr "پایین چپ"
+
+msgid "پترن با موفقیت ساخته شد"
+msgstr "پترن با موفقیت ساخته شد"
+
+msgid "پترن ساخته شده از Elementor"
+msgstr "پترن ساخته شده از Elementor"
+
+msgid "پترن ساخته شده از Gravity Forms"
+msgstr "پترن ساخته شده از Gravity Forms"
+
+msgid "پیام"
+msgstr "پیام"
+
+msgid "پیام مدیر"
+msgstr "پیام مدیر"
+
+msgid "پیام کاربر"
+msgstr "پیام کاربر"
+
+msgid "پیامک"
+msgstr "پیامک"
+
+msgid "پیامک حذف شد."
+msgstr "پیامک حذف شد."
+
+msgid "پیامک را به کاربر ارسال کن اگر "
+msgstr "پیامک را به کاربر ارسال کن اگر "
+
+msgid "پیامک‌ها حذف شدند."
+msgstr "پیامک‌ها حذف شدند."
+
+msgid "پیامک‌های ارسال شده"
+msgstr "پیامک‌های ارسال شده"
+
+msgid "پیشنهاد: استفاده از {amount} برای رنگی شدن مقدار."
+msgstr "پیشنهاد: استفاده از {amount} برای رنگی شدن مقدار."
+
+msgid "کاربر"
+msgstr "کاربر"
+
+msgid "کاربری یافت نشد."
+msgstr "کاربری یافت نشد."
+
+msgid "کد تأیید ارسال شد."
+msgstr "کد تأیید ارسال شد."
+
+msgid "کد تأیید را وارد کنید."
+msgstr "کد تأیید را وارد کنید."
+
+msgid "کد وارد شده اشتباه یا منقضی است."
+msgstr "کد وارد شده اشتباه یا منقضی است."
+
+msgid "کد پترن ارائه نشده است"
+msgstr "کد پترن ارائه نشده است"
+
+msgid "کد پترن از پاسخ API استخراج نشد"
+msgstr "کد پترن از پاسخ API استخراج نشد"
+
+msgid "کد پترن را وارد کنید"
+msgstr "کد پترن را وارد کنید"
+
+msgid "کلید API تنظیم نشده."
+msgstr "کلید API تنظیم نشده."
+
+msgid "کلید دسترسی"
+msgstr "کلید دسترسی"
+
+msgid "کلید دسترسی API تنظیم نشده است."
+msgstr "کلید دسترسی API تنظیم نشده است."
+
+msgid "کلید دسترسی را در تنظیمات فراز اس ام اس وارد کنید یا اتصال به API را بررسی کنید."
+msgstr "کلید دسترسی را در تنظیمات فراز اس ام اس وارد کنید یا اتصال به API را بررسی کنید."
+
+msgid "کوچکتر از"
+msgstr "کوچکتر از"
+
+msgid "گیرندگان"
+msgstr "گیرندگان"
+
+msgid "یا"
+msgstr "یا"
+
+msgid "یک فیلد انتخاب کنید"
+msgstr "یک فیلد انتخاب کنید"
+
+msgid "یک مقدار وارد کنید"
+msgstr "یک مقدار وارد کنید"
+
+msgid "— انتخاب صفحه —"
+msgstr "— انتخاب صفحه —"
+

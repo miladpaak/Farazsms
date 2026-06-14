@@ -1,0 +1,746 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('IRANSansWeb.woff') format('woff');
+    /* v3.18.0: font-display swap — جلوگیری از FOIT (متن نامرئی هنگام لود فونت) */
+    font-display: swap;
+}
+
+.wto_notice p {
+    font-size: 18px;
+    margin: 0;
+}
+.wto_notice {
+    background: #51D1A4;
+    text-align: center;
+    padding: 20px;
+    margin: 15px 0;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.form-style-2 {
+    padding: 20px 12px 10px 20px;
+}
+.form-style-2 label {
+margin: 0 0 15px 0;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+.form-style-2 label span.label {
+    font-weight: bold;
+    float: right;
+    padding-top: 13px;
+    padding-left: 5px;
+    position: relative;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+    width: 27%;
+}
+.form-style-2 input.input-field,
+.form-style-2 .tel-number-field,
+.form-style-2 .textarea-field,
+.form-style-2 .select-field{
+box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px solid #C2C2C2;
+  box-shadow: 1px 1px 4px #EBEBEB;
+  -moz-box-shadow: 1px 1px 4px #EBEBEB;
+  -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  border-radius: 10px;
+  text-align: left;
+}
+.form-style-2 .input-field:focus,
+.form-style-2 .tel-number-field:focus,
+.form-style-2 .textarea-field:focus,
+.form-style-2 .select-field:focus{
+    border: 1px solid #1abc9c;
+}
+.wto_save_button_container_wc,
+.wto_save_button_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.wto_button {
+background-color: #51D1A4;
+  border: none;
+  color: #FFFFFF;
+  padding: 15px 32px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  font-family: inherit;
+  width: 50%;
+  border-radius: 10px;
+}
+.wto_button:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%) !important;
+}
+.wto_button--loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 4px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: wto-button-loading-spinner 1s ease infinite;
+}
+
+.wto_button--loading .button__text {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@keyframes wto-button-loading-spinner {
+    from {
+        transform: rotate(0turn);
+    }
+
+    to {
+        transform: rotate(1turn);
+    }
+}
+.wto-success-message {
+    color: #2b7515;
+    background: #ecffd6;
+    border: 1px solid #617c42;
+    padding: 0 8px;
+    height: 54px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wto-info-message {
+    color: #204a8e;
+    background: #c9ddff;
+    border: 1px solid #4c699b;
+    padding: 0 8px;
+}
+.wto-error-message {
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+    padding: 0 8px;
+    height: 54px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.wto_form input.error {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+}
+.wto_form label.error {
+    color: #cc0033;
+    margin: 0 10px;
+    display: inline-block;
+    width: fit-content;
+}
+.wto_info_message {
+    color: #204a8e;
+    background: #c9ddff;
+    border: 1px solid #4c699b;
+    padding: 0 8px;
+    line-height: 2.7;
+}
+footer {
+    padding: 40px 0;
+    text-align: center;
+    opacity: 0.33;
+    color: white;
+}
+
+.wrapper {
+    font-family: IRANSans, Tahoma, sans-serif;
+    font-weight: 300;
+    min-width: 600px;
+    max-width: 1024px;
+    margin: 53px auto;
+}
+
+/* v3.17.5: حفاظت سراسری فونت — جلوگیری از override توسط wp-admin defaults.
+   هر چیزی داخل .wrapper یا containers مدرن ما باید فونت IRANSans باشد،
+   به‌جز code/pre/monospace که فونت کد می‌خواهند. */
+.wrapper *:not(code):not(pre):not(kbd):not(samp):not(.wto-otp-mobile):not(.wto-otp-code) {
+    font-family: IRANSans, Tahoma, sans-serif;
+}
+.wrapper code,
+.wrapper pre,
+.wrapper kbd,
+.wrapper samp,
+.wrapper [style*="font-family:Menlo"],
+.wrapper [style*="font-family: Menlo"],
+.wrapper [style*="font-family:'Menlo'"] {
+    font-family: Menlo, Consolas, "Courier New", monospace;
+}
+
+.tabs {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    margin: 0;
+}
+.tabs > li {
+    transition-duration: 0.25s;
+    display: table-cell;
+    list-style: none;
+    text-align: center;
+    padding: 20px 20px 25px 20px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    color: black;
+}
+.tabs > li:hover {
+    border-bottom : 10px solid #51D1A4;
+}
+.tabs > li.active {
+    color: #50555a;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    border-bottom : 10px solid #51D1A4;
+}
+.tabs > li.active:before {
+    transition-duration: 0.5s;
+    background-color: white;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+.tab__content {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    margin: 0;
+}
+.tab__content > li {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    list-style: none;
+    box-shadow: rgb(99 99 99 / 20%) 0px 6px 8px 0px;
+}
+.tab__content > li .content__wrapper {
+    /*text-align: center;*/
+    border-radius: 5px;
+    /*width: 100%;*/
+    padding: 45px 40px 40px 40px;
+    background-color: white;
+}
+
+.content__wrapper h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.content__wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#wto_account_info {
+    min-width: 180px;
+    background: linear-gradient(135deg, #f8fafb 0%, #fff 100%);
+    padding: 10px 12px;
+    color: #333;
+    border-right: 3px solid #1abc9c;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+#wto_account_info .wto_credit_amount {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+#wto_account_info .wto_credit_amount::before {
+    font-family: dashicons;
+    content: "\f323";
+    font-size: 18px;
+    width: 20px;
+    color: #1abc9c;
+    flex-shrink: 0;
+}
+.wto_account_profile {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #e5e9ec;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 12px;
+    line-height: 1.35;
+    text-align: right;
+    direction: rtl;
+}
+.wto_account_profile .wto_profile_row {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex-direction: row-reverse;
+}
+.wto_account_profile .wto_profile_row .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    color: #1abc9c;
+    flex-shrink: 0;
+}
+.wto_account_profile .wto_profile_name .wto_profile_text {
+    font-weight: 600;
+    color: #333;
+}
+.wto_account_profile .wto_profile_mobile .wto_profile_text {
+    color: #555;
+    font-weight: 500;
+}
+#fwss_account_info {
+    min-width: 180px;
+    background: linear-gradient(135deg, #f8fafb 0%, #fff 100%);
+    padding: 10px 12px;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+#fwss_account_info .fsms_credit_amount {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 600;
+}
+#fwss_account_info .fsms_credit_amount::before {
+    font-family: dashicons;
+    content: "\f323";
+    font-size: 18px;
+    width: 20px;
+    color: #1abc9c;
+    flex-shrink: 0;
+}
+#wto_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toggle-control {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.toggle-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.toggle-control input:checked ~ .control {
+    background-color: #2c3e50;
+}
+.toggle-control input:checked ~ .control:after {
+    left: 2px;
+}
+.toggle-control .control {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: darkgray;
+    transition: background-color 0.15s ease-in;
+}
+.toggle-control .control:after {
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: white;
+    transition: left 0.15s ease-in;
+}
+.wto_btn_add,
+#wto_add_sms {
+    width: 100px;
+    height: 39px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #51D1A4;
+    color: white;
+    border-radius : 10px;
+}
+
+.wto_btn_add:hover,
+#wto_add_sms:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%) !important;
+    cursor: pointer;
+}
+#wto_scheduled_sms_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sms_container_wc .sms,
+#sms_container .sms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+}
+
+#wto_add_sms .wto_time_input {
+    width: 30%;
+}
+
+#sms_container_wc,
+#sms_container {
+    margin: 15px 0;
+}
+
+
+.sms .delete div:hover {
+    cursor: pointer;
+}
+
+.sms_content {
+    display: flex;
+}
+
+.sms_content label {
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.sms .wto_active {
+    margin-top: 6px;
+}
+.hour input {
+    width: 50%;
+}
+.hour {
+    width: 14%;
+}
+
+.time input {
+    width: 38%;
+}
+
+.time {
+    width: 17%;
+}
+#wto_top {
+    display: flex;
+    justify-content: flex-start;
+}
+#wto_help {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-top: -5px;
+}
+
+.sms label.error {
+    display: none !important;
+}
+.sms .error {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+}
+form#wto_users_form .toggle-control {
+    height: 20px;
+}
+#wto_users_plugin_settings {
+    border-bottom: 1px solid #b8b8b8;
+    margin-bottom: 15px;
+}
+#wto-gravity-forms {
+    width: 30%;
+}
+
+#wto_gravity_forms {
+    display: flex;
+    justify-content: space-around;
+}
+div#wto_forms {
+    width: 100%;
+}
+
+div#form_fields {
+    width: 100%;
+}
+
+.wto_gf_field_registered_sms .sms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+}
+
+.wto_gf_field_registered_sms {
+    margin-top: 30px;
+}
+
+.wto_gf_add_sms.wto_button {
+    width: 10%;
+    margin-bottom: 15px;
+}
+
+.select2-results .gf_hide {
+    display: none;
+}
+
+.digits_pattern_info {
+    padding: 12px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.fsms-error-message {
+    color: #ba3939;
+    background: #ffe0e0;
+    border: 1px solid #a33a3a;
+    padding: 0px 8px;
+    height: 54px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fsms-warning-message.enter-credentials.warning_phonebook {
+    width: 19%;
+    position: absolute;
+    right: 39%;
+}
+.fsms-warning-message {
+    color: #756e15;
+    background: #fffbd1;
+    border: 1px solid #87803e;
+    padding: 0 8px;
+}
+span.not-allowed:hover {
+    cursor: not-allowed;
+}
+.fsms-warning-message.gravity_not_installed {
+    padding: 15px;
+    text-align: center;
+}
+
+.wto_condition_container {
+    border: 1px solid #e7e7e7;
+    border-top: none;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.plus-button,.minus-button {
+    border: 2px solid lightgrey;
+    background-color: #fff;
+    font-size: 16px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 999px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: -7px;
+}
+.plus-button:after, .plus-button:before,.minus-button:after, .minus-button:before {
+    content: "";
+    display: block;
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.plus-button:before {
+    height: 1em;
+    width: 0.2em;
+}
+.minus-button:before{
+    height: 0 !important;
+}
+.plus-button:after, .minus-button:after {
+    height: 0.2em;
+    width: 1em;
+}
+.plus-button--small {
+    font-size: 7px;
+}
+.plus-button:hover, .minus-button:hover {
+    cursor: pointer;
+}
+
+.time_type{
+    margin-top: 10px;
+}
+
+.time_type input {
+    width: 16px;
+    height: 16px;
+}
+
+.time_type label:first-child {
+    margin-left: 15px;
+}
+
+.wto_form .row{
+    display : flex;
+    justify-content : space-between;
+}
+.wto_form .row .col-6{
+    width:49%;
+    padding : 15px;
+}
+.setting_headtitle{
+text-align: center;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #51D1A4;
+  padding-bottom: 15px;
+}
+
+/* صفحه فرم‌های اس‌ام‌اس – بخش OTP وسط‌چین و مرتب */
+.wto_sms_forms_otp_section {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  text-align: center;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+  display: block;
+  color: #333;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 12px;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_desc {
+  margin: 0 0 20px 0;
+  font-size: 13px;
+  color: #555;
+  text-align: center;
+  line-height: 1.5;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_desc code {
+  background: #f0f0f0;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_field {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_field .label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: #333;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_field textarea.input-field,
+.wto_sms_forms_otp_section .wto_sms_forms_otp_field input.input-field {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  direction: rtl;
+  white-space: pre-wrap;
+}
+.wto_sms_forms_otp_section .wto_sms_forms_otp_actions {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.wto_sms_forms_otp_section .wto-comment-pattern-response {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
+}
+.wto_button--compact {
+  width: auto !important;
+  min-width: 100px;
+  padding: 8px 20px !important;
+  font-size: 13px !important;
+}
+
+.wto-feedback-page .wto-feedback-intro {
+  margin: 0 0 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+.wto-feedback-page label[for="ticket_question"] {
+  display: block;
+  flex-direction: column;
+  align-items: stretch;
+}
+.wto-feedback-page label[for="ticket_question"] .label {
+  float: none;
+  display: block;
+  margin-bottom: 8px;
+  padding: 0;
+}
+.wto-feedback-page .wto-feedback-textarea {
+  width: 100% !important;
+  max-width: 100%;
+  text-align: right;
+  direction: rtl;
+  min-height: 180px;
+}
+.wto-feedback-page .wto_notice--success {
+  background: #51D1A4;
+}
+
+ 

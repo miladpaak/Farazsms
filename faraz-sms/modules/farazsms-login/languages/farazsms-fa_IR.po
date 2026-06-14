@@ -1,0 +1,1213 @@
+# Copyright (C) 2024 FarazSMS
+# This file is distributed under the same license as the FarazSMS Login package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FarazSMS Login 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/farazsms-login\n"
+"POT-Creation-Date: 2026-04-13 15:21+0330\n"
+"PO-Revision-Date: 2026-04-13 15:33+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: "
+"__;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nx:1,2;_nx_noop:1,2;_x:1,2c;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-admin-helper.php:363
+msgid "Enter phone number"
+msgstr "شماره تلفن را وارد کنید"
+
+#: admin/class-admin-helper.php:364 admin/class-admin.php:929
+#: admin/class-main-settings.php:95
+msgid "Send Test SMS"
+msgstr "ارسال پیامک آزمایشی"
+
+#: admin/class-admin.php:17
+msgid "FarazSMS Login Settings"
+msgstr "تنظیمات ورود/عضویت فرازاس‌ام‌اس"
+
+#: admin/class-admin.php:18
+msgid "FarazSMS Login"
+msgstr "ورود/عضویت فرازاس‌ام‌اس"
+
+#: admin/class-admin.php:28
+msgid "Wallet Management"
+msgstr "مدیریت کیف پول"
+
+#: admin/class-admin.php:29 admin/class-admin.php:95 admin/class-admin.php:417
+#: admin/class-admin.php:494
+msgid "Wallet"
+msgstr "کیف پول"
+
+#: admin/class-admin.php:37 admin/class-admin.php:38 admin/class-admin.php:104
+#: admin/class-admin.php:425 admin/class-admin.php:503 admin/class-admin.php:512
+msgid "Shortcodes"
+msgstr "کدهای کوتاه"
+
+#: admin/class-admin.php:120
+msgid "Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: admin/class-admin.php:249
+msgid "Settings saved successfully"
+msgstr "تنظیمات با موفقیت ذخیره شد"
+
+#: admin/class-admin.php:260
+msgid "Security check failed"
+msgstr "بررسی امنیتی ناموفق بود"
+
+#: admin/class-admin.php:267
+msgid "Phone number is required"
+msgstr "شماره تلفن الزامی است"
+
+#: admin/class-admin.php:276
+msgid "SMS settings are not configured properly"
+msgstr "تنظیمات پیامک به درستی پیکربندی نشده است"
+
+#: admin/class-admin.php:289
+msgid "Connection error while sending SMS."
+msgstr "خطای اتصال هنگام ارسال پیامک."
+
+#: admin/class-admin.php:306
+msgid "Test SMS sent successfully!"
+msgstr "پیامک آزمایشی با موفقیت ارسال شد!"
+
+#: admin/class-admin.php:312
+msgid "Unexpected error: "
+msgstr "خطای غیرمنتظره: "
+
+#: admin/class-admin.php:325
+msgid "SMS API error."
+msgstr "خطای API پیامکی."
+
+#: admin/class-admin.php:340 admin/class-admin.php:360
+msgid ""
+"Sender number (line) is invalid or does not exist. Please check your FarazSMS "
+"sender number in settings."
+msgstr ""
+"شماره خط ارسال (فرستنده) معتبر نیست یا وجود ندارد. لطفاً شماره فرستنده "
+"فرازاس‌ام‌اس را در تنظیمات بررسی کنید."
+
+#: admin/class-admin.php:374 admin/class-admin.php:452
+msgid "You do not have sufficient permissions to access this page."
+msgstr "شما دسترسی لازم برای مشاهده این صفحه را ندارید."
+
+#: admin/class-admin.php:513
+msgid "Use these shortcodes to display FarazSMS features on your site."
+msgstr ""
+"از این کدهای کوتاه برای نمایش قابلیت‌های فرازاس‌ام‌اس در سایت خود استفاده کنید."
+
+#: admin/class-admin.php:517
+msgid "Login Button Shortcode"
+msgstr "کد کوتاه دکمه ورود"
+
+#: admin/class-admin.php:518
+msgid "Display a button that links to the login/registration page."
+msgstr "نمایش دکمه‌ای که به صفحه ورود/ثبت‌نام لینک می‌شود."
+
+#: admin/class-admin.php:520 admin/class-admin.php:544
+msgid "Basic Usage"
+msgstr "استفاده پایه"
+
+#: admin/class-admin.php:523 admin/class-admin.php:547
+msgid "Parameters"
+msgstr "پارامترها"
+
+#: admin/class-admin.php:525
+msgid "Button background color (default: #0BD08B)"
+msgstr "رنگ پس‌زمینه دکمه (پیش‌فرض: #0BD08B)"
+
+#: admin/class-admin.php:526
+msgid "Button text color (default: #ffffff)"
+msgstr "رنگ متن دکمه (پیش‌فرض: #ffffff)"
+
+#: admin/class-admin.php:527
+#, php-format
+msgid "Button text for guests (default: \"%s\")"
+msgstr "متن دکمه برای مهمانان (پیش‌فرض: \"%s\")"
+
+#: admin/class-admin.php:527 admin/class-admin.php:534 admin/class-admin.php:536
+#: includes/class-main.php:619
+msgid "Login / Register"
+msgstr "ورود / ثبت‌نام"
+
+#: admin/class-admin.php:528
+#, php-format
+msgid "Button text when logged in (default: \"%s\")"
+msgstr "متن دکمه برای کاربران وارد شده (پیش‌فرض: \"%s\")"
+
+#: admin/class-admin.php:528 admin/class-admin.php:535 admin/class-admin.php:536
+#: includes/class-main.php:621
+msgid "My Account"
+msgstr "حساب کاربری"
+
+#: admin/class-admin.php:529
+msgid "Custom account page URL when logged in (optional)"
+msgstr "آدرس صفحه حساب کاربری سفارشی برای لینک حساب کاربری (اختیاری)"
+
+#: admin/class-admin.php:532 admin/class-admin.php:552
+msgid "Examples"
+msgstr "مثال‌ها"
+
+#: admin/class-admin.php:541
+msgid "Wallet Balance Shortcode"
+msgstr "کد کوتاه موجودی کیف پول"
+
+#: admin/class-admin.php:542
+msgid ""
+"Display the current user's wallet balance. Only visible to logged-in users."
+msgstr ""
+"نمایش موجودی کیف پول کاربر فعلی. فقط برای کاربران وارد شده قابل مشاهده است."
+
+#: admin/class-admin.php:549
+msgid "Display format: \"formatted\" (default) or \"raw\" (number only)"
+msgstr "فرمت نمایش: \"formatted\" (پیش‌فرض) یا \"raw\" (فقط عدد)"
+
+#: admin/class-admin.php:557
+msgid "Note:"
+msgstr "توجه:"
+
+#: admin/class-admin.php:557
+msgid ""
+"This shortcode will only display content for logged-in users. If the user is "
+"not logged in, nothing will be shown."
+msgstr ""
+"این کد کوتاه فقط برای کاربران وارد شده محتوا نمایش می‌دهد. اگر کاربر وارد نشده "
+"باشد، چیزی نمایش داده نمی‌شود."
+
+#: admin/class-admin.php:621
+msgid "Wallet Users List"
+msgstr "فهرست کاربران کیف پول"
+
+#: admin/class-admin.php:622
+msgid "You can review and manage user wallets in this section."
+msgstr "می‌توانید کیف پول کاربران را در این بخش بررسی و مدیریت کنید."
+
+#: admin/class-admin.php:630
+msgid "Search..."
+msgstr "جستجو..."
+
+#: admin/class-admin.php:646
+msgid "User"
+msgstr "کاربر"
+
+#: admin/class-admin.php:652
+msgid "Email"
+msgstr "ایمیل"
+
+#: admin/class-admin.php:655 admin/class-admin.php:971
+msgid "Wallet Balance"
+msgstr "موجودی کیف پول"
+
+#: admin/class-admin.php:661
+msgid "Actions"
+msgstr "عملیات"
+
+#: admin/class-admin.php:671
+msgid "No users found."
+msgstr "کاربری یافت نشد."
+
+#: admin/class-admin.php:706
+msgid "View"
+msgstr "مشاهده"
+
+#: admin/class-admin.php:747
+#, php-format
+msgid "%d record(s) - Showing records from %d to %d"
+msgstr "%d رکورد - نمایش رکوردهای %d تا %d"
+
+#: admin/class-admin.php:762 includes/class-main.php:318
+msgid "User not found."
+msgstr "کاربر یافت نشد."
+
+#: admin/class-admin.php:779
+msgid "Back to Users List"
+msgstr "بازگشت به فهرست کاربران"
+
+#: admin/class-admin.php:782
+#, php-format
+msgid "Wallet for %s"
+msgstr "کیف پول برای %s"
+
+#: admin/class-admin.php:788 admin/class-admin.php:1000
+msgid "Current Balance"
+msgstr "موجودی فعلی"
+
+#: admin/class-admin.php:795 admin/class-admin.php:822
+msgid "Add Transaction"
+msgstr "افزودن تراکنش"
+
+#: admin/class-admin.php:802
+msgid "Transaction Type"
+msgstr "نوع تراکنش"
+
+#: admin/class-admin.php:804
+msgid "Credit (Add to balance)"
+msgstr "افزایش (افزودن به موجودی)"
+
+#: admin/class-admin.php:805
+msgid "Debit (Subtract from balance)"
+msgstr "کاهش (کسر از موجودی)"
+
+#: admin/class-admin.php:810 admin/class-admin.php:844
+msgid "Amount"
+msgstr "مبلغ"
+
+#: admin/class-admin.php:815 admin/class-admin.php:845
+msgid "Description"
+msgstr "توضیحات"
+
+#: admin/class-admin.php:830
+msgid "Transaction History"
+msgstr "تاریخچه تراکنش‌ها"
+
+#: admin/class-admin.php:835
+msgid "No transactions found."
+msgstr "تراکنشی یافت نشد."
+
+#: admin/class-admin.php:842
+msgid "Date"
+msgstr "تاریخ"
+
+#: admin/class-admin.php:843
+msgid "Type"
+msgstr "نوع"
+
+#: admin/class-admin.php:846
+msgid "Order"
+msgstr "سفارش"
+
+#: admin/class-admin.php:851
+msgid "Credit"
+msgstr "افزایش"
+
+#: admin/class-admin.php:851
+msgid "Debit"
+msgstr "کاهش"
+
+#: admin/class-admin.php:878 includes/class-helper.php:544
+msgid "Security check failed."
+msgstr "بررسی امنیتی ناموفق بود."
+
+#: admin/class-admin.php:883
+msgid "Insufficient permissions."
+msgstr "دسترسی کافی نیست."
+
+#: admin/class-admin.php:892
+msgid "Invalid data provided."
+msgstr "داده‌های نامعتبر ارائه شده است."
+
+#: admin/class-admin.php:900
+msgid "Invalid transaction type."
+msgstr "نوع تراکنش نامعتبر است."
+
+#: admin/class-admin.php:905
+msgid "Transaction completed successfully."
+msgstr "تراکنش با موفقیت انجام شد."
+
+#: admin/class-admin.php:910
+msgid "Insufficient balance."
+msgstr "موجودی کافی نیست."
+
+#: admin/class-admin.php:912
+msgid "Transaction failed."
+msgstr "تراکنش ناموفق بود."
+
+#: admin/class-admin.php:927
+msgid "Please enter a phone number"
+msgstr "لطفاً شماره تلفن را وارد کنید"
+
+#: admin/class-admin.php:928
+msgid "Sending..."
+msgstr "در حال ارسال..."
+
+#: admin/class-admin.php:930
+msgid "SMS sent successfully!"
+msgstr "پیامک با موفقیت ارسال شد!"
+
+#: admin/class-admin.php:931
+msgid "Error sending SMS"
+msgstr "خطا در ارسال پیامک"
+
+#: admin/class-admin.php:932
+msgid "Select..."
+msgstr "انتخاب..."
+
+#: admin/class-admin.php:933
+msgid "Select Image"
+msgstr "انتخاب تصویر"
+
+#: admin/class-admin.php:934
+msgid "Select"
+msgstr "انتخاب"
+
+#: admin/class-admin.php:948
+msgid "Processing..."
+msgstr "در حال پردازش..."
+
+#: admin/class-admin.php:949
+msgid "Transaction completed successfully!"
+msgstr "تراکنش با موفقیت انجام شد!"
+
+#: admin/class-admin.php:950
+msgid "An error occurred. Please try again."
+msgstr "خطایی رخ داد. لطفاً دوباره تلاش کنید."
+
+#: admin/class-admin.php:997
+msgid "Wallet Information"
+msgstr "اطلاعات کیف پول"
+
+#: admin/class-admin.php:1004
+msgid "Manage Wallet"
+msgstr "مدیریت کیف پول"
+
+#: admin/class-admin.php:1005
+msgid "View/Manage Transactions"
+msgstr "مشاهده/مدیریت تراکنش‌ها"
+
+#: admin/class-admin.php:1102
+msgid "Connection Status"
+msgstr "وضعیت اتصال"
+
+#: admin/class-admin.php:1104
+msgid "Connected"
+msgstr "متصل"
+
+#: admin/class-admin.php:1104
+msgid "Not Connected"
+msgstr "غیر متصل"
+
+#: admin/class-admin.php:1115
+msgid "Account Balance"
+msgstr "موجودی حساب"
+
+#: admin/class-admin.php:1116 includes/class-main.php:710
+msgid "Toman"
+msgstr "تومان"
+
+#: admin/class-admin.php:1126
+msgid "Available SMS"
+msgstr "پیامک موجود"
+
+#: admin/class-admin.php:1127
+msgid "SMS"
+msgstr "پیامک"
+
+#: admin/class-admin.php:1137
+msgid "Account"
+msgstr "مشخصات حساب کاربری"
+
+#: admin/class-admin.php:1138
+msgid "Not Available"
+msgstr "در دسترس نیست"
+
+#: admin/class-main-settings.php:41 includes/class-farazsms-activator.php:95
+#: includes/class-helper.php:238
+msgid "Welcome bonus for new registration"
+msgstr "پاداش خوش‌آمدگویی برای ثبت‌نام جدید"
+
+#: admin/class-main-settings.php:49 includes/class-farazsms-activator.php:102
+#: includes/class-main.php:528
+msgid "Registration Gift"
+msgstr "هدیه ثبت‌نام"
+
+#: admin/class-main-settings.php:50 includes/class-farazsms-activator.php:103
+#: includes/class-main.php:529
+msgid "Sign up now and get a special gift!"
+msgstr "همین حالا ثبت‌نام کنید و هدیه ویژه دریافت کنید!"
+
+#: admin/class-main-settings.php:52 includes/class-farazsms-activator.php:105
+#: includes/class-main.php:531
+msgid "Sign Up"
+msgstr "ثبت‌نام"
+
+#: admin/class-main-settings.php:62
+msgid "SMS Settings"
+msgstr "تنظیمات پیامک"
+
+#: admin/class-main-settings.php:63
+msgid "SMS Service Settings"
+msgstr "تنظیمات سرویس پیامک"
+
+#: admin/class-main-settings.php:67
+msgid "API Key"
+msgstr "کلید API"
+
+#: admin/class-main-settings.php:68
+msgid "Enter your FarazSMS API key"
+msgstr "کلید API فرازاس‌ام‌اس خود را وارد کنید"
+
+#: admin/class-main-settings.php:74
+msgid "Pattern Code"
+msgstr "کد پترن"
+
+#: admin/class-main-settings.php:75
+msgid "create a pattern with %code% parameter in your FarazSMS account"
+msgstr "یک پترن با پارامتر %code% در حساب فرازاس‌ام‌اس خود ایجاد کنید"
+
+#: admin/class-main-settings.php:81
+msgid "Sender Number"
+msgstr "شماره فرستنده"
+
+#: admin/class-main-settings.php:82
+msgid "Enter your FarazSMS sender number"
+msgstr "شماره فرستنده فرازاس‌ام‌اس خود را وارد کنید"
+
+#: admin/class-main-settings.php:88
+msgid "Code Length"
+msgstr "طول کد"
+
+#: admin/class-main-settings.php:89
+msgid "Enter the length of the verification code"
+msgstr "طول کد تأیید را وارد کنید"
+
+#: admin/class-main-settings.php:102 admin/class-main-settings.php:103
+msgid "Appearance Settings"
+msgstr "تنظیمات ظاهری"
+
+#: admin/class-main-settings.php:107
+msgid "Choose Theme"
+msgstr "انتخاب تم"
+
+#: admin/class-main-settings.php:111
+msgid "Style 1"
+msgstr "استایل 1"
+
+#: admin/class-main-settings.php:115
+msgid "Style 2"
+msgstr "استایل 2"
+
+#: admin/class-main-settings.php:119
+msgid "Style 3"
+msgstr "استایل 3"
+
+#: admin/class-main-settings.php:123
+msgid "Style 4"
+msgstr "استایل 4"
+
+#: admin/class-main-settings.php:131
+msgid "Text Alignment"
+msgstr "تراز متن"
+
+#: admin/class-main-settings.php:135 admin/class-main-settings.php:136
+#: admin/class-main-settings.php:259
+msgid "Right"
+msgstr "راست"
+
+#: admin/class-main-settings.php:140 admin/class-main-settings.php:141
+msgid "Center"
+msgstr "وسط"
+
+#: admin/class-main-settings.php:145 admin/class-main-settings.php:146
+#: admin/class-main-settings.php:260
+msgid "Left"
+msgstr "چپ"
+
+#: admin/class-main-settings.php:155
+msgid "Logo"
+msgstr "لوگو"
+
+#: admin/class-main-settings.php:156
+msgid "Upload your website logo to display in the login form"
+msgstr "لوگوی وب‌سایت خود را برای نمایش در فرم ورود آپلود کنید"
+
+#: admin/class-main-settings.php:163
+msgid "Background Image"
+msgstr "تصویر پس‌زمینه"
+
+#: admin/class-main-settings.php:169
+msgid "Primary Color"
+msgstr "رنگ اصلی"
+
+#: admin/class-main-settings.php:175 admin/class-main-settings.php:315
+msgid "Background Color"
+msgstr "رنگ پس‌زمینه"
+
+#: admin/class-main-settings.php:181
+msgid "Background Color Box"
+msgstr "رنگ پس‌زمینه باکس"
+
+#: admin/class-main-settings.php:187 admin/class-main-settings.php:321
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: admin/class-main-settings.php:193
+msgid "Border Color"
+msgstr "رنگ حاشیه"
+
+#: admin/class-main-settings.php:199
+msgid "Custom CSS"
+msgstr "CSS سفارشی"
+
+#: admin/class-main-settings.php:206 admin/class-main-settings.php:207
+#: admin/class-main-settings.php:211
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+#: admin/class-main-settings.php:215
+msgid "Terms Link"
+msgstr "لینک قوانین"
+
+#: admin/class-main-settings.php:216
+msgid "Enter the terms and conditions link"
+msgstr "لینک قوانین و مقررات را وارد کنید"
+
+#: admin/class-main-settings.php:222
+msgid "Redirect After Login"
+msgstr "انتقال بعد از ورود"
+
+#: admin/class-main-settings.php:224
+msgid ""
+"Enter the redirect URL after login. If left empty, the user returns to the "
+"page they came from."
+msgstr ""
+"آدرس هدایت بعد از ورود را وارد کنید. اگر خالی باشد، کاربر به همان صفحه‌ای که از "
+"آن وارد شده برمی‌گردد."
+
+#: admin/class-main-settings.php:229
+msgid "Replace Default Login/Register Forms"
+msgstr "جایگزینی تمامی فرم های ورود و عضویت قالب"
+
+#: admin/class-main-settings.php:230
+msgid ""
+"Replace WordPress and WooCommerce default login/register forms with the "
+"FarazSMS custom form."
+msgstr ""
+"فرم‌های پیش‌فرض ورود/ثبت‌نام وردپرس و ووکامرس را با فرم سفارشی فراز اس ام اس "
+"جایگزین کنید."
+
+#: admin/class-main-settings.php:237
+msgid "Exit Intent Slide"
+msgstr "اسلاید"
+
+#: admin/class-main-settings.php:238
+msgid "Exit Intent Slide Settings"
+msgstr "تنظیمات اسلاید"
+
+#: admin/class-main-settings.php:242
+msgid "Enable Exit Intent Slide"
+msgstr "فعال‌سازی اسلاید"
+
+#: admin/class-main-settings.php:248
+msgid "Show Slide Only for Guests"
+msgstr "نمایش اسلاید فقط برای مهمان‌ها"
+
+#: admin/class-main-settings.php:249
+msgid "Show slide only for guests"
+msgstr "نمایش اسلاید فقط برای مهمان‌ها"
+
+#: admin/class-main-settings.php:255
+msgid "Slide Position"
+msgstr "موقعیت اسلاید"
+
+#: admin/class-main-settings.php:256
+msgid "Choose slide position"
+msgstr "موقعیت اسلاید را انتخاب کنید"
+
+#: admin/class-main-settings.php:267
+msgid "Slide Image"
+msgstr "تصویر اسلاید"
+
+#: admin/class-main-settings.php:268
+msgid "Upload image for slide (optional)"
+msgstr "تصویر اسلاید را آپلود کنید (اختیاری)"
+
+#: admin/class-main-settings.php:274
+msgid "Slide Title"
+msgstr "عنوان اسلاید"
+
+#: admin/class-main-settings.php:275
+msgid "Enter slide title"
+msgstr "عنوان اسلاید را وارد کنید"
+
+#: admin/class-main-settings.php:281
+msgid "Slide Description"
+msgstr "توضیحات اسلاید"
+
+#: admin/class-main-settings.php:282
+msgid "Enter slide description"
+msgstr "توضیحات اسلاید را وارد کنید"
+
+#: admin/class-main-settings.php:288
+msgid "Countdown Minutes"
+msgstr "دقیقه شمارش معکوس"
+
+#: admin/class-main-settings.php:289
+msgid "Enter countdown time in minutes"
+msgstr "زمان شمارش معکوس را به دقیقه وارد کنید"
+
+#: admin/class-main-settings.php:295
+msgid "Button Text"
+msgstr "متن دکمه"
+
+#: admin/class-main-settings.php:296
+msgid "Enter button text"
+msgstr "متن دکمه را وارد کنید"
+
+#: admin/class-main-settings.php:302
+msgid "Button Link"
+msgstr "لینک دکمه"
+
+#: admin/class-main-settings.php:303
+msgid "Enter button link URL"
+msgstr "آدرس لینک دکمه را وارد کنید"
+
+#: admin/class-main-settings.php:309
+msgid "Button Color"
+msgstr "رنگ دکمه"
+
+#: admin/class-main-settings.php:327
+msgid "Title Color"
+msgstr "رنگ عنوان"
+
+#: admin/class-main-settings.php:339
+msgid "WooCommerce Settings"
+msgstr "تنظیمات ووکامرس"
+
+#: admin/class-main-settings.php:343
+msgid "Checkout Redirect to Login"
+msgstr "انتقال صفحه تسویه حساب به صفحه ورود"
+
+#: admin/class-main-settings.php:344
+msgid "Redirect checkout to login"
+msgstr "صفحه تسویه حساب را به صفحه ورود هدایت کن"
+
+#: admin/class-main-settings.php:350
+msgid "Redirect WooCommerce Login to Custom Login"
+msgstr "انتقال صفحه حساب کاربری ووکامرس به صفحه ورود سفارشی"
+
+#: admin/class-main-settings.php:351
+msgid "Redirect WooCommerce login to custom login"
+msgstr "صفحه ورود ووکامرس را به صفحه ورود سفارشی هدایت کن"
+
+#: admin/class-main-settings.php:358
+msgid "New User Signup Bonus"
+msgstr "پاداش ثبت‌نام کاربر جدید"
+
+#: admin/class-main-settings.php:359
+msgid "Bonus Settings"
+msgstr "تنظیمات پاداش"
+
+#: admin/class-main-settings.php:363
+msgid "Enable Registration Bonus"
+msgstr "فعال‌سازی پاداش ثبت‌نام"
+
+#: admin/class-main-settings.php:369
+msgid "Registration Bonus Amount"
+msgstr "مبلغ پاداش ثبت‌نام"
+
+#: admin/class-main-settings.php:370
+msgid "Enter the registration bonus amount"
+msgstr "مبلغ پاداش ثبت‌نام را وارد کنید"
+
+#: admin/class-main-settings.php:376
+msgid "Registration Bonus Description"
+msgstr "توضیحات پاداش ثبت‌نام"
+
+#: admin/class-main-settings.php:377
+msgid "Enter the registration bonus description"
+msgstr "توضیحات پاداش ثبت‌نام را وارد کنید"
+
+#: admin/class-main-settings.php:389
+msgid "Order Details:"
+msgstr "جزئیات سفارش:"
+
+#: admin/class-main-settings.php:393
+msgid "Customer mobile number"
+msgstr "شماره موبایل مشتری"
+
+#: admin/class-main-settings.php:397
+msgid "Customer email"
+msgstr "ایمیل مشتری"
+
+#: admin/class-main-settings.php:401
+msgid "Order status"
+msgstr "وضعیت سفارش"
+
+#: admin/class-main-settings.php:405
+msgid "Order items"
+msgstr "آیتم‌های سفارش"
+
+#: admin/class-main-settings.php:409
+msgid "Order items with full variable name"
+msgstr "آیتم‌های سفارش با نام کامل متغیر"
+
+#: admin/class-main-settings.php:413
+msgid "Order items with quantity"
+msgstr "آیتم‌های سفارش با تعداد"
+
+#: admin/class-main-settings.php:417
+msgid "Number of order items"
+msgstr "تعداد آیتم‌های سفارش"
+
+#: admin/class-main-settings.php:421
+msgid "Order amount"
+msgstr "مبلغ سفارش"
+
+#: admin/class-main-settings.php:425
+msgid "Order number"
+msgstr "شماره سفارش"
+
+#: admin/class-main-settings.php:429
+msgid "Transaction number"
+msgstr "شماره تراکنش"
+
+#: admin/class-main-settings.php:433
+msgid "Order date"
+msgstr "تاریخ سفارش"
+
+#: admin/class-main-settings.php:437
+msgid "Customer notes"
+msgstr "یادداشت‌های مشتری"
+
+#: admin/class-main-settings.php:441
+msgid "Payment method"
+msgstr "روش پرداخت"
+
+#: admin/class-main-settings.php:445
+msgid "Shipping method"
+msgstr "روش ارسال"
+
+#: admin/class-main-settings.php:451
+msgid "Billing Details:"
+msgstr "جزئیات صورتحساب:"
+
+#: admin/class-main-settings.php:455 admin/class-main-settings.php:497
+msgid "Customer first name"
+msgstr "نام مشتری"
+
+#: admin/class-main-settings.php:459 admin/class-main-settings.php:501
+msgid "Customer last name"
+msgstr "نام خانوادگی مشتری"
+
+#: admin/class-main-settings.php:463 admin/class-main-settings.php:505
+msgid "Company name"
+msgstr "نام شرکت"
+
+#: admin/class-main-settings.php:467 admin/class-main-settings.php:509
+msgid "Country"
+msgstr "کشور"
+
+#: admin/class-main-settings.php:471 admin/class-main-settings.php:513
+msgid "State/Province"
+msgstr "استان"
+
+#: admin/class-main-settings.php:475 admin/class-main-settings.php:517
+msgid "City"
+msgstr "شهر"
+
+#: admin/class-main-settings.php:479 admin/class-main-settings.php:521
+msgid "Address 1"
+msgstr "آدرس 1"
+
+#: admin/class-main-settings.php:483 admin/class-main-settings.php:525
+msgid "Address 2"
+msgstr "آدرس 2"
+
+#: admin/class-main-settings.php:487 admin/class-main-settings.php:529
+msgid "Postcode"
+msgstr "کد پستی"
+
+#: admin/class-main-settings.php:493
+msgid "Shipping Details:"
+msgstr "جزئیات ارسال:"
+
+#: admin/class-main-settings.php:533
+msgid "Post tracking code"
+msgstr "کد رهگیری پست"
+
+#: admin/class-main-settings.php:537
+msgid "Post tracking URL"
+msgstr "آدرس رهگیری پست"
+
+#: admin/class-main-settings.php:546 admin/class-main-settings.php:583
+msgid "Shortcodes SMS"
+msgstr "کدهای کوتاه پیامک"
+
+#: admin/class-main-settings.php:551
+msgid "Customer Order SMS"
+msgstr "پیامک سفارش مشتری"
+
+#: admin/class-main-settings.php:561 admin/class-main-settings.php:605
+#, php-format
+msgid "Enable %s SMS"
+msgstr "فعال‌سازی پیامک %s"
+
+#: admin/class-main-settings.php:567 admin/class-main-settings.php:611
+#, php-format
+msgid "Pattern code for %s"
+msgstr "کد پترن برای %s"
+
+#: admin/class-main-settings.php:573 admin/class-main-settings.php:617
+#, php-format
+msgid "Pattern attributes for %s"
+msgstr "ویژگی‌های پترن برای %s"
+
+#: admin/class-main-settings.php:574 admin/class-main-settings.php:618
+msgid ""
+"Each parameter should be on one line, for example: <br> b_first_name <br> "
+"b_last_name"
+msgstr "هر پارامتر در یک خط قرار بگیرد، مثلا: <br> b_first_name <br> b_last_name"
+
+#: admin/class-main-settings.php:588
+msgid "Admin Order SMS"
+msgstr "پیامک سفارش مدیر"
+
+#: admin/class-main-settings.php:592
+msgid "Admin mobile number"
+msgstr "شماره موبایل مدیر"
+
+#: admin/class-main-settings.php:593
+msgid "Enter admin mobile number for receiving order SMS"
+msgstr "شماره موبایل مدیر را برای دریافت پیامک سفارش وارد کنید"
+
+#: admin/class-main-settings.php:625
+msgid "WooCommerce Order SMS"
+msgstr "پیامک سفارشات ووکامرس"
+
+#: admin/class-main-settings.php:626
+msgid "WooCommerce Order SMS Settings"
+msgstr "تنظیمات پیامک سفارش ووکامرس"
+
+#: admin/class-main-settings.php:633
+msgid "Customer SMS"
+msgstr "پیامک مشتری"
+
+#: admin/class-main-settings.php:637
+msgid "Admin SMS"
+msgstr "پیامک مدیر"
+
+#: farazsms-login.php:83
+msgid "FarazSMS Login Page"
+msgstr "صفحه ورود فرازاس‌ام‌اس"
+
+#: includes/class-farazsms-activator.php:133
+msgid "Login / Registration"
+msgstr "ورود / ثبت‌نام"
+
+#: includes/class-helper.php:154
+msgid "Farazsms plugin settings"
+msgstr "تنظیمات افزونه فرازاس‌ام‌اس"
+
+#: includes/class-helper.php:158
+msgid "Mobile number"
+msgstr "شماره موبایل"
+
+#: includes/class-helper.php:177
+msgid "Mobile Number"
+msgstr "شماره موبایل"
+
+#: includes/class-helper.php:273 includes/class-helper.php:328
+msgid "Your Wallet"
+msgstr "کیف پول شما"
+
+#: includes/class-helper.php:274
+msgid "Current Balance:"
+msgstr "موجودی فعلی:"
+
+#: includes/class-helper.php:329
+#, php-format
+msgid "Balance: %s"
+msgstr "موجودی: %s"
+
+#: includes/class-helper.php:335
+msgid "You can pay the full amount using your wallet balance."
+msgstr "می‌توانید کل مبلغ را با استفاده از موجودی کیف پول خود پرداخت کنید."
+
+#: includes/class-helper.php:341
+msgid "Use wallet balance to pay full amount"
+msgstr "استفاده از موجودی کیف پول برای پرداخت کل مبلغ"
+
+#: includes/class-helper.php:347
+#, php-format
+msgid "You can use %s from your wallet to reduce the payment amount."
+msgstr "می‌توانید %s از کیف پول خود استفاده کنید تا مبلغ پرداختی کاهش یابد."
+
+#: includes/class-helper.php:353
+#, php-format
+msgid "Use %s from wallet balance"
+msgstr "استفاده از %s از موجودی کیف پول"
+
+#: includes/class-helper.php:401 includes/class-helper.php:409
+#: includes/class-helper.php:414 includes/class-helper.php:452
+#: includes/class-helper.php:614 includes/class-helper.php:619
+msgid "Wallet Payment"
+msgstr "پرداخت از کیف پول"
+
+#: includes/class-helper.php:435
+#, php-format
+msgid "Wallet payment: %s deducted from wallet balance."
+msgstr "پرداخت از کیف پول: %s از موجودی کیف پول کسر شد."
+
+#: includes/class-helper.php:501
+#, php-format
+msgid "Payment for order #%s"
+msgstr "پرداخت برای سفارش #%s"
+
+#: includes/class-helper.php:548
+msgid "User not logged in."
+msgstr "کاربر وارد نشده است."
+
+#: includes/class-helper.php:552
+msgid "WooCommerce not available."
+msgstr "ووکامرس در دسترس نیست."
+
+#: includes/class-helper.php:561
+msgid "Cart not available."
+msgstr "سبد خرید در دسترس نیست."
+
+#: includes/class-helper.php:577
+msgid "Insufficient wallet balance for full payment."
+msgstr "موجودی کیف پول برای پرداخت کامل کافی نیست."
+
+#: includes/class-helper.php:586
+msgid "No wallet balance available."
+msgstr "موجودی کیف پول موجود نیست."
+
+#: includes/class-main.php:55
+msgid "Resend Code"
+msgstr "ارسال مجدد کد"
+
+#: includes/class-main.php:124
+msgid "Invalid mobile number."
+msgstr "شماره موبایل نامعتبر است."
+
+#: includes/class-main.php:130
+msgid "Too many requests. Please wait 5 minutes."
+msgstr "درخواست‌های زیادی ارسال شده است. لطفاً ۵ دقیقه صبر کنید."
+
+#: includes/class-main.php:148
+msgid "SMS sending failed. Please try again."
+msgstr "ارسال پیامک ناموفق بود. لطفاً دوباره تلاش کنید."
+
+#: includes/class-main.php:152 includes/class-main.php:228
+msgid "Invalid input! Please enter a valid mobile number."
+msgstr "ورودی نامعتبر است! لطفاً یک شماره موبایل معتبر وارد کنید."
+
+#: includes/class-main.php:183 includes/class-main.php:234
+#: includes/class-main.php:329 includes/class-main.php:349
+#: includes/class-main.php:386
+msgid "Security error occurred."
+msgstr "خطای امنیتی رخ داده است."
+
+#: includes/class-main.php:198 includes/class-main.php:271
+msgid "Incorrect verification code."
+msgstr "کد تأیید نادرست است."
+
+#: includes/class-main.php:200
+msgid "Incorrect password."
+msgstr "رمز عبور نادرست است."
+
+#: includes/class-main.php:250
+msgid "Registration completed successfully."
+msgstr "ثبت‌نام با موفقیت انجام شد."
+
+#: includes/class-main.php:259
+msgid "Registration failed. Please try again."
+msgstr "ثبت‌نام ناموفق بود. لطفاً دوباره تلاش کنید."
+
+#: includes/class-main.php:297
+msgid "Verification code is not correct."
+msgstr "کد تأیید صحیح نیست."
+
+#: includes/class-main.php:316 includes/class-main.php:440
+msgid "Password changed successfully."
+msgstr "رمز عبور با موفقیت تغییر کرد."
+
+#: includes/class-main.php:322 includes/class-main.php:444
+msgid "Password and confirmation do not match."
+msgstr "رمز عبور و تکرار آن یکسان نیستند."
+
+#: includes/class-main.php:339
+msgid "Invalid identifier."
+msgstr "شناسه نامعتبر است."
+
+#: includes/class-main.php:362
+msgid "Invalid input data."
+msgstr "داده‌های ورودی نامعتبر هستند."
+
+#: includes/class-main.php:400
+msgid "Incomplete input data."
+msgstr "داده‌های ورودی ناقص هستند."
+
+#: includes/class-main.php:407
+msgid "Registration failed: "
+msgstr "ثبت‌نام ناموفق بود: "
+
+#: includes/class-main.php:464
+msgid "Verification code is incorrect."
+msgstr "کد تأیید نادرست است."
+
+#: includes/class-main.php:544
+msgid "Close"
+msgstr "بستن"
+
+#: includes/class-main.php:572
+msgid "sec"
+msgstr "ثانیه"
+
+#: templates/main-form.php:12
+msgid "Login | Register"
+msgstr "ورود | ثبت‌نام"
+
+#: templates/main-form.php:13
+msgid "Hello! <br /> Please enter your mobile number."
+msgstr "سلام! <br /> لطفاً شماره موبایل خود را وارد کنید."
+
+#: templates/main-form.php:17
+msgid "Please do not leave this field empty"
+msgstr "لطفاً این فیلد را خالی نگذارید"
+
+#: templates/main-form.php:18
+msgid "Login"
+msgstr "ورود"
+
+#: templates/main-form.php:21
+#, php-format
+msgid "Registration and login means acceptance of %s of this site."
+msgstr "ثبت‌نام و ورود به معنای پذیرش %s این سایت است."
+
+#: templates/main-form.php:21
+msgid "Terms and Conditions"
+msgstr "قوانین و مقررات"
+
+#: templates/mobile-forget-password.php:10
+msgid "Password recovery"
+msgstr "بازیابی رمز عبور"
+
+#: templates/mobile-forget-password.php:11
+#, php-format
+msgid "Verification code has been sent to %s. Please enter the code."
+msgstr "کد تأیید به %s ارسال شده است. لطفاً کد را وارد کنید."
+
+#: templates/mobile-forget-password.php:13
+msgid "Enter verification code..."
+msgstr "کد تأیید را وارد کنید..."
+
+#: templates/mobile-forget-password.php:16 templates/mobile-login.php:26
+#: templates/mobile-register.php:26
+msgid "Time remaining until resend"
+msgstr "زمان باقی‌مانده تا ارسال مجدد"
+
+#: templates/mobile-forget-password.php:18 templates/mobile-login-password.php:16
+#: templates/mobile-login.php:28
+msgid "Confirm"
+msgstr "تایید"
+
+#: templates/mobile-login-password.php:10
+msgid "Enter your password."
+msgstr "رمز عبور خود را وارد کنید."
+
+#: templates/mobile-login-password.php:13
+msgid "Password"
+msgstr "رمز عبور"
+
+#: templates/mobile-login-password.php:14
+msgid "Login with one-time code"
+msgstr "ورود با کد یک‌بار مصرف"
+
+#: templates/mobile-login-password.php:15
+msgid "Forgot password"
+msgstr "فراموشی رمز عبور"
+
+#: templates/mobile-login.php:10
+msgid "Enter verification code"
+msgstr "کد تأیید را وارد کنید"
+
+#: templates/mobile-login.php:11
+#, php-format
+msgid "Verification code sent to %s."
+msgstr "کد تأیید به %s ارسال شد."
+
+#: templates/mobile-login.php:23
+msgid "Login with password"
+msgstr "ورود با رمز عبور"
+
+#: templates/mobile-register.php:10
+msgid "Register new user"
+msgstr "ثبت‌نام کاربر جدید"
+
+#: templates/mobile-register.php:11
+#, php-format
+msgid ""
+"User with number %s is not registered. <br /> For registration, please enter "
+"your name and the sent code."
+msgstr ""
+"کاربری با شماره %s ثبت نشده است. <br /> برای ثبت‌نام، لطفاً نام خود و کد "
+"ارسال‌شده را وارد کنید."
+
+#: templates/mobile-register.php:17
+msgid "Your name"
+msgstr "نام شما"
+
+#: templates/mobile-register.php:28
+msgid "Register"
+msgstr "ثبت‌نام"
+
+#: templates/mobile-reset-password.php:10
+msgid "Set new password"
+msgstr "تنظیم رمز عبور جدید"
+
+#: templates/mobile-reset-password.php:11
+msgid "Please enter your new password."
+msgstr "لطفاً رمز عبور جدید خود را وارد کنید."
+
+#: templates/mobile-reset-password.php:13
+msgid "New password"
+msgstr "رمز عبور جدید"
+
+#: templates/mobile-reset-password.php:14
+msgid "Confirm new password"
+msgstr "تایید رمز عبور جدید"
+
+#: templates/mobile-reset-password.php:15
+msgid "Save"
+msgstr "ذخیره"
+
+#~ msgid "Enter the redirect after login"
+#~ msgstr "آدرس انتقال بعد از ورود را وارد کنید"
+
+#~ msgid "Button text (default: \"ورود / عضویت\")"
+#~ msgstr "متن دکمه (پیش‌فرض: \"ورود / عضویت\")"
+
+#, fuzzy
+#~| msgid "Button text (default: \"ورود / عضویت\")"
+#~ msgid "ورود / عضویت"
+#~ msgstr "متن دکمه (پیش‌فرض: \"ورود / عضویت\")"
+
+#~ msgid "Failed to send test SMS. Please check your settings."
+#~ msgstr "ارسال پیامک آزمایشی ناموفق بود. لطفاً تنظیمات خود را بررسی کنید."
+
+#~ msgid "Error: "
+#~ msgstr "خطا: "
+
+#~ msgid ""
+#~ "Each line: key=<strong class=\"ltr\">%shortcodes%</strong>. Example: "
+#~ "name=<strong class=\"ltr\">%b_first_name%</strong> <strong "
+#~ "class=\"ltr\">%b_last_name%</strong>"
+#~ msgstr ""
+#~ "هر خط یک پارامتر: پارامتر=<strong class=\"ltr\">%shortcodes%</strong>. "
+#~ "مثال: name=<strong class=\"ltr\">%b_first_name%</strong> <strong "
+#~ "class=\"ltr\">%b_last_name%</strong>"
+
+#: templates/mobile-register.php
+#, php-format
+msgid ""
+"User with number %s is not registered. <br /> For registration, please enter "
+"the sent code."
+msgstr ""
+"کاربری با شماره %s ثبت نشده است. <br /> برای ثبت‌نام، لطفاً کد ارسال‌شده را "
+"وارد کنید."
+
+#: includes/class-main.php
+msgid "Please enter your name."
+msgstr "لطفاً نام خود را وارد کنید."

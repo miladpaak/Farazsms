@@ -1,0 +1,320 @@
+/**
+ * Lead Magnet Box Styles
+ *
+ * Every rule below is nested under .farazsms-lead-magnet-box so that themes
+ * and other plugins using generic class names (.lead-magnet-title, .countdown-time,
+ * etc.) do not collide with these styles on the front page.
+ */
+
+.farazsms-lead-magnet-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ffffff;
+    border-radius: 18px;
+    /* v3.13.15: shadow کمی بیشتر برای جلب نگاه + outline ظریف */
+    box-shadow:
+        0 20px 50px -10px rgba(220, 38, 38, 0.25),
+        0 10px 30px rgba(0, 0, 0, 0.10),
+        0 0 0 1px rgba(0, 0, 0, 0.04);
+    padding: 22px 22px 18px;
+    min-width: 340px;
+    max-width: 380px;
+    z-index: 999999;
+    /* v3.13.15: استک فونت مدرن — اولویت با فونت‌های سیستم + IRANSans/Vazir اگر
+       قالب کاربر دارد، در غیر این صورت Tahoma — جلوگیری از تحمیل فونت روی قالب. */
+    font-family: 'Vazirmatn', 'IRANSans', 'Yekan Bakh', 'Yekan', Tahoma, -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    direction: rtl;
+    text-align: right;
+    animation: farazsmsLmSlideInUp 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+    transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+}
+
+/* v3.13.15: badge آتش — FOMO trigger */
+.farazsms-lead-magnet-box .lead-magnet-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #f97316 0%, #ef4444 100%);
+    color: #fff;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 12px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    letter-spacing: 0.3px;
+    box-shadow: 0 2px 6px rgba(239, 68, 68, 0.35);
+    animation: farazsmsLmPulse 2s infinite;
+}
+@keyframes farazsmsLmPulse {
+    0%, 100% { box-shadow: 0 2px 6px rgba(239, 68, 68, 0.35); }
+    50% { box-shadow: 0 2px 12px rgba(239, 68, 68, 0.6); }
+}
+
+/* v3.13.15: عدد اعتبار — برجسته با gradient سبز/طلایی */
+.farazsms-lead-magnet-box .lead-magnet-amount {
+    background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 1.15em;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-headline {
+    margin: 0 0 8px 0 !important;
+    font-size: 14px !important;
+    line-height: 1.7 !important;
+    color: #1f2937 !important;
+}
+
+.farazsms-lead-magnet-box[data-position="bottom-left"] {
+    right: auto;
+    left: 20px;
+}
+
+.farazsms-lead-magnet-box.closing {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+}
+
+.farazsms-lead-magnet-box .farazsms-lead-magnet-close {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    line-height: 1;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.2s ease;
+    z-index: 10;
+}
+
+.farazsms-lead-magnet-box .farazsms-lead-magnet-close:hover {
+    opacity: 0.6;
+}
+
+.farazsms-lead-magnet-box .farazsms-lead-magnet-close .close-icon {
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.farazsms-lead-magnet-box .farazsms-lead-magnet-content {
+    padding: 0;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-title {
+    margin: 0 0 12px 0 !important;
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    color: #0f172a !important;
+    line-height: 1.3 !important;
+    letter-spacing: -0.5px;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-main-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-text p {
+    margin: 0 0 12px 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-text p strong {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-disclaimer {
+    font-size: 12px !important;
+    color: #dc2626 !important;
+    font-weight: 600 !important;
+    margin: 0 !important;
+    line-height: 1.6 !important;
+    background: #fef2f2;
+    padding: 4px 10px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-countdown-circle {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.farazsms-lead-magnet-box .countdown-svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+}
+
+.farazsms-lead-magnet-box .countdown-circle-bg {
+    fill: none;
+    stroke: #f0f0f0;
+    stroke-width: 6;
+}
+
+.farazsms-lead-magnet-box .countdown-circle-progress {
+    fill: none;
+    stroke: #51D1A4;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    transition: stroke-dashoffset 1s linear;
+}
+
+.farazsms-lead-magnet-box .countdown-time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: #51D1A4;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.farazsms-lead-magnet-box .countdown-minutes,
+.farazsms-lead-magnet-box .countdown-seconds {
+    display: inline-block;
+    min-width: 20px;
+    text-align: center;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-cta-button {
+    width: 100%;
+    background: linear-gradient(135deg, #16a34a 0%, #059669 100%);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35);
+    letter-spacing: 0.2px;
+    font-family: inherit;
+}
+
+.farazsms-lead-magnet-box .lead-magnet-cta-button:hover {
+    background: linear-gradient(135deg, #15803d 0%, #047857 100%);
+    box-shadow: 0 8px 22px rgba(22, 163, 74, 0.45);
+    transform: translateY(-2px);
+}
+
+.farazsms-lead-magnet-box .lead-magnet-cta-button:active {
+    transform: translateY(0);
+}
+
+.farazsms-lead-magnet-box .lead-magnet-powered {
+    text-align: center;
+    font-size: 10px;
+    color: #ccc;
+    margin: 0;
+    padding: 0;
+    text-transform: lowercase;
+}
+
+/* Animations — prefixed to avoid collisions with theme animations. */
+@keyframes farazsmsLmSlideInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .farazsms-lead-magnet-box {
+        min-width: 320px;
+        max-width: calc(100% - 40px);
+        bottom: 15px;
+        right: 20px;
+        left: auto;
+        padding: 20px;
+    }
+
+    .farazsms-lead-magnet-box[data-position="bottom-left"] {
+        left: 20px;
+        right: auto;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-title {
+        font-size: 18px;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-main-content {
+        gap: 12px;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-countdown-circle {
+        width: 70px;
+        height: 70px;
+    }
+
+    .farazsms-lead-magnet-box .countdown-time {
+        font-size: 12px;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-text p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .farazsms-lead-magnet-box {
+        min-width: calc(100% - 30px);
+        bottom: 10px;
+        right: 15px;
+        left: auto;
+        padding: 18px;
+    }
+
+    .farazsms-lead-magnet-box[data-position="bottom-left"] {
+        left: 15px;
+        right: auto;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-text {
+        text-align: center;
+    }
+
+    .farazsms-lead-magnet-box .lead-magnet-countdown-circle {
+        width: 80px;
+        height: 80px;
+    }
+}

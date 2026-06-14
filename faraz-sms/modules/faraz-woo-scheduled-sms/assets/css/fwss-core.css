@@ -1,0 +1,146 @@
+.fwss-info-message {
+    color: #204a8e;
+    background: #c9ddff;
+    border: 1px solid #4c699b;
+    padding: 0 8px;
+    margin: 15px 0;
+}
+
+.fwss_button {
+    background-color: #2c3e50;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+}
+.fwss_button:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%) !important;
+}
+#fwss_add_sms {
+    width: 100px;
+    height: 39px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+}
+#fwss_add_sms:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%) !important;
+    cursor: pointer;
+}
+#fwss_scheduled_sms_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sms_container .sms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+}
+
+#fwss_add_sms .fwss_time_input {
+    width: 30%;
+}
+
+#sms_container {
+    margin: 15px 0px;
+}
+
+
+#sms_container .sms .delete div:hover {
+    cursor: pointer;
+}
+
+#sms_container .sms_content {
+    display: flex;
+}
+
+#sms_container .sms_content label {
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+#sms_container .sms .active {
+    margin-top: 6px;
+}
+#sms_container .hour input {
+    width: 42%;
+}
+#sms_container .hour {
+    width: 14%;
+}
+
+#sms_container .time input {
+    width: 38%;
+}
+
+#sms_container .time {
+    width: 17%;
+}
+#fwss_top {
+    display: flex;
+    justify-content: flex-start;
+}
+#fwss_help {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-top: -5px;
+}
+.toggle-control {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.toggle-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.toggle-control input:checked ~ .control {
+    background-color: #2c3e50;
+}
+.toggle-control input:checked ~ .control:after {
+    left: 2px;
+}
+.toggle-control .control {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: darkgray;
+    transition: background-color 0.15s ease-in;
+}
+.toggle-control .control:after {
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: white;
+    transition: left 0.15s ease-in;
+}

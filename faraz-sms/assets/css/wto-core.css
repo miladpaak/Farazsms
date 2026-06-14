@@ -1,0 +1,218 @@
+.wto-info-message {
+    color: #204a8e;
+    background: #c9ddff;
+    border: 1px solid #4c699b;
+    padding: 0 8px;
+    margin: 15px 0;
+}
+
+.wto_button {
+    background-color: #2c3e50;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 32px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    font-family: inherit;
+}
+.wto_button:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%) !important;
+}
+#wto_add_sms {
+    width: 100px;
+    height: 39px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+}
+#wto_add_sms:hover {
+    box-shadow: 0 12px 16px 0 rgb(0 0 0 / 24%), 0 17px 50px 0 rgb(0 0 0 / 19%) !important;
+    cursor: pointer;
+}
+#wto_scheduled_sms_container {
+    display: flex;
+    flex-direction: column;
+}
+
+#sms_container .sms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #e9e9e9;
+    padding: 10px;
+}
+
+#wto_add_sms .wto_time_input {
+    width: 30%;
+}
+
+#sms_container {
+    margin: 15px 0px;
+}
+
+
+#sms_container .sms .delete div:hover {
+    cursor: pointer;
+}
+
+#sms_container .sms_content {
+    display: flex;
+}
+
+#sms_container .sms_content label {
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+#sms_container .sms .active {
+    margin-top: 6px;
+}
+#sms_container .hour input {
+    width: 42%;
+}
+#sms_container .hour {
+    width: 14%;
+}
+
+#sms_container .time input {
+    width: 38%;
+}
+
+#sms_container .time {
+    width: 17%;
+}
+#wto_top {
+    display: flex;
+    justify-content: flex-start;
+}
+#wto_help {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    margin-top: -5px;
+}
+.toggle-control {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.toggle-control input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.toggle-control input:checked ~ .control {
+    background-color: #2c3e50;
+}
+.toggle-control input:checked ~ .control:after {
+    left: 2px;
+}
+.toggle-control .control {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    border-radius: 10px;
+    background-color: darkgray;
+    transition: background-color 0.15s ease-in;
+}
+.toggle-control .control:after {
+    content: "";
+    position: absolute;
+    left: 22px;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 10px;
+    background: white;
+    transition: left 0.15s ease-in;
+}
+
+.order-review-container {
+    max-width: 800px;
+    margin: 0 auto;
+    direction: rtl;
+    font-family: sans-serif;
+}
+
+.product-review-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.product-review-info {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.product-review-info img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.product-review-info h3 {
+    margin: 0 0 5px;
+}
+
+.review-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.review-form textarea {
+    width: 100%;
+    min-height: 60px;
+}
+
+.review-form select,
+.review-form input[type="submit"] {
+    padding: 6px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.review-form input[type="submit"] {
+    background-color: #0073aa;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.review-form input[type="submit"]:hover {
+    background-color: #005d8f;
+}
+
+.review-submitted {
+    background: #e7f6e7;
+    border: 1px solid #b5e0b5;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
