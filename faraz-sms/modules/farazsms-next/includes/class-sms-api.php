@@ -30,6 +30,25 @@ class FarazSMS_Next_SMS_API {
     }
 
     /**
+     * Normalize sender line to plain latin digits for API validation.
+     *
+     * @param string|int $line
+     * @return string
+     */
+    private function normalize_sender_line($line) {
+        if (function_exists('wto_normalize_sender_line')) {
+            return wto_normalize_sender_line($line);
+        }
+        $line = trim((string) $line);
+        $line = str_replace(
+            array('۰','۱','۲','۳','۴','۵','۶','۷','۸','۹','٠','١','٢','٣','٤','٥','٦','٧','٨','٩'),
+            array('0','1','2','3','4','5','6','7','8','9','0','1','2','3','4','5','6','7','8','9'),
+            $line
+        );
+        return preg_replace('/\D+/', '', $line);
+    }
+
+    /**
      * Send SMS
      *
      * @param string $mobile Mobile number
@@ -66,6 +85,7 @@ class FarazSMS_Next_SMS_API {
             'message' => sanitize_text_field($message),
         );
 
+        $sender = $this->normalize_sender_line($sender);
         if (!empty($sender)) {
             $body['sender'] = sanitize_text_field($sender);
         }
@@ -521,6 +541,7 @@ class FarazSMS_Next_SMS_API {
             'number_format' => $api_number_format,
         );
 
+        $line_number = $this->normalize_sender_line($line_number);
         if (!empty($line_number)) {
             $body['line_number'] = sanitize_text_field($line_number);
         }
@@ -561,6 +582,31 @@ class FarazSMS_Next_SMS_API {
         }
 
         if ($http_code !== 200 && $http_code !== 201) {
+            $response_data = json_decode($response, true);
+            $message = '';
+            if (is_array($response_data)) {
+                if (isset($response_data['message'])) {
+                    $message = is_array($response_data['message']) ? wp_json_encode($response_data['message'], JSON_UNESCAPED_UNICODE) : (string) $response_data['message'];
+                } elseif (isset($response_data['data']['message'])) {
+                    $message = is_array($response_data['data']['message']) ? wp_json_encode($response_data['data']['message'], JSON_UNESCAPED_UNICODE) : (string) $response_data['data']['message'];
+                }
+            }
+            if (!empty($body['line_number']) && stripos($message, 'line number') !== false) {
+                unset($body['line_number']);
+                $retry = curl_init();
+                $curl_options[CURLOPT_POSTFIELDS] = json_encode($body);
+                curl_setopt_array($retry, $curl_options);
+                $retry_response = curl_exec($retry);
+                $retry_http_code = curl_getinfo($retry, CURLINFO_HTTP_CODE);
+                $retry_error = curl_error($retry);
+                curl_close($retry);
+                if (!$retry_error && ($retry_http_code === 200 || $retry_http_code === 201)) {
+                    $retry_data = json_decode($retry_response, true);
+                    if (json_last_error() === JSON_ERROR_NONE) {
+                        return $retry_data;
+                    }
+                }
+            }
             return false;
         }
 
@@ -573,4 +619,3 @@ class FarazSMS_Next_SMS_API {
         return $response_data;
     }
 }
-

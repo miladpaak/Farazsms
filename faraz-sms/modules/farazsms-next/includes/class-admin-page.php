@@ -198,6 +198,9 @@ class FarazSMS_Next_Admin_Page {
         // Save sender number to unified settings
         if (isset($_POST['panel_sender_number'])) {
             $sender_number = sanitize_text_field(trim($_POST['panel_sender_number']));
+            if (function_exists('wto_normalize_sender_line')) {
+                $sender_number = wto_normalize_sender_line($sender_number);
+            }
             $sender_number = !empty($sender_number) ? $sender_number : '90008361';
             update_option('wto_sender', $sender_number);
         } else {
@@ -1034,4 +1037,3 @@ class FarazSMS_Next_Admin_Page {
         ));
     }
 }
-

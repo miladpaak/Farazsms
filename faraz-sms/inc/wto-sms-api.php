@@ -280,6 +280,26 @@ function wto_normalize_phone($phone) {
 }
 
 /**
+ * Normalize a sender line before sending it to the FarazSMS API.
+ *
+ * Admins often paste panel lines with Persian/Arabic digits, spaces, dashes, or
+ * a leading "+" copied from the panel UI. The API validates line_number against
+ * the account lines as plain latin digits; sending the decorated value causes
+ * "گزینه انتخاب شده line number صحیح نمی باشد".
+ *
+ * @param string|int $line Sender line.
+ * @return string Plain latin digits, or an empty string when no line was set.
+ */
+function wto_normalize_sender_line( $line ) {
+	$line = trim( wto_tr_num( (string) $line ) );
+	if ( $line === '' ) {
+		return '';
+	}
+
+	return preg_replace( '/\D+/', '', $line );
+}
+
+/**
  * جدا کردن چند شماره موبایل (کامای انگلیسی/فارسی/عربی، ; و خط جدید).
  *
  * @param string|array $raw
@@ -1125,6 +1145,9 @@ function wto_send_scheduled_sms($order_id , $date_to_send ) {
  
     $apikey = get_option( 'wto_apikey', '' );
 	$sender  = get_option( 'wto_sender', '' );
+	if ( function_exists( 'wto_normalize_sender_line' ) ) {
+		$sender = wto_normalize_sender_line( $sender );
+	}
     $poll_pattern  = get_option( 'wto_poll_pattern', '' );
     $order = wc_get_order($order_id);
     if (!$order) {
@@ -1162,10 +1185,12 @@ $body = array(
         'sitename'   => get_bloginfo( 'name' ),
     ),
     'recipient'     => $phone,
-    'line_number'   => $sender,
     'number_format' => 'english',
     'schedule'      => $date_to_send,
 );
+if ( $sender !== '' ) {
+	$body['line_number'] = $sender;
+}
 
 $curl = curl_init();
 
@@ -1227,6 +1252,9 @@ function wto_send_pattern_sms_raw( $recipient, $pattern_code, $attributes = arra
 	if ( empty( $sender ) ) {
 		$sender = get_option( 'wto_sender', '' );
 	}
+	if ( function_exists( 'wto_normalize_sender_line' ) ) {
+		$sender = wto_normalize_sender_line( $sender );
+	}
 	if ( empty( $apikey ) || empty( $pattern_code ) || empty( $recipient ) ) {
 		return 'missing_params';
 	}
@@ -1238,9 +1266,11 @@ function wto_send_pattern_sms_raw( $recipient, $pattern_code, $attributes = arra
 		'code'          => $pattern_code,
 		'recipient'     => $recipient,
 		'attributes'    => $attributes,
-		'line_number'   => $sender,
 		'number_format' => 'english',
 	);
+	if ( $sender !== '' ) {
+		$body['line_number'] = $sender;
+	}
 	$curl = curl_init();
 	curl_setopt_array( $curl, array(
 		CURLOPT_URL            => 'https://api.iranpayamak.com/ws/v1/sms/pattern',
@@ -1273,7 +1303,32 @@ function wto_send_pattern_sms_raw( $recipient, $pattern_code, $attributes = arra
 		return 'success';
 	}
 	if ( $data && isset( $data['status'] ) && $data['status'] === 'error' ) {
-		return 'api_error:' . ( isset( $data['message'] ) ? $data['message'] : 'خطای نامشخص' );
+		$message = isset( $data['message'] ) ? $data['message'] : 'خطای نامشخص';
+		$message_text = is_array( $message ) ? wp_json_encode( $message, JSON_UNESCAPED_UNICODE ) : (string) $message;
+		if ( $sender !== '' && stripos( $message_text, 'line number' ) !== false ) {
+			unset( $body['line_number'] );
+			$retry = curl_init();
+			curl_setopt_array( $retry, array(
+				CURLOPT_URL            => 'https://api.iranpayamak.com/ws/v1/sms/pattern',
+				CURLOPT_RETURNTRANSFER => true,
+				CURLOPT_CONNECTTIMEOUT => 5,
+				CURLOPT_TIMEOUT        => 15,
+				CURLOPT_CUSTOMREQUEST  => 'POST',
+				CURLOPT_POSTFIELDS     => json_encode( $body, JSON_UNESCAPED_UNICODE ),
+				CURLOPT_HTTPHEADER     => array(
+					'Accept: application/json',
+					'Content-Type: application/json',
+					'Api-Key: ' . $apikey,
+				),
+			) );
+			$retry_response = curl_exec( $retry );
+			curl_close( $retry );
+			$retry_data = json_decode( $retry_response, true );
+			if ( $retry_data && isset( $retry_data['status'] ) && $retry_data['status'] === 'success' ) {
+				return 'success';
+			}
+		}
+		return 'api_error:' . $message_text;
 	}
 	return $response;
 }
@@ -1296,6 +1351,9 @@ function wto_send_pattern_sms($order_id, $tracking_code, $carrier = 'post') {
 
     $apikey  = get_option('wto_apikey', '');
     $sender  = get_option('wto_sender', '');
+	if ( function_exists( 'wto_normalize_sender_line' ) ) {
+		$sender = wto_normalize_sender_line( $sender );
+	}
 
     // انتخاب پترن و پیام بر اساس carrier — با fallback به مقادیر legacy برای post.
     $carrier = in_array( $carrier, array( 'post', 'tipax', 'other' ), true ) ? $carrier : 'post';
@@ -1351,9 +1409,11 @@ function wto_send_pattern_sms($order_id, $tracking_code, $carrier = 'post') {
         'code'          => $pattern,
         'recipient'     => $phone,
         'attributes'    => $attributes,
-        'line_number'   => $sender,
         'number_format' => 'english'
     );
+	if ( $sender !== '' ) {
+		$body['line_number'] = $sender;
+	}
 
 
     $curl = curl_init();

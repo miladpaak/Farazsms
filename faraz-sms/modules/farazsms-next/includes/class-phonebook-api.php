@@ -15,6 +15,25 @@ class FarazSMS_Next_Phonebook_API {
      * API Base URL
      */
     private $api_base_url = 'https://api.iranpayamak.com/ws/v1';
+
+    /**
+     * Normalize sender line to plain latin digits for API validation.
+     *
+     * @param string|int $line
+     * @return string
+     */
+    private function normalize_sender_line($line) {
+        if (function_exists('wto_normalize_sender_line')) {
+            return wto_normalize_sender_line($line);
+        }
+        $line = trim((string) $line);
+        $line = str_replace(
+            array('۰','۱','۲','۳','۴','۵','۶','۷','۸','۹','٠','١','٢','٣','٤','٥','٦','٧','٨','٩'),
+            array('0','1','2','3','4','5','6','7','8','9','0','1','2','3','4','5','6','7','8','9'),
+            $line
+        );
+        return preg_replace('/\D+/', '', $line);
+    }
     
     /**
      * Make API request using cURL
@@ -670,6 +689,7 @@ class FarazSMS_Next_Phonebook_API {
      * @return array آخرین پاسخ API یا خطا
      */
     public function send_simple_sms_to_recipients($line_number, $message, array $recipients, $api_key, $chunk_size = 80) {
+        $line_number = $this->normalize_sender_line($line_number);
         if (empty($api_key) || $line_number === '' || $line_number === null) {
             return array('status' => 'error', 'message' => __('خط یا کلید API نامعتبر است.', 'farazsms-next'));
         }
