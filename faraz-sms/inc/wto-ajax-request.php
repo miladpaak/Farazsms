@@ -39,8 +39,9 @@ function wto_ajax_save_credentials() {
 			return;
 		}
 		$clean_apikey = sanitize_text_field( $apikey );
+		$clean_sender = function_exists( 'wto_normalize_sender_line' ) ? wto_normalize_sender_line( $sender ) : sanitize_text_field( $sender );
 		update_option( 'wto_apikey', $clean_apikey );
-		update_option( 'wto_sender', sanitize_text_field( $sender ) );
+		update_option( 'wto_sender', sanitize_text_field( $clean_sender ) );
 		$show_credit = isset( $_POST['show_credit_in_admin_bar'] ) ? sanitize_text_field( $_POST['show_credit_in_admin_bar'] ) : '0';
 		update_option( 'wto_show_credit_in_admin_bar', ( $show_credit === '1' ) ? '1' : '0' );
 
@@ -145,7 +146,8 @@ function wto_ajax_save_credentials() {
 
 	update_option( 'wto_apikey', sanitize_text_field( $apikey ) );
 	update_option( 'wto_pattern', sanitize_text_field( $pattern ), false );
-	update_option( 'wto_sender', sanitize_text_field( $sender ) );
+	$clean_sender = function_exists( 'wto_normalize_sender_line' ) ? wto_normalize_sender_line( $sender ) : sanitize_text_field( $sender );
+	update_option( 'wto_sender', sanitize_text_field( $clean_sender ) );
 
 	if ( isset( $_POST['poll_pattern'] ) ) {
 		update_option( 'wto_poll_pattern', sanitize_text_field( $poll_pattern ), false );
